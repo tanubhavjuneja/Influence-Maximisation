@@ -1,0 +1,302 @@
+:root {
+  --bg: #f7f6f2;
+  --panel: #ffffff;
+  --ink: #182130;
+  --ink-2: #4a5468;
+  --line: #e2e0d8;
+  --teal: #16a085;
+  --teal-ink: #0e7a65;
+  --red: #c0392b;
+  --blue: #2980b9;
+  --orange: #e67e22;
+  --grey: #8a93a3;
+  --gold: #f1c40f;
+  --mono: "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+  --sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  font-family: var(--sans);
+  background: #10141c;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- stage & navigation ---------- */
+.stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  gap: 14px;
+  padding: 18px 0;
+}
+
+.slide {
+  width: 1280px;
+  height: 720px;
+  flex: 0 0 auto;
+  background: var(--bg);
+  border-radius: 12px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #cdd4df;
+  font-size: 14px;
+  user-select: none;
+}
+.nav button {
+  background: #232a38;
+  color: #e8ecf2;
+  border: 1px solid #3a4357;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font: inherit;
+  cursor: pointer;
+}
+.nav button:hover { background: #2e3646; }
+.nav .dots { display: flex; gap: 5px; }
+.nav .dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: #39424f; cursor: pointer;
+}
+.nav .dot.on { background: #4cc2a5; }
+.nav .count { margin-left: 6px; color: #9aa4b5; }
+
+/* ---------- slide internals ---------- */
+.head {
+  padding: 20px 44px 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+.kicker {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--teal-ink);
+  margin-bottom: 6px;
+}
+.title {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.12;
+}
+.subtitle { font-size: 16px; color: var(--ink-2); margin-top: 6px; }
+.head .tag {
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--teal-ink);
+  background: #e2f2ee;
+  border: 1px solid #c4e5dc;
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.body {
+  flex: 1;
+  padding: 16px 44px 6px;
+  display: flex;
+  gap: 22px;
+  min-height: 0;
+}
+.foot {
+  padding: 10px 44px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--grey);
+  border-top: 1px solid var(--line);
+  margin: 0 0 0;
+}
+.foot .src { font-family: var(--mono); }
+
+.col { display: flex; flex-direction: column; min-width: 0; }
+.col.grow { flex: 1; }
+.gap6 { gap: 6px; } .gap10 { gap: 10px; } .gap14 { gap: 14px; }
+.row { display: flex; gap: 12px; min-width: 0; }
+
+/* ---------- typographic blocks ---------- */
+.h3 {
+  font-size: 17px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+.h3 .num {
+  display: inline-block;
+  width: 24px; height: 24px;
+  border-radius: 6px;
+  background: var(--teal);
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 8px;
+}
+.p { font-size: 16px; line-height: 1.48; color: var(--ink-2); }
+.p b, .p strong { color: var(--ink); }
+.small { font-size: 14px; color: var(--ink-2); line-height: 1.45; }
+.warn {
+  background: #fdf3e7;
+  border: 1px solid #f2d9b6;
+  border-left: 4px solid var(--orange);
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 15px;
+  color: #6b4a16;
+  line-height: 1.45;
+}
+.note {
+  background: #eef4f1;
+  border: 1px solid #d5e6df;
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 15px;
+  color: #1d5c4e;
+  line-height: 1.45;
+}
+
+/* ---------- KPI cards ---------- */
+.kpis { display: flex; gap: 12px; flex-wrap: wrap; }
+.kpi {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 15px;
+  min-width: 130px;
+  box-shadow: 0 1px 2px rgba(16, 20, 28, 0.04);
+}
+.kpi .v { font-size: 34px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+.kpi .v small { font-size: 17px; font-weight: 700; }
+.kpi .l { font-size: 13.5px; color: var(--ink-2); margin-top: 6px; line-height: 1.35; }
+.kpi.teal .v { color: var(--teal-ink); }
+.kpi.red .v { color: var(--red); }
+.kpi.blue .v { color: var(--blue); }
+.kpi.orange .v { color: #b9700e; }
+
+/* ---------- tables ---------- */
+.tbl {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tbl th {
+  text-align: left;
+  background: #182130;
+  color: #e8ecf2;
+  font-weight: 700;
+  padding: 6px 9px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+.tbl td { padding: 5px 9px; border-top: 1px solid var(--line); }
+.tbl tr:nth-child(even) td { background: #faf9f5; }
+.tbl .num, .tbl td.r { text-align: right; font-variant-numeric: tabular-nums; }
+.tbl .pos { color: var(--teal-ink); font-weight: 700; }
+.tbl .neg { color: var(--red); font-weight: 700; }
+.tbl .hl td { background: #e8f5f0 !important; font-weight: 700; }
+.tbl .bad { color: var(--red); font-weight: 700; }
+.tbl .ok { color: var(--teal-ink); font-weight: 700; }
+.tbl caption {
+  caption-side: bottom; text-align: left; font-size: 12.5px; color: var(--grey);
+  padding-top: 6px;
+}
+
+/* ---------- formula / code ---------- */
+.formula {
+  font-family: var(--mono);
+  background: #182130;
+  color: #d7e3f0;
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-size: 15.5px;
+  line-height: 1.7;
+}
+.formula .hl { color: #4cc2a5; font-weight: 700; }
+.formula .red { color: #ef8d80; }
+
+/* ---------- chips ---------- */
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip {
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 5px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.chip.on { background: #e2f2ee; border-color: #c4e5dc; color: var(--teal-ink); }
+.chip.red { background: #faeceb; border-color: #f0cdc9; color: var(--red); }
+.chip.grey { background: #f0efea; color: #6a7383; }
+
+/* ---------- per-slide layout helpers ---------- */
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; height: 100%; }
+.split-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; height: 100%; }
+.split-4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 16px; height: 100%; }
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 1px 2px rgba(16, 20, 28, 0.04);
+}
+.panel .ph { font-size: 15px; font-weight: 800; margin-bottom: 8px; color: var(--ink); }
+
+.legend { display: flex; gap: 16px; font-size: 13px; color: var(--ink-2); flex-wrap: wrap; }
+.legend .li { display: flex; align-items: center; gap: 6px; }
+.legend .sw { width: 12px; height: 12px; border-radius: 3px; }
+.legend .sw.line { width: 18px; height: 3px; border-radius: 2px; }
+
+.title-slide {
+  background:
+    radial-gradient(1100px 500px at 85% -10%, rgba(22, 160, 133, 0.16), transparent 60%),
+    radial-gradient(800px 420px at -10% 110%, rgba(41, 128, 185, 0.12), transparent 55%),
+    var(--bg);
+}
+.title-slide .wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 84px;
+  gap: 18px;
+}
+.title-slide .overline {
+  font-size: 15px; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--teal-ink);
+}
+.title-slide h1 {
+  font-size: 60px; font-weight: 850; letter-spacing: -0.03em; line-height: 1.06;
+  max-width: 980px;
+}
+.title-slide h1 .accent { color: var(--teal-ink); }
+.title-slide .lede { font-size: 21px; color: var(--ink-2); max-width: 900px; line-height: 1.5; }
+.title-slide .meta { display: flex; gap: 10px; margin-top: 8px; }
+
+.check { color: var(--teal-ink); font-weight: 800; }
+.cross { color: var(--red); font-weight: 800; }
