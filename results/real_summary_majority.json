@@ -1,0 +1,1251 @@
+{
+  "meta": {
+    "created": "2026-11-04 23:01:12",
+    "stage": "majority",
+    "n_rows": 172,
+    "gpu": {
+      "torch": "2.14.1+cu126",
+      "cuda": true,
+      "device": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    },
+    "graphs": [
+      "bitcoin_alpha",
+      "bitcoin_otc",
+      "slashdot"
+    ],
+    "algorithms": [
+      "ABC (proposed)",
+      "ABCVNS (paper)",
+      "BFSBall",
+      "CELF",
+      "CELF + LS",
+      "Degree",
+      "GRASP",
+      "Greedy",
+      "MajorityDiscount",
+      "OutDegree",
+      "PageRank",
+      "Random",
+      "SA",
+      "SignedPageRank",
+      "k-Core"
+    ]
+  },
+  "groupby_algorithm": [
+    {
+      "algorithm": "ABC (proposed)",
+      "spread": 1327.0733,
+      "spread_in": 1325.8215,
+      "runtime_s": 22.0074,
+      "runtime_sum_s": 484.1626,
+      "evaluations": 2395.5,
+      "n_cells": 22
+    },
+    {
+      "algorithm": "ABCVNS (paper)",
+      "spread": 1165.5382,
+      "spread_in": 1164.7237,
+      "runtime_s": 11.4454,
+      "runtime_sum_s": 206.0174,
+      "evaluations": 1.0,
+      "n_cells": 18
+    },
+    {
+      "algorithm": "BFSBall",
+      "spread": 349.4844,
+      "spread_in": 349.045,
+      "runtime_s": 0.0107,
+      "runtime_sum_s": 0.0858,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "CELF",
+      "spread": 1349.6414,
+      "spread_in": 1348.685,
+      "runtime_s": 1.2981,
+      "runtime_sum_s": 10.3849,
+      "evaluations": 218.75,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "CELF + LS",
+      "spread": 1355.5636,
+      "spread_in": 1354.4808,
+      "runtime_s": 15.1488,
+      "runtime_sum_s": 121.1904,
+      "evaluations": 655.375,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "Degree",
+      "spread": 1348.6029,
+      "spread_in": 1350.8683,
+      "runtime_s": 0.047,
+      "runtime_sum_s": 0.3761,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "GRASP",
+      "spread": 1324.1017,
+      "spread_in": 1322.903,
+      "runtime_s": 32.3535,
+      "runtime_sum_s": 711.7764,
+      "evaluations": 3819.1818,
+      "n_cells": 22
+    },
+    {
+      "algorithm": "Greedy",
+      "spread": 1386.7619,
+      "spread_in": 1385.3558,
+      "runtime_s": 37.6809,
+      "runtime_sum_s": 301.4471,
+      "evaluations": 3554.125,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "MajorityDiscount",
+      "spread": 1355.2051,
+      "spread_in": 1353.9142,
+      "runtime_s": 0.1093,
+      "runtime_sum_s": 0.8741,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "OutDegree",
+      "spread": 960.2806,
+      "spread_in": 959.0525,
+      "runtime_s": 0.0158,
+      "runtime_sum_s": 0.1264,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "PageRank",
+      "spread": 1377.9615,
+      "spread_in": 1385.2608,
+      "runtime_s": 0.0182,
+      "runtime_sum_s": 0.1452,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "Random",
+      "spread": 35.8371,
+      "spread_in": 35.7967,
+      "runtime_s": 0.0401,
+      "runtime_sum_s": 0.3207,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "SA",
+      "spread": 1439.9396,
+      "spread_in": 1456.3024,
+      "runtime_s": 70.6492,
+      "runtime_sum_s": 1554.282,
+      "evaluations": 3818.1818,
+      "n_cells": 22
+    },
+    {
+      "algorithm": "SignedPageRank",
+      "spread": 1294.9365,
+      "spread_in": 1293.8208,
+      "runtime_s": 0.0573,
+      "runtime_sum_s": 0.4587,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "k-Core",
+      "spread": 269.2226,
+      "spread_in": 268.8833,
+      "runtime_s": 0.0123,
+      "runtime_sum_s": 0.0987,
+      "evaluations": 1.0,
+      "n_cells": 8
+    }
+  ],
+  "by_graph_k": {
+    "bitcoin_alpha|k=10": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 595.227,
+        "spread": 593.8333,
+        "runtime_s": 4.4259,
+        "runtime_sum_s": 13.2776,
+        "evaluations": 2000.6667,
+        "restarts": 2
+      },
+      {
+        "algorithm": "ABCVNS (paper)",
+        "spread_ho": 595.227,
+        "spread": 593.8333,
+        "runtime_s": 6.3327,
+        "runtime_sum_s": 18.998,
+        "evaluations": 1.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "BFSBall",
+        "spread_ho": 333.495,
+        "spread": 333.02,
+        "runtime_s": 0.0032,
+        "runtime_sum_s": 0.0032,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 585.208,
+        "spread": 584.2,
+        "runtime_s": 0.2444,
+        "runtime_sum_s": 0.2444,
+        "evaluations": 210.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 585.208,
+        "spread": 584.2,
+        "runtime_s": 1.3421,
+        "runtime_sum_s": 1.3421,
+        "evaluations": 619.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 506.297,
+        "spread": 504.82,
+        "runtime_s": 0.0038,
+        "runtime_sum_s": 0.0038,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "GRASP",
+        "spread_ho": 592.874,
+        "spread": 591.74,
+        "runtime_s": 4.289,
+        "runtime_sum_s": 12.867,
+        "evaluations": 2001.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 595.227,
+        "spread": 593.8333,
+        "runtime_s": 3.8121,
+        "runtime_sum_s": 3.8121,
+        "evaluations": 1956.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "MajorityDiscount",
+        "spread_ho": 572.226,
+        "spread": 571.0733,
+        "runtime_s": 0.0189,
+        "runtime_sum_s": 0.0189,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 528.791,
+        "spread": 527.74,
+        "runtime_s": 0.0022,
+        "runtime_sum_s": 0.0022,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 506.297,
+        "spread": 504.82,
+        "runtime_s": 0.0024,
+        "runtime_sum_s": 0.0024,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 21.836,
+        "spread": 21.82,
+        "runtime_s": 0.1376,
+        "runtime_sum_s": 0.1376,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 592.874,
+        "spread": 591.74,
+        "runtime_s": 5.5232,
+        "runtime_sum_s": 16.5697,
+        "evaluations": 2000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 556.399,
+        "spread": 555.8,
+        "runtime_s": 0.121,
+        "runtime_sum_s": 0.121,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 427.864,
+        "spread": 427.3333,
+        "runtime_s": 0.0027,
+        "runtime_sum_s": 0.0027,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "bitcoin_alpha|k=20": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 902.163,
+        "spread": 901.2022,
+        "runtime_s": 8.67,
+        "runtime_sum_s": 26.0101,
+        "evaluations": 2611.6667,
+        "restarts": 2
+      },
+      {
+        "algorithm": "ABCVNS (paper)",
+        "spread_ho": 881.419,
+        "spread": 880.5133,
+        "runtime_s": 7.0674,
+        "runtime_sum_s": 21.2022,
+        "evaluations": 1.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "BFSBall",
+        "spread_ho": 524.253,
+        "spread": 522.5,
+        "runtime_s": 0.0036,
+        "runtime_sum_s": 0.0036,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 896.2,
+        "spread": 894.8933,
+        "runtime_s": 0.2544,
+        "runtime_sum_s": 0.2544,
+        "evaluations": 220.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 896.2,
+        "spread": 894.8933,
+        "runtime_s": 2.5572,
+        "runtime_sum_s": 2.5572,
+        "evaluations": 643.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 844.832,
+        "spread": 841.7867,
+        "runtime_s": 0.0353,
+        "runtime_sum_s": 0.0353,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "GRASP",
+        "spread_ho": 901.6697,
+        "spread": 899.82,
+        "runtime_s": 10.9753,
+        "runtime_sum_s": 32.926,
+        "evaluations": 4001.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 901.45,
+        "spread": 899.18,
+        "runtime_s": 11.683,
+        "runtime_sum_s": 11.683,
+        "evaluations": 3811.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "MajorityDiscount",
+        "spread_ho": 841.939,
+        "spread": 839.8134,
+        "runtime_s": 0.0173,
+        "runtime_sum_s": 0.0173,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 834.311,
+        "spread": 832.1467,
+        "runtime_s": 0.0038,
+        "runtime_sum_s": 0.0038,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 847.362,
+        "spread": 844.8066,
+        "runtime_s": 0.0031,
+        "runtime_sum_s": 0.0031,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 29.855,
+        "spread": 29.6533,
+        "runtime_s": 0.0122,
+        "runtime_sum_s": 0.0122,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 900.7183,
+        "spread": 899.2067,
+        "runtime_s": 19.3295,
+        "runtime_sum_s": 57.9884,
+        "evaluations": 4000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 836.811,
+        "spread": 837.3867,
+        "runtime_s": 0.0053,
+        "runtime_sum_s": 0.0053,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 525.445,
+        "spread": 524.54,
+        "runtime_s": 0.0028,
+        "runtime_sum_s": 0.0028,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "bitcoin_alpha|k=30": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1194.3673,
+        "spread": 1191.2222,
+        "runtime_s": 10.1735,
+        "runtime_sum_s": 30.5205,
+        "evaluations": 2631.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "ABCVNS (paper)",
+        "spread_ho": 1164.4826,
+        "spread": 1163.2556,
+        "runtime_s": 10.838,
+        "runtime_sum_s": 32.5139,
+        "evaluations": 1.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "BFSBall",
+        "spread_ho": 669.019,
+        "spread": 667.9667,
+        "runtime_s": 0.0047,
+        "runtime_sum_s": 0.0047,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1156.8311,
+        "spread": 1155.5734,
+        "runtime_s": 0.4738,
+        "runtime_sum_s": 0.4738,
+        "evaluations": 230.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1175.381,
+        "spread": 1174.0266,
+        "runtime_s": 5.4006,
+        "runtime_sum_s": 5.4006,
+        "evaluations": 693.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1711.347,
+        "spread": 1735.52,
+        "runtime_s": 0.1382,
+        "runtime_sum_s": 0.1382,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "GRASP",
+        "spread_ho": 1196.975,
+        "spread": 1194.2022,
+        "runtime_s": 21.218,
+        "runtime_sum_s": 63.654,
+        "evaluations": 6001.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1204.989,
+        "spread": 1201.54,
+        "runtime_s": 23.1012,
+        "runtime_sum_s": 23.1012,
+        "evaluations": 5566.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "MajorityDiscount",
+        "spread_ho": 1141.15,
+        "spread": 1139.92,
+        "runtime_s": 0.0217,
+        "runtime_sum_s": 0.0217,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1223.403,
+        "spread": 1217.2533,
+        "runtime_s": 0.0255,
+        "runtime_sum_s": 0.0255,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1568.606,
+        "spread": 1637.2933,
+        "runtime_s": 0.0233,
+        "runtime_sum_s": 0.0233,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 58.535,
+        "spread": 58.5467,
+        "runtime_s": 0.0163,
+        "runtime_sum_s": 0.0163,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1996.834,
+        "spread": 2124.3577,
+        "runtime_s": 118.2563,
+        "runtime_sum_s": 354.7688,
+        "evaluations": 6000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1082.744,
+        "spread": 1082.3467,
+        "runtime_s": 0.0041,
+        "runtime_sum_s": 0.0041,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 610.193,
+        "spread": 608.72,
+        "runtime_s": 0.0043,
+        "runtime_sum_s": 0.0043,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "bitcoin_otc|k=10": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1083.203,
+        "spread": 1081.6866,
+        "runtime_s": 6.0788,
+        "runtime_sum_s": 18.2364,
+        "evaluations": 2001.3333,
+        "restarts": 2
+      },
+      {
+        "algorithm": "ABCVNS (paper)",
+        "spread_ho": 1079.987,
+        "spread": 1079.2511,
+        "runtime_s": 8.621,
+        "runtime_sum_s": 25.863,
+        "evaluations": 1.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "BFSBall",
+        "spread_ho": 139.335,
+        "spread": 139.8867,
+        "runtime_s": 0.0026,
+        "runtime_sum_s": 0.0026,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1083.203,
+        "spread": 1081.6866,
+        "runtime_s": 0.2931,
+        "runtime_sum_s": 0.2931,
+        "evaluations": 210.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1083.203,
+        "spread": 1081.6866,
+        "runtime_s": 1.8827,
+        "runtime_sum_s": 1.8827,
+        "evaluations": 620.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 936.876,
+        "spread": 937.52,
+        "runtime_s": 0.0086,
+        "runtime_sum_s": 0.0086,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "GRASP",
+        "spread_ho": 1080.4777,
+        "spread": 1079.5422,
+        "runtime_s": 5.9609,
+        "runtime_sum_s": 17.8826,
+        "evaluations": 2001.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1083.203,
+        "spread": 1081.6866,
+        "runtime_s": 6.0703,
+        "runtime_sum_s": 6.0703,
+        "evaluations": 1956.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "MajorityDiscount",
+        "spread_ho": 1080.475,
+        "spread": 1079.4867,
+        "runtime_s": 0.0268,
+        "runtime_sum_s": 0.0268,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1020.997,
+        "spread": 1020.46,
+        "runtime_s": 0.003,
+        "runtime_sum_s": 0.003,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1010.943,
+        "spread": 1009.9533,
+        "runtime_s": 0.0034,
+        "runtime_sum_s": 0.0034,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 20.946,
+        "spread": 20.9,
+        "runtime_s": 0.0023,
+        "runtime_sum_s": 0.0023,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1083.203,
+        "spread": 1081.6866,
+        "runtime_s": 8.1401,
+        "runtime_sum_s": 24.4203,
+        "evaluations": 2000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 949.305,
+        "spread": 947.6467,
+        "runtime_s": 0.1317,
+        "runtime_sum_s": 0.1317,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 73.863,
+        "spread": 73.8867,
+        "runtime_s": 0.0024,
+        "runtime_sum_s": 0.0024,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "bitcoin_otc|k=20": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1486.848,
+        "spread": 1486.7733,
+        "runtime_s": 11.0696,
+        "runtime_sum_s": 33.2088,
+        "evaluations": 2611.3333,
+        "restarts": 2
+      },
+      {
+        "algorithm": "ABCVNS (paper)",
+        "spread_ho": 1468.686,
+        "spread": 1469.4133,
+        "runtime_s": 15.5496,
+        "runtime_sum_s": 46.6487,
+        "evaluations": 1.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "BFSBall",
+        "spread_ho": 189.796,
+        "spread": 190.74,
+        "runtime_s": 0.0024,
+        "runtime_sum_s": 0.0024,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1458.614,
+        "spread": 1457.5934,
+        "runtime_s": 0.3113,
+        "runtime_sum_s": 0.3113,
+        "evaluations": 220.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1458.614,
+        "spread": 1457.5934,
+        "runtime_s": 3.3597,
+        "runtime_sum_s": 3.3597,
+        "evaluations": 642.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1355.017,
+        "spread": 1355.2933,
+        "runtime_s": 0.0337,
+        "runtime_sum_s": 0.0337,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "GRASP",
+        "spread_ho": 1484.5234,
+        "spread": 1484.4556,
+        "runtime_s": 15.5325,
+        "runtime_sum_s": 46.5974,
+        "evaluations": 4001.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1489.759,
+        "spread": 1489.2134,
+        "runtime_s": 13.8122,
+        "runtime_sum_s": 13.8122,
+        "evaluations": 3811.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "MajorityDiscount",
+        "spread_ho": 1424.64,
+        "spread": 1424.8,
+        "runtime_s": 0.0287,
+        "runtime_sum_s": 0.0287,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1394.594,
+        "spread": 1395.4,
+        "runtime_s": 0.007,
+        "runtime_sum_s": 0.007,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1418.989,
+        "spread": 1418.76,
+        "runtime_s": 0.0061,
+        "runtime_sum_s": 0.0061,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 33.236,
+        "spread": 33.2333,
+        "runtime_s": 0.0137,
+        "runtime_sum_s": 0.0137,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1489.759,
+        "spread": 1489.2134,
+        "runtime_s": 21.1397,
+        "runtime_sum_s": 63.4192,
+        "evaluations": 4000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1274.295,
+        "spread": 1272.0601,
+        "runtime_s": 0.0043,
+        "runtime_sum_s": 0.0043,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 118.134,
+        "spread": 118.74,
+        "runtime_s": 0.0022,
+        "runtime_sum_s": 0.0022,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "bitcoin_otc|k=30": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1827.667,
+        "spread": 1826.5867,
+        "runtime_s": 13.8735,
+        "runtime_sum_s": 41.6205,
+        "evaluations": 2631.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "ABCVNS (paper)",
+        "spread_ho": 1803.4277,
+        "spread": 1802.0756,
+        "runtime_s": 20.2639,
+        "runtime_sum_s": 60.7917,
+        "evaluations": 1.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "BFSBall",
+        "spread_ho": 283.421,
+        "spread": 283.9,
+        "runtime_s": 0.0032,
+        "runtime_sum_s": 0.0032,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1805.011,
+        "spread": 1804.4066,
+        "runtime_s": 0.3667,
+        "runtime_sum_s": 0.3667,
+        "evaluations": 230.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1808.549,
+        "spread": 1807.84,
+        "runtime_s": 7.6268,
+        "runtime_sum_s": 7.6268,
+        "evaluations": 693.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1680.067,
+        "spread": 1681.5067,
+        "runtime_s": 0.01,
+        "runtime_sum_s": 0.01,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "GRASP",
+        "spread_ho": 1833.1057,
+        "spread": 1832.2911,
+        "runtime_s": 26.7505,
+        "runtime_sum_s": 80.2514,
+        "evaluations": 6001.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1835.156,
+        "spread": 1834.6,
+        "runtime_s": 24.3807,
+        "runtime_sum_s": 24.3807,
+        "evaluations": 5566.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "MajorityDiscount",
+        "spread_ho": 1741.215,
+        "spread": 1739.8334,
+        "runtime_s": 0.0327,
+        "runtime_sum_s": 0.0327,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1782.223,
+        "spread": 1781.9867,
+        "runtime_s": 0.006,
+        "runtime_sum_s": 0.006,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1794.171,
+        "spread": 1793.1934,
+        "runtime_s": 0.0072,
+        "runtime_sum_s": 0.0072,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 65.479,
+        "spread": 65.54,
+        "runtime_s": 0.0208,
+        "runtime_sum_s": 0.0208,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1835.6184,
+        "spread": 1834.5222,
+        "runtime_s": 36.1551,
+        "runtime_sum_s": 108.4652,
+        "evaluations": 6000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1540.005,
+        "spread": 1538.5667,
+        "runtime_s": 0.0047,
+        "runtime_sum_s": 0.0047,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 237.176,
+        "spread": 236.3867,
+        "runtime_s": 0.0037,
+        "runtime_sum_s": 0.0037,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "slashdot|k=10": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1731.615,
+        "spread": 1731.12,
+        "runtime_s": 64.4522,
+        "runtime_sum_s": 128.9044,
+        "evaluations": 2001.5,
+        "restarts": 1
+      },
+      {
+        "algorithm": "BFSBall",
+        "spread_ho": 284.021,
+        "spread": 283.02,
+        "runtime_s": 0.033,
+        "runtime_sum_s": 0.033,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1731.615,
+        "spread": 1731.12,
+        "runtime_s": 4.1281,
+        "runtime_sum_s": 4.1281,
+        "evaluations": 210.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1731.615,
+        "spread": 1731.12,
+        "runtime_s": 27.0135,
+        "runtime_sum_s": 27.0135,
+        "evaluations": 622.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1717.603,
+        "spread": 1716.4,
+        "runtime_s": 0.0758,
+        "runtime_sum_s": 0.0758,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "GRASP",
+        "spread_ho": 1724.497,
+        "spread": 1723.67,
+        "runtime_s": 69.295,
+        "runtime_sum_s": 138.5901,
+        "evaluations": 2001.0,
+        "restarts": 1
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1731.615,
+        "spread": 1731.12,
+        "runtime_s": 68.8702,
+        "runtime_sum_s": 68.8702,
+        "evaluations": 1956.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "MajorityDiscount",
+        "spread_ho": 1767.384,
+        "spread": 1766.0533,
+        "runtime_s": 0.3912,
+        "runtime_sum_s": 0.3912,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 227.397,
+        "spread": 227.28,
+        "runtime_s": 0.0387,
+        "runtime_sum_s": 0.0387,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1717.603,
+        "spread": 1716.4,
+        "runtime_s": 0.0499,
+        "runtime_sum_s": 0.0499,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 20.507,
+        "spread": 20.4333,
+        "runtime_s": 0.093,
+        "runtime_sum_s": 0.093,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1747.0025,
+        "spread": 1746.0233,
+        "runtime_s": 79.2584,
+        "runtime_sum_s": 158.5168,
+        "evaluations": 2000.0,
+        "restarts": 1
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1827.387,
+        "spread": 1826.2866,
+        "runtime_s": 0.1269,
+        "runtime_sum_s": 0.1269,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 60.303,
+        "spread": 60.5867,
+        "runtime_s": 0.0398,
+        "runtime_sum_s": 0.0398,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "slashdot|k=20": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 2231.978,
+        "spread": 2230.96,
+        "runtime_s": 96.1922,
+        "runtime_sum_s": 192.3843,
+        "evaluations": 2618.5,
+        "restarts": 1
+      },
+      {
+        "algorithm": "BFSBall",
+        "spread_ho": 372.535,
+        "spread": 371.3267,
+        "runtime_s": 0.033,
+        "runtime_sum_s": 0.033,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 2080.449,
+        "spread": 2080.0066,
+        "runtime_s": 4.3131,
+        "runtime_sum_s": 4.3131,
+        "evaluations": 220.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 2105.739,
+        "spread": 2104.4866,
+        "runtime_s": 72.0079,
+        "runtime_sum_s": 72.0079,
+        "evaluations": 711.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 2036.7841,
+        "spread": 2034.1,
+        "runtime_s": 0.0706,
+        "runtime_sum_s": 0.0706,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "GRASP",
+        "spread_ho": 2206.1835,
+        "spread": 2205.1866,
+        "runtime_s": 159.5039,
+        "runtime_sum_s": 319.0078,
+        "evaluations": 4001.0,
+        "restarts": 1
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 2252.696,
+        "spread": 2251.6733,
+        "runtime_s": 149.7174,
+        "runtime_sum_s": 149.7174,
+        "evaluations": 3811.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "MajorityDiscount",
+        "spread_ho": 2272.6121,
+        "spread": 2270.3333,
+        "runtime_s": 0.3367,
+        "runtime_sum_s": 0.3367,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 670.529,
+        "spread": 670.1533,
+        "runtime_s": 0.0401,
+        "runtime_sum_s": 0.0401,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 2159.7209,
+        "spread": 2156.8601,
+        "runtime_s": 0.0499,
+        "runtime_sum_s": 0.0499,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 36.303,
+        "spread": 36.2467,
+        "runtime_s": 0.0249,
+        "runtime_sum_s": 0.0249,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 2243.823,
+        "spread": 2242.2134,
+        "runtime_s": 385.0668,
+        "runtime_sum_s": 770.1336,
+        "evaluations": 4000.0,
+        "restarts": 1
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 2292.5459,
+        "spread": 2290.4734,
+        "runtime_s": 0.0607,
+        "runtime_sum_s": 0.0607,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 100.803,
+        "spread": 100.8733,
+        "runtime_s": 0.0408,
+        "runtime_sum_s": 0.0408,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ]
+  }
+}

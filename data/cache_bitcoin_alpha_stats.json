@@ -1,0 +1,12 @@
+{
+  "name": "bitcoin_alpha",
+  "n": 3783,
+  "m": 14124,
+  "m_pos": 12806,
+  "m_neg": 1318,
+  "max_deg": 511,
+  "avg_deg": 7.467089611419508,
+  "n_components": 5,
+  "giant_size": 3775,
+  "giant_fraction": 0.9978852762357917
+}

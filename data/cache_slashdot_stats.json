@@ -1,0 +1,12 @@
+{
+  "name": "slashdot",
+  "n": 82140,
+  "m": 500481,
+  "m_pos": 382167,
+  "m_neg": 118314,
+  "max_deg": 2548,
+  "avg_deg": 12.186048210372535,
+  "n_components": 1,
+  "giant_size": 82140,
+  "giant_fraction": 1.0
+}

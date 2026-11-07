@@ -1,0 +1,941 @@
+{
+  "meta": {
+    "created": "2026-11-04 23:01:15",
+    "stage": "ic",
+    "n_rows": 116,
+    "gpu": {
+      "torch": "2.14.1+cu126",
+      "cuda": true,
+      "device": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    },
+    "graphs": [
+      "bitcoin_alpha",
+      "bitcoin_otc",
+      "slashdot"
+    ],
+    "algorithms": [
+      "ABC (proposed)",
+      "CELF",
+      "CELF + LS",
+      "Degree",
+      "Greedy",
+      "OutDegree",
+      "PageRank",
+      "Random",
+      "SA",
+      "SignedPageRank",
+      "k-Core"
+    ]
+  },
+  "groupby_algorithm": [
+    {
+      "algorithm": "ABC (proposed)",
+      "spread": 1422.1107,
+      "spread_in": 1432.8468,
+      "runtime_s": 82.948,
+      "runtime_sum_s": 1824.855,
+      "evaluations": 2562.8182,
+      "n_cells": 22
+    },
+    {
+      "algorithm": "CELF",
+      "spread": 1426.9815,
+      "spread_in": 1435.73,
+      "runtime_s": 29.1394,
+      "runtime_sum_s": 233.1149,
+      "evaluations": 481.125,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "CELF + LS",
+      "spread": 1430.756,
+      "spread_in": 1442.3225,
+      "runtime_s": 110.686,
+      "runtime_sum_s": 885.4884,
+      "evaluations": 3268.875,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "Degree",
+      "spread": 1418.4665,
+      "spread_in": 1417.8613,
+      "runtime_s": 0.0439,
+      "runtime_sum_s": 0.3514,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "Greedy",
+      "spread": 1429.6499,
+      "spread_in": 1443.6863,
+      "runtime_s": 138.3663,
+      "runtime_sum_s": 1106.9308,
+      "evaluations": 3554.125,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "OutDegree",
+      "spread": 1411.1354,
+      "spread_in": 1407.8312,
+      "runtime_s": 0.0443,
+      "runtime_sum_s": 0.3548,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "PageRank",
+      "spread": 1418.4975,
+      "spread_in": 1419.005,
+      "runtime_s": 0.0377,
+      "runtime_sum_s": 0.3016,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "Random",
+      "spread": 1219.3945,
+      "spread_in": 1208.91,
+      "runtime_s": 0.0885,
+      "runtime_sum_s": 0.708,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "SA",
+      "spread": 1418.1875,
+      "spread_in": 1431.5886,
+      "runtime_s": 155.8961,
+      "runtime_sum_s": 3429.7135,
+      "evaluations": 3818.1818,
+      "n_cells": 22
+    },
+    {
+      "algorithm": "SignedPageRank",
+      "spread": 1416.6856,
+      "spread_in": 1416.5213,
+      "runtime_s": 0.0631,
+      "runtime_sum_s": 0.5049,
+      "evaluations": 1.0,
+      "n_cells": 8
+    },
+    {
+      "algorithm": "k-Core",
+      "spread": 1398.4843,
+      "spread_in": 1393.3387,
+      "runtime_s": 0.045,
+      "runtime_sum_s": 0.3597,
+      "evaluations": 1.0,
+      "n_cells": 8
+    }
+  ],
+  "by_graph_k": {
+    "bitcoin_alpha|k=10": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1060.5797,
+        "spread": 1064.6667,
+        "runtime_s": 20.0951,
+        "runtime_sum_s": 60.2853,
+        "evaluations": 2000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1061.89,
+        "spread": 1064.1801,
+        "runtime_s": 4.832,
+        "runtime_sum_s": 4.832,
+        "evaluations": 414.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1060.396,
+        "spread": 1064.37,
+        "runtime_s": 16.3904,
+        "runtime_sum_s": 16.3904,
+        "evaluations": 1586.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1051.77,
+        "spread": 1048.76,
+        "runtime_s": 0.0173,
+        "runtime_sum_s": 0.0173,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1060.564,
+        "spread": 1064.75,
+        "runtime_s": 21.2834,
+        "runtime_sum_s": 21.2834,
+        "evaluations": 1956.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1050.118,
+        "spread": 1048.62,
+        "runtime_s": 0.0082,
+        "runtime_sum_s": 0.0082,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1051.77,
+        "spread": 1048.76,
+        "runtime_s": 0.0155,
+        "runtime_sum_s": 0.0155,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 1058.75,
+        "spread": 1054.78,
+        "runtime_s": 0.0886,
+        "runtime_sum_s": 0.0886,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1058.5937,
+        "spread": 1062.0267,
+        "runtime_s": 19.4902,
+        "runtime_sum_s": 58.4707,
+        "evaluations": 2000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1051.184,
+        "spread": 1047.26,
+        "runtime_s": 0.087,
+        "runtime_sum_s": 0.087,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 1050.952,
+        "spread": 1047.85,
+        "runtime_s": 0.0255,
+        "runtime_sum_s": 0.0255,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "bitcoin_alpha|k=20": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1070.8403,
+        "spread": 1073.3167,
+        "runtime_s": 27.0178,
+        "runtime_sum_s": 81.0534,
+        "evaluations": 2849.6667,
+        "restarts": 2
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1070.657,
+        "spread": 1073.14,
+        "runtime_s": 4.4424,
+        "runtime_sum_s": 4.4424,
+        "evaluations": 437.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1071.533,
+        "spread": 1073.15,
+        "runtime_s": 38.764,
+        "runtime_sum_s": 38.764,
+        "evaluations": 3563.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1051.5389,
+        "spread": 1050.9,
+        "runtime_s": 0.0094,
+        "runtime_sum_s": 0.0094,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1069.672,
+        "spread": 1073.67,
+        "runtime_s": 39.125,
+        "runtime_sum_s": 39.125,
+        "evaluations": 3811.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1050.796,
+        "spread": 1048.95,
+        "runtime_s": 0.0084,
+        "runtime_sum_s": 0.0084,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1051.141,
+        "spread": 1050.77,
+        "runtime_s": 0.0084,
+        "runtime_sum_s": 0.0084,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 1068.8521,
+        "spread": 1062.61,
+        "runtime_s": 0.009,
+        "runtime_sum_s": 0.009,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1068.496,
+        "spread": 1071.8367,
+        "runtime_s": 38.3155,
+        "runtime_sum_s": 114.9465,
+        "evaluations": 4000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1052.683,
+        "spread": 1049.13,
+        "runtime_s": 0.0082,
+        "runtime_sum_s": 0.0082,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 1051.21,
+        "spread": 1049.8101,
+        "runtime_s": 0.0086,
+        "runtime_sum_s": 0.0086,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "bitcoin_alpha|k=30": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1078.398,
+        "spread": 1081.16,
+        "runtime_s": 24.2009,
+        "runtime_sum_s": 72.6026,
+        "evaluations": 2858.3333,
+        "restarts": 2
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1080.385,
+        "spread": 1079.12,
+        "runtime_s": 5.4824,
+        "runtime_sum_s": 5.4824,
+        "evaluations": 448.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1079.339,
+        "spread": 1082.89,
+        "runtime_s": 54.0142,
+        "runtime_sum_s": 54.0142,
+        "evaluations": 5552.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1051.637,
+        "spread": 1050.97,
+        "runtime_s": 0.009,
+        "runtime_sum_s": 0.009,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1079.7629,
+        "spread": 1080.9,
+        "runtime_s": 62.7839,
+        "runtime_sum_s": 62.7839,
+        "evaluations": 5566.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1051.804,
+        "spread": 1050.88,
+        "runtime_s": 0.0083,
+        "runtime_sum_s": 0.0083,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1052.002,
+        "spread": 1051.64,
+        "runtime_s": 0.0081,
+        "runtime_sum_s": 0.0081,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 1075.349,
+        "spread": 1071.77,
+        "runtime_s": 0.0089,
+        "runtime_sum_s": 0.0089,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1072.9514,
+        "spread": 1078.0034,
+        "runtime_s": 50.2721,
+        "runtime_sum_s": 150.8162,
+        "evaluations": 6000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1052.361,
+        "spread": 1050.64,
+        "runtime_s": 0.0081,
+        "runtime_sum_s": 0.0081,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 1051.885,
+        "spread": 1048.36,
+        "runtime_s": 0.0081,
+        "runtime_sum_s": 0.0081,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "bitcoin_otc|k=10": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1716.761,
+        "spread": 1719.51,
+        "runtime_s": 18.3365,
+        "runtime_sum_s": 55.0094,
+        "evaluations": 2000.3333,
+        "restarts": 2
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1716.761,
+        "spread": 1719.51,
+        "runtime_s": 3.8189,
+        "runtime_sum_s": 3.8189,
+        "evaluations": 411.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1716.761,
+        "spread": 1719.51,
+        "runtime_s": 15.2166,
+        "runtime_sum_s": 15.2166,
+        "evaluations": 1589.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1706.094,
+        "spread": 1701.26,
+        "runtime_s": 0.0126,
+        "runtime_sum_s": 0.0126,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1716.761,
+        "spread": 1719.51,
+        "runtime_s": 20.2549,
+        "runtime_sum_s": 20.2549,
+        "evaluations": 1956.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1707.531,
+        "spread": 1703.86,
+        "runtime_s": 0.0103,
+        "runtime_sum_s": 0.0103,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1707.4,
+        "spread": 1703.9,
+        "runtime_s": 0.0099,
+        "runtime_sum_s": 0.0099,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 1714.703,
+        "spread": 1712.21,
+        "runtime_s": 0.012,
+        "runtime_sum_s": 0.012,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1712.401,
+        "spread": 1719.18,
+        "runtime_s": 18.3782,
+        "runtime_sum_s": 55.1345,
+        "evaluations": 2000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1707.238,
+        "spread": 1703.67,
+        "runtime_s": 0.0086,
+        "runtime_sum_s": 0.0086,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 1708.089,
+        "spread": 1705.64,
+        "runtime_s": 0.0099,
+        "runtime_sum_s": 0.0099,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "bitcoin_otc|k=20": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1725.778,
+        "spread": 1729.3767,
+        "runtime_s": 25.7755,
+        "runtime_sum_s": 77.3265,
+        "evaluations": 2826.6667,
+        "restarts": 2
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1726.692,
+        "spread": 1729.01,
+        "runtime_s": 4.1997,
+        "runtime_sum_s": 4.1997,
+        "evaluations": 423.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1726.655,
+        "spread": 1729.04,
+        "runtime_s": 32.7709,
+        "runtime_sum_s": 32.7709,
+        "evaluations": 3577.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1706.2371,
+        "spread": 1706.48,
+        "runtime_s": 0.0091,
+        "runtime_sum_s": 0.0091,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1726.795,
+        "spread": 1729.05,
+        "runtime_s": 33.1168,
+        "runtime_sum_s": 33.1168,
+        "evaluations": 3811.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1706.943,
+        "spread": 1706.87,
+        "runtime_s": 0.0096,
+        "runtime_sum_s": 0.0096,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1706.674,
+        "spread": 1707.3199,
+        "runtime_s": 0.0073,
+        "runtime_sum_s": 0.0073,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 1720.848,
+        "spread": 1717.03,
+        "runtime_s": 0.0093,
+        "runtime_sum_s": 0.0093,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1723.0044,
+        "spread": 1729.7367,
+        "runtime_s": 33.7032,
+        "runtime_sum_s": 101.1097,
+        "evaluations": 4000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1706.7111,
+        "spread": 1705.46,
+        "runtime_s": 0.0091,
+        "runtime_sum_s": 0.0091,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 1705.989,
+        "spread": 1702.9,
+        "runtime_s": 0.0085,
+        "runtime_sum_s": 0.0085,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "bitcoin_otc|k=30": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1731.3093,
+        "spread": 1737.2367,
+        "runtime_s": 24.6008,
+        "runtime_sum_s": 73.8024,
+        "evaluations": 2870.3333,
+        "restarts": 2
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1733.454,
+        "spread": 1734.28,
+        "runtime_s": 5.051,
+        "runtime_sum_s": 5.051,
+        "evaluations": 444.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1734.478,
+        "spread": 1737.23,
+        "runtime_s": 54.0221,
+        "runtime_sum_s": 54.0221,
+        "evaluations": 5556.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1707.644,
+        "spread": 1706.85,
+        "runtime_s": 0.0093,
+        "runtime_sum_s": 0.0093,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1734.312,
+        "spread": 1736.1899,
+        "runtime_s": 50.2817,
+        "runtime_sum_s": 50.2817,
+        "evaluations": 5566.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1706.979,
+        "spread": 1707.88,
+        "runtime_s": 0.0185,
+        "runtime_sum_s": 0.0185,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1708.179,
+        "spread": 1707.5601,
+        "runtime_s": 0.0074,
+        "runtime_sum_s": 0.0074,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 1726.38,
+        "spread": 1721.0699,
+        "runtime_s": 0.0089,
+        "runtime_sum_s": 0.0089,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1729.3827,
+        "spread": 1736.3333,
+        "runtime_s": 52.11,
+        "runtime_sum_s": 156.3301,
+        "evaluations": 6000.0,
+        "restarts": 2
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1706.979,
+        "spread": 1708.14,
+        "runtime_s": 0.0099,
+        "runtime_sum_s": 0.0099,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 1705.811,
+        "spread": 1701.73,
+        "runtime_s": 0.0074,
+        "runtime_sum_s": 0.0074,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "slashdot|k=10": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1485.0325,
+        "spread": 1527.46,
+        "runtime_s": 299.6198,
+        "runtime_sum_s": 599.2396,
+        "evaluations": 2000.0,
+        "restarts": 1
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1476.1,
+        "spread": 1506.84,
+        "runtime_s": 102.2035,
+        "runtime_sum_s": 102.2035,
+        "evaluations": 626.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1490.0179,
+        "spread": 1521.1899,
+        "runtime_s": 218.3581,
+        "runtime_sum_s": 218.3581,
+        "evaluations": 1374.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1485.632,
+        "spread": 1494.29,
+        "runtime_s": 0.161,
+        "runtime_sum_s": 0.161,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1470.722,
+        "spread": 1530.16,
+        "runtime_s": 310.6775,
+        "runtime_sum_s": 310.6775,
+        "evaluations": 1956.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1466.709,
+        "spread": 1453.39,
+        "runtime_s": 0.1617,
+        "runtime_sum_s": 0.1617,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1485.632,
+        "spread": 1494.29,
+        "runtime_s": 0.1361,
+        "runtime_sum_s": 0.1361,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 639.185,
+        "spread": 591.51,
+        "runtime_s": 0.3958,
+        "runtime_sum_s": 0.3958,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1477.55,
+        "spread": 1527.43,
+        "runtime_s": 289.9698,
+        "runtime_sum_s": 579.9396,
+        "evaluations": 2000.0,
+        "restarts": 1
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1477.645,
+        "spread": 1486.33,
+        "runtime_s": 0.2481,
+        "runtime_sum_s": 0.2481,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 1437.5861,
+        "spread": 1418.48,
+        "runtime_s": 0.1292,
+        "runtime_sum_s": 0.1292,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ],
+    "slashdot|k=20": [
+      {
+        "algorithm": "ABC (proposed)",
+        "spread_ho": 1582.686,
+        "spread": 1625.955,
+        "runtime_s": 402.7679,
+        "runtime_sum_s": 805.5359,
+        "evaluations": 3083.0,
+        "restarts": 1
+      },
+      {
+        "algorithm": "CELF",
+        "spread_ho": 1549.913,
+        "spread": 1579.76,
+        "runtime_s": 103.0851,
+        "runtime_sum_s": 103.0851,
+        "evaluations": 646.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "CELF + LS",
+        "spread_ho": 1566.868,
+        "spread": 1611.2,
+        "runtime_s": 455.9521,
+        "runtime_sum_s": 455.9521,
+        "evaluations": 3354.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Degree",
+        "spread_ho": 1587.179,
+        "spread": 1583.38,
+        "runtime_s": 0.1236,
+        "runtime_sum_s": 0.1236,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Greedy",
+        "spread_ho": 1578.61,
+        "spread": 1615.26,
+        "runtime_s": 569.4076,
+        "runtime_sum_s": 569.4076,
+        "evaluations": 3811.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "OutDegree",
+        "spread_ho": 1548.203,
+        "spread": 1542.2,
+        "runtime_s": 0.1297,
+        "runtime_sum_s": 0.1297,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "PageRank",
+        "spread_ho": 1585.182,
+        "spread": 1587.8,
+        "runtime_s": 0.109,
+        "runtime_sum_s": 0.109,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "Random",
+        "spread_ho": 751.089,
+        "spread": 740.3,
+        "runtime_s": 0.1754,
+        "runtime_sum_s": 0.1754,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "SA",
+        "spread_ho": 1575.2695,
+        "spread": 1624.37,
+        "runtime_s": 1106.4832,
+        "runtime_sum_s": 2212.9663,
+        "evaluations": 4000.0,
+        "restarts": 1
+      },
+      {
+        "algorithm": "SignedPageRank",
+        "spread_ho": 1578.684,
+        "spread": 1581.54,
+        "runtime_s": 0.1259,
+        "runtime_sum_s": 0.1259,
+        "evaluations": 1.0,
+        "restarts": 0
+      },
+      {
+        "algorithm": "k-Core",
+        "spread_ho": 1476.3521,
+        "spread": 1471.9399,
+        "runtime_s": 0.1626,
+        "runtime_sum_s": 0.1626,
+        "evaluations": 1.0,
+        "restarts": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "majority": {
+    "graph": "bitcoin_otc",
+    "k": 30,
+    "cells": 172,
+    "t": "22:55:40"
+  },
+  "ic": {
+    "graph": "bitcoin_otc",
+    "k": 30,
+    "cells": 134,
+    "t": "23:06:02"
+  }
+}

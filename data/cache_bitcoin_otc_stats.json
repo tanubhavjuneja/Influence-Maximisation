@@ -1,0 +1,12 @@
+{
+  "name": "bitcoin_otc",
+  "n": 5881,
+  "m": 21492,
+  "m_pos": 18333,
+  "m_neg": 3159,
+  "max_deg": 795,
+  "avg_deg": 7.30896106104404,
+  "n_components": 4,
+  "giant_size": 5875,
+  "giant_fraction": 0.9989797653460296
+}
