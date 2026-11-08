@@ -92,9 +92,16 @@ def main():
 
     while phase <= len(PHASES):
         name, args = PHASES[phase - 1]
-        rc = run_phase(args)
+        rc = 1
+        for attempt in range(1, 4):
+            rc = run_phase(args)
+            if rc == 0:
+                break
+            log(f"[scheduler] phase {name} exited {rc} (attempt "
+                f"{attempt}/3); retrying in 30 s ...")
+            time.sleep(30)
         if rc != 0:
-            log(f"[scheduler] phase {name} exited {rc}; stopping "
+            log(f"[scheduler] phase {name} failed 3x; stopping "
                 f"(re-launch scheduler.py to resume)")
             return
         phase += 1

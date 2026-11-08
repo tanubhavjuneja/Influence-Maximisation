@@ -6435,3 +6435,2048 @@
 [2026-11-07 14:00:18]     [abcvns:lie] g= 50  fit(gbest)=     343.735  tau=2  t=   49.6s
 [2026-11-07 14:00:46]     [abcvns:lie] g= 75  fit(gbest)=     345.079  tau=0  t=   77.6s
 [2026-11-07 14:01:13]     [abcvns:lie] g=100  fit(gbest)=     350.713  tau=1  t=  105.0s
+[2026-11-07 14:01:43]     [abcvns:lie] g=125  fit(gbest)=     350.713  tau=1  t=  134.1s
+[2026-11-07 14:02:09]     [abcvns:lie] g=150  fit(gbest)=     352.074  tau=2  t=  160.4s
+[2026-11-07 14:02:09]   done slashdot k=20 ABCVNS (paper)   rs=20 t=   160.36s pos=  2007.23 neg=     1.10 tot=  2008.33 fit=     352.074
+[2026-11-07 14:02:09] [slashdot] k=20 ABCVNS (paper) rs=21 budget=4000 ...
+[2026-11-07 14:02:33]     [abcvns:lie] g= 25  fit(gbest)=     351.328  tau=2  t=   23.9s
+[2026-11-07 14:03:06]     [abcvns:lie] g= 50  fit(gbest)=     351.328  tau=2  t=   56.9s
+[2026-11-07 14:03:37]     [abcvns:lie] g= 75  fit(gbest)=     351.328  tau=2  t=   88.4s
+[2026-11-07 14:04:09]     [abcvns:lie] g=100  fit(gbest)=     351.328  tau=2  t=  120.3s
+[2026-11-07 14:04:42]     [abcvns:lie] g=125  fit(gbest)=     351.328  tau=2  t=  153.1s
+[2026-11-07 14:05:16]     [abcvns:lie] g=150  fit(gbest)=     351.328  tau=2  t=  187.2s
+[2026-11-07 14:05:16]   done slashdot k=20 ABCVNS (paper)   rs=21 t=   187.22s pos=  1947.78 neg=     1.73 tot=  1949.51 fit=     351.328
+[2026-11-07 14:05:16] [slashdot] k=20 ABCVNS (paper) rs=22 budget=4000 ...
+[2026-11-07 14:05:44]     [abcvns:lie] g= 25  fit(gbest)=     351.019  tau=3  t=   27.5s
+[2026-11-07 14:06:15]     [abcvns:lie] g= 50  fit(gbest)=     351.328  tau=1  t=   59.1s
+[2026-11-07 14:06:50]     [abcvns:lie] g= 75  fit(gbest)=     351.328  tau=1  t=   93.7s
+[2026-11-07 14:07:22]     [abcvns:lie] g=100  fit(gbest)=     351.328  tau=1  t=  125.8s
+[2026-11-07 14:07:53]     [abcvns:lie] g=125  fit(gbest)=     351.328  tau=1  t=  157.4s
+[2026-11-07 14:08:26]     [abcvns:lie] g=150  fit(gbest)=     351.328  tau=1  t=  190.0s
+[2026-11-07 14:08:26]   done slashdot k=20 ABCVNS (paper)   rs=22 t=   190.02s pos=  1947.78 neg=     1.73 tot=  1949.51 fit=     351.328
+[2026-11-07 14:08:26] [slashdot] k=20 ABCVNS (paper) rs=23 budget=4000 ...
+[2026-11-07 14:08:52]     [abcvns:lie] g= 25  fit(gbest)=     345.079  tau=1  t=   26.1s
+[2026-11-07 14:09:21]     [abcvns:lie] g= 50  fit(gbest)=     345.079  tau=1  t=   55.0s
+[2026-11-07 14:09:50]     [abcvns:lie] g= 75  fit(gbest)=     345.079  tau=1  t=   83.6s
+[2026-11-07 14:10:20]     [abcvns:lie] g=100  fit(gbest)=     345.079  tau=1  t=  113.7s
+[2026-11-07 14:10:50]     [abcvns:lie] g=125  fit(gbest)=     345.079  tau=1  t=  144.1s
+[2026-11-07 14:11:21]     [abcvns:lie] g=150  fit(gbest)=     345.079  tau=1  t=  174.9s
+[2026-11-07 14:11:21]   done slashdot k=20 ABCVNS (paper)   rs=23 t=   174.92s pos=  1797.86 neg=     1.39 tot=  1799.24 fit=     345.079
+[2026-11-07 14:11:21] [slashdot] k=20 ABCVNS (paper) rs=24 budget=4000 ...
+[2026-11-07 14:11:44]     [abcvns:lie] g= 25  fit(gbest)=     350.170  tau=1  t=   22.7s
+[2026-11-07 14:12:14]     [abcvns:lie] g= 50  fit(gbest)=     350.170  tau=1  t=   52.6s
+[2026-11-07 14:12:44]     [abcvns:lie] g= 75  fit(gbest)=     350.211  tau=1  t=   82.5s
+[2026-11-07 14:13:12]     [abcvns:lie] g=100  fit(gbest)=     350.211  tau=1  t=  111.4s
+[2026-11-07 14:13:42]     [abcvns:lie] g=125  fit(gbest)=     350.211  tau=1  t=  141.2s
+[2026-11-07 14:14:12]     [abcvns:lie] g=150  fit(gbest)=     350.211  tau=1  t=  170.7s
+[2026-11-07 14:14:12]   done slashdot k=20 ABCVNS (paper)   rs=24 t=   170.66s pos=  1941.12 neg=     1.73 tot=  1942.85 fit=     350.211
+[2026-11-07 14:14:12] [slashdot] k=20 ABCVNS (paper) rs=25 budget=4000 ...
+[2026-11-07 14:14:36]     [abcvns:lie] g= 25  fit(gbest)=     350.829  tau=1  t=   23.9s
+[2026-11-07 14:15:04]     [abcvns:lie] g= 50  fit(gbest)=     351.328  tau=3  t=   52.2s
+[2026-11-07 14:15:33]     [abcvns:lie] g= 75  fit(gbest)=     351.328  tau=3  t=   81.1s
+[2026-11-07 14:16:04]     [abcvns:lie] g=100  fit(gbest)=     351.328  tau=3  t=  111.8s
+[2026-11-07 14:16:31]     [abcvns:lie] g=125  fit(gbest)=     351.328  tau=3  t=  139.3s
+[2026-11-07 14:17:02]     [abcvns:lie] g=150  fit(gbest)=     351.328  tau=3  t=  170.0s
+[2026-11-07 14:17:02]   done slashdot k=20 ABCVNS (paper)   rs=25 t=   170.04s pos=  1947.78 neg=     1.73 tot=  1949.51 fit=     351.328
+[2026-11-07 14:17:02] [slashdot] k=20 ABCVNS (paper) rs=26 budget=4000 ...
+[2026-11-07 14:17:26]     [abcvns:lie] g= 25  fit(gbest)=     348.268  tau=0  t=   24.4s
+[2026-11-07 14:17:55]     [abcvns:lie] g= 50  fit(gbest)=     348.638  tau=0  t=   53.4s
+[2026-11-07 14:18:22]     [abcvns:lie] g= 75  fit(gbest)=     348.914  tau=4  t=   80.1s
+[2026-11-07 14:18:51]     [abcvns:lie] g=100  fit(gbest)=     351.771  tau=1  t=  109.2s
+[2026-11-07 14:19:17]     [abcvns:lie] g=125  fit(gbest)=     351.771  tau=1  t=  134.8s
+[2026-11-07 14:19:43]     [abcvns:lie] g=150  fit(gbest)=     351.771  tau=1  t=  161.3s
+[2026-11-07 14:19:43]   done slashdot k=20 ABCVNS (paper)   rs=26 t=   161.33s pos=  1949.61 neg=     1.73 tot=  1951.34 fit=     351.771
+[2026-11-07 14:19:43] [slashdot] k=20 ABCVNS (paper) rs=27 budget=4000 ...
+[2026-11-07 14:20:04]     [abcvns:lie] g= 25  fit(gbest)=     350.971  tau=1  t=   20.8s
+[2026-11-07 14:20:32]     [abcvns:lie] g= 50  fit(gbest)=     351.771  tau=2  t=   49.3s
+[2026-11-07 14:21:01]     [abcvns:lie] g= 75  fit(gbest)=     351.771  tau=2  t=   78.2s
+[2026-11-07 14:21:31]     [abcvns:lie] g=100  fit(gbest)=     351.771  tau=2  t=  108.3s
+[2026-11-07 14:22:01]     [abcvns:lie] g=125  fit(gbest)=     351.771  tau=2  t=  138.1s
+[2026-11-07 14:22:28]     [abcvns:lie] g=150  fit(gbest)=     351.771  tau=2  t=  165.3s
+[2026-11-07 14:22:28]   done slashdot k=20 ABCVNS (paper)   rs=27 t=   165.30s pos=  1949.61 neg=     1.73 tot=  1951.34 fit=     351.771
+[2026-11-07 14:22:28] [slashdot] k=20 ABCVNS (paper) rs=28 budget=4000 ...
+[2026-11-07 14:22:51]     [abcvns:lie] g= 25  fit(gbest)=     343.735  tau=4  t=   22.2s
+[2026-11-07 14:23:17]     [abcvns:lie] g= 50  fit(gbest)=     343.735  tau=4  t=   48.8s
+[2026-11-07 14:23:44]     [abcvns:lie] g= 75  fit(gbest)=     343.735  tau=4  t=   75.2s
+[2026-11-07 14:24:10]     [abcvns:lie] g=100  fit(gbest)=     345.782  tau=3  t=  101.6s
+[2026-11-07 14:24:38]     [abcvns:lie] g=125  fit(gbest)=     345.782  tau=3  t=  129.7s
+[2026-11-07 14:25:06]     [abcvns:lie] g=150  fit(gbest)=     345.782  tau=3  t=  157.5s
+[2026-11-07 14:25:06]   done slashdot k=20 ABCVNS (paper)   rs=28 t=   157.54s pos=  1747.61 neg=     1.39 tot=  1748.99 fit=     345.782
+[2026-11-07 14:25:06] [slashdot] k=20 ABCVNS (paper) rs=29 budget=4000 ...
+[2026-11-07 14:25:29]     [abcvns:lie] g= 25  fit(gbest)=     345.079  tau=3  t=   22.8s
+[2026-11-07 14:25:58]     [abcvns:lie] g= 50  fit(gbest)=     345.079  tau=3  t=   51.6s
+[2026-11-07 14:26:24]     [abcvns:lie] g= 75  fit(gbest)=     348.638  tau=1  t=   78.0s
+[2026-11-07 14:26:53]     [abcvns:lie] g=100  fit(gbest)=     348.638  tau=1  t=  107.4s
+[2026-11-07 14:27:23]     [abcvns:lie] g=125  fit(gbest)=     348.713  tau=3  t=  136.9s
+[2026-11-07 14:27:52]     [abcvns:lie] g=150  fit(gbest)=     348.914  tau=1  t=  166.4s
+[2026-11-07 14:27:52]   done slashdot k=20 ABCVNS (paper)   rs=29 t=   166.36s pos=  1944.76 neg=     1.73 tot=  1946.49 fit=     348.914
+[2026-11-07 14:27:52] [slashdot] k=30 ABCVNS (paper) rs=0 budget=6000 ...
+[2026-11-07 14:28:20]     [abcvns:lie] g= 25  fit(gbest)=     418.418  tau=4  t=   27.5s
+[2026-11-07 14:28:59]     [abcvns:lie] g= 50  fit(gbest)=     418.418  tau=4  t=   66.3s
+[2026-11-07 14:29:33]     [abcvns:lie] g= 75  fit(gbest)=     418.418  tau=4  t=  100.4s
+[2026-11-07 14:30:09]     [abcvns:lie] g=100  fit(gbest)=     418.418  tau=4  t=  136.6s
+[2026-11-07 14:30:42]     [abcvns:lie] g=125  fit(gbest)=     419.997  tau=1  t=  170.1s
+[2026-11-07 14:31:16]     [abcvns:lie] g=150  fit(gbest)=     419.997  tau=1  t=  203.1s
+[2026-11-07 14:31:16]   done slashdot k=30 ABCVNS (paper)   rs= 0 t=   203.12s pos=  2022.21 neg=     1.39 tot=  2023.60 fit=     419.998
+[2026-11-07 14:31:16] [slashdot] k=30 ABCVNS (paper) rs=1 budget=6000 ...
+[2026-11-07 14:31:40]     [abcvns:lie] g= 25  fit(gbest)=     424.398  tau=2  t=   24.8s
+[2026-11-07 14:32:16]     [abcvns:lie] g= 50  fit(gbest)=     424.896  tau=2  t=   60.0s
+[2026-11-07 14:32:50]     [abcvns:lie] g= 75  fit(gbest)=     426.228  tau=1  t=   94.0s
+[2026-11-07 14:33:21]     [abcvns:lie] g=100  fit(gbest)=     426.228  tau=1  t=  125.1s
+[2026-11-07 14:33:55]     [abcvns:lie] g=125  fit(gbest)=     426.466  tau=1  t=  159.4s
+[2026-11-07 14:34:31]     [abcvns:lie] g=150  fit(gbest)=     426.970  tau=2  t=  195.1s
+[2026-11-07 14:34:31]   done slashdot k=30 ABCVNS (paper)   rs= 1 t=   195.09s pos=  2320.75 neg=     2.10 tot=  2322.85 fit=     426.970
+[2026-11-07 14:34:31] [slashdot] k=30 ABCVNS (paper) rs=2 budget=6000 ...
+[2026-11-07 14:34:52]     [abcvns:lie] g= 25  fit(gbest)=     426.115  tau=4  t=   21.5s
+[2026-11-07 14:35:25]     [abcvns:lie] g= 50  fit(gbest)=     426.934  tau=3  t=   54.5s
+[2026-11-07 14:35:59]     [abcvns:lie] g= 75  fit(gbest)=     426.934  tau=3  t=   88.7s
+[2026-11-07 14:36:35]     [abcvns:lie] g=100  fit(gbest)=     426.934  tau=3  t=  124.2s
+[2026-11-07 14:37:10]     [abcvns:lie] g=125  fit(gbest)=     426.934  tau=3  t=  159.0s
+[2026-11-07 14:37:46]     [abcvns:lie] g=150  fit(gbest)=     426.934  tau=3  t=  194.9s
+[2026-11-07 14:37:46]   done slashdot k=30 ABCVNS (paper)   rs= 2 t=   194.90s pos=  2284.22 neg=     2.10 tot=  2286.32 fit=     426.934
+[2026-11-07 14:37:46] [slashdot] k=30 ABCVNS (paper) rs=3 budget=6000 ...
+[2026-11-07 14:38:13]     [abcvns:lie] g= 25  fit(gbest)=     425.764  tau=0  t=   27.4s
+[2026-11-07 14:38:51]     [abcvns:lie] g= 50  fit(gbest)=     425.764  tau=0  t=   65.0s
+[2026-11-07 14:39:28]     [abcvns:lie] g= 75  fit(gbest)=     425.764  tau=0  t=  101.9s
+[2026-11-07 14:40:04]     [abcvns:lie] g=100  fit(gbest)=     425.764  tau=0  t=  138.2s
+[2026-11-07 14:40:40]     [abcvns:lie] g=125  fit(gbest)=     425.764  tau=0  t=  174.6s
+[2026-11-07 14:41:15]     [abcvns:lie] g=150  fit(gbest)=     425.764  tau=0  t=  209.4s
+[2026-11-07 14:41:15]   done slashdot k=30 ABCVNS (paper)   rs= 3 t=   209.44s pos=  2284.64 neg=     2.10 tot=  2286.74 fit=     425.764
+[2026-11-07 14:41:15] [slashdot] k=30 ABCVNS (paper) rs=4 budget=6000 ...
+[2026-11-07 14:41:43]     [abcvns:lie] g= 25  fit(gbest)=     425.310  tau=3  t=   27.9s
+[2026-11-07 14:42:19]     [abcvns:lie] g= 50  fit(gbest)=     425.542  tau=4  t=   64.2s
+[2026-11-07 14:42:56]     [abcvns:lie] g= 75  fit(gbest)=     425.542  tau=4  t=  100.6s
+[2026-11-07 14:43:32]     [abcvns:lie] g=100  fit(gbest)=     425.542  tau=4  t=  136.9s
+[2026-11-07 14:44:09]     [abcvns:lie] g=125  fit(gbest)=     425.542  tau=4  t=  173.8s
+[2026-11-07 14:44:49]     [abcvns:lie] g=150  fit(gbest)=     425.542  tau=4  t=  213.4s
+[2026-11-07 14:44:49]   done slashdot k=30 ABCVNS (paper)   rs= 4 t=   213.35s pos=  2250.23 neg=     2.10 tot=  2252.33 fit=     425.542
+[2026-11-07 14:44:49] [slashdot] k=30 ABCVNS (paper) rs=5 budget=6000 ...
+[2026-11-07 14:45:12]     [abcvns:lie] g= 25  fit(gbest)=     426.766  tau=1  t=   23.9s
+[2026-11-07 14:45:50]     [abcvns:lie] g= 50  fit(gbest)=     426.766  tau=1  t=   61.7s
+[2026-11-07 14:46:27]     [abcvns:lie] g= 75  fit(gbest)=     426.934  tau=4  t=   98.7s
+[2026-11-07 14:47:02]     [abcvns:lie] g=100  fit(gbest)=     426.934  tau=4  t=  133.0s
+[2026-11-07 14:47:41]     [abcvns:lie] g=125  fit(gbest)=     426.934  tau=4  t=  172.0s
+[2026-11-07 14:48:15]     [abcvns:lie] g=150  fit(gbest)=     426.934  tau=4  t=  206.8s
+[2026-11-07 14:48:15]   done slashdot k=30 ABCVNS (paper)   rs= 5 t=   206.79s pos=  2284.22 neg=     2.10 tot=  2286.32 fit=     426.934
+[2026-11-07 14:48:15] [slashdot] k=30 ABCVNS (paper) rs=6 budget=6000 ...
+[2026-11-07 14:48:37]     [abcvns:lie] g= 25  fit(gbest)=     419.390  tau=2  t=   21.7s
+[2026-11-07 14:49:10]     [abcvns:lie] g= 50  fit(gbest)=     419.518  tau=3  t=   54.6s
+[2026-11-07 14:49:43]     [abcvns:lie] g= 75  fit(gbest)=     419.518  tau=3  t=   88.0s
+[2026-11-07 14:50:17]     [abcvns:lie] g=100  fit(gbest)=     420.411  tau=2  t=  121.2s
+[2026-11-07 14:50:48]     [abcvns:lie] g=125  fit(gbest)=     420.411  tau=2  t=  153.1s
+[2026-11-07 14:51:24]     [abcvns:lie] g=150  fit(gbest)=     420.411  tau=2  t=  189.0s
+[2026-11-07 14:51:24]   done slashdot k=30 ABCVNS (paper)   rs= 6 t=   188.95s pos=  2047.39 neg=     1.76 tot=  2049.15 fit=     420.411
+[2026-11-07 14:51:24] [slashdot] k=30 ABCVNS (paper) rs=7 budget=6000 ...
+[2026-11-07 14:51:49]     [abcvns:lie] g= 25  fit(gbest)=     419.997  tau=1  t=   24.2s
+[2026-11-07 14:52:21]     [abcvns:lie] g= 50  fit(gbest)=     420.657  tau=1  t=   56.5s
+[2026-11-07 14:52:53]     [abcvns:lie] g= 75  fit(gbest)=     420.657  tau=1  t=   89.1s
+[2026-11-07 14:53:26]     [abcvns:lie] g=100  fit(gbest)=     426.466  tau=0  t=  121.4s
+[2026-11-07 14:53:58]     [abcvns:lie] g=125  fit(gbest)=     426.466  tau=0  t=  154.0s
+[2026-11-07 14:54:33]     [abcvns:lie] g=150  fit(gbest)=     426.466  tau=0  t=  188.6s
+[2026-11-07 14:54:33]   done slashdot k=30 ABCVNS (paper)   rs= 7 t=   188.58s pos=  2261.46 neg=     1.73 tot=  2263.19 fit=     426.466
+[2026-11-07 14:54:33] [slashdot] k=30 ABCVNS (paper) rs=8 budget=6000 ...
+[2026-11-07 14:54:56]     [abcvns:lie] g= 25  fit(gbest)=     424.636  tau=0  t=   22.7s
+[2026-11-07 14:55:30]     [abcvns:lie] g= 50  fit(gbest)=     424.636  tau=0  t=   56.6s
+[2026-11-07 14:56:05]     [abcvns:lie] g= 75  fit(gbest)=     424.636  tau=0  t=   92.5s
+[2026-11-07 14:56:40]     [abcvns:lie] g=100  fit(gbest)=     425.081  tau=0  t=  126.7s
+[2026-11-07 14:57:11]     [abcvns:lie] g=125  fit(gbest)=     425.081  tau=0  t=  158.1s
+[2026-11-07 14:57:43]     [abcvns:lie] g=150  fit(gbest)=     425.081  tau=0  t=  189.7s
+[2026-11-07 14:57:43]   done slashdot k=30 ABCVNS (paper)   rs= 8 t=   189.71s pos=  2228.26 neg=     1.73 tot=  2229.99 fit=     425.081
+[2026-11-07 14:57:43] [slashdot] k=30 ABCVNS (paper) rs=9 budget=6000 ...
+[2026-11-07 14:58:07]     [abcvns:lie] g= 25  fit(gbest)=     419.390  tau=3  t=   23.9s
+[2026-11-07 14:58:40]     [abcvns:lie] g= 50  fit(gbest)=     419.390  tau=3  t=   57.6s
+[2026-11-07 14:59:14]     [abcvns:lie] g= 75  fit(gbest)=     419.518  tau=3  t=   90.9s
+[2026-11-07 14:59:45]     [abcvns:lie] g=100  fit(gbest)=     419.518  tau=3  t=  122.5s
+[2026-11-07 15:00:20]     [abcvns:lie] g=125  fit(gbest)=     419.518  tau=3  t=  157.5s
+[2026-11-07 15:00:54]     [abcvns:lie] g=150  fit(gbest)=     419.518  tau=3  t=  191.4s
+[2026-11-07 15:00:54]   done slashdot k=30 ABCVNS (paper)   rs= 9 t=   191.45s pos=  1988.21 neg=     2.39 tot=  1990.59 fit=     419.518
+[2026-11-07 15:00:54] [slashdot] k=30 ABCVNS (paper) rs=10 budget=6000 ...
+[2026-11-07 15:01:19]     [abcvns:lie] g= 25  fit(gbest)=     425.465  tau=0  t=   24.6s
+[2026-11-07 15:01:56]     [abcvns:lie] g= 50  fit(gbest)=     425.465  tau=0  t=   62.1s
+[2026-11-07 15:02:34]     [abcvns:lie] g= 75  fit(gbest)=     425.764  tau=0  t=   99.4s
+[2026-11-07 15:03:10]     [abcvns:lie] g=100  fit(gbest)=     425.764  tau=0  t=  136.2s
+[2026-11-07 15:03:44]     [abcvns:lie] g=125  fit(gbest)=     426.020  tau=3  t=  170.1s
+[2026-11-07 15:04:21]     [abcvns:lie] g=150  fit(gbest)=     426.020  tau=3  t=  206.5s
+[2026-11-07 15:04:21]   done slashdot k=30 ABCVNS (paper)   rs=10 t=   206.52s pos=  2289.81 neg=     2.10 tot=  2291.91 fit=     426.020
+[2026-11-07 15:04:21] [slashdot] k=30 ABCVNS (paper) rs=11 budget=6000 ...
+[2026-11-07 15:04:46]     [abcvns:lie] g= 25  fit(gbest)=     424.411  tau=3  t=   25.4s
+[2026-11-07 15:05:20]     [abcvns:lie] g= 50  fit(gbest)=     425.081  tau=2  t=   58.9s
+[2026-11-07 15:05:51]     [abcvns:lie] g= 75  fit(gbest)=     425.764  tau=2  t=   90.6s
+[2026-11-07 15:06:30]     [abcvns:lie] g=100  fit(gbest)=     425.764  tau=2  t=  129.6s
+[2026-11-07 15:08:00] [scheduler] phase -> --graphs slashdot --algs ABCVNS (paper)
+[2026-11-07 15:08:03] == signed benchmark == graphs=['slashdot'] ks=[10, 20, 30, 40, 50] restarts={'Random': 1, 'Degree': 1, 'ABC (proposed)': 30, 'ABCVNS (paper)': 30, 'ABCVNS (fixed)': 30} R_fit=30 R_ho=300 quick=False
+[2026-11-07 15:08:04] [slashdot] n=82140 m=500481 pool=200 R_fit=30 R_ho=300
+[2026-11-07 15:08:04] [slashdot] k=30 ABCVNS (paper) rs=11 budget=6000 ...
+[2026-11-07 15:08:28]     [abcvns:lie] g= 25  fit(gbest)=     424.411  tau=3  t=   23.3s
+[2026-11-07 15:09:00]     [abcvns:lie] g= 50  fit(gbest)=     425.081  tau=2  t=   55.4s
+[2026-11-07 15:09:29]     [abcvns:lie] g= 75  fit(gbest)=     425.764  tau=2  t=   84.9s
+[2026-11-07 15:10:05]     [abcvns:lie] g=100  fit(gbest)=     425.764  tau=2  t=  121.1s
+[2026-11-07 15:10:40]     [abcvns:lie] g=125  fit(gbest)=     425.764  tau=2  t=  156.1s
+[2026-11-07 15:11:17]     [abcvns:lie] g=150  fit(gbest)=     425.764  tau=2  t=  192.3s
+[2026-11-07 15:11:17]   done slashdot k=30 ABCVNS (paper)   rs=11 t=   192.31s pos=  2284.64 neg=     2.10 tot=  2286.74 fit=     425.764
+[2026-11-07 15:11:17] [slashdot] k=30 ABCVNS (paper) rs=12 budget=6000 ...
+[2026-11-07 15:11:37]     [abcvns:lie] g= 25  fit(gbest)=     426.934  tau=3  t=   20.4s
+[2026-11-07 15:12:12]     [abcvns:lie] g= 50  fit(gbest)=     426.934  tau=3  t=   55.3s
+[2026-11-07 15:12:45]     [abcvns:lie] g= 75  fit(gbest)=     426.934  tau=3  t=   87.9s
+[2026-11-07 15:13:17]     [abcvns:lie] g=100  fit(gbest)=     426.934  tau=3  t=  120.1s
+[2026-11-07 15:13:50]     [abcvns:lie] g=125  fit(gbest)=     426.934  tau=3  t=  153.4s
+[2026-11-07 15:14:23]     [abcvns:lie] g=150  fit(gbest)=     426.934  tau=3  t=  186.7s
+[2026-11-07 15:14:23]   done slashdot k=30 ABCVNS (paper)   rs=12 t=   186.66s pos=  2284.22 neg=     2.10 tot=  2286.32 fit=     426.934
+[2026-11-07 15:14:23] [slashdot] k=30 ABCVNS (paper) rs=13 budget=6000 ...
+[2026-11-07 15:14:47]     [abcvns:lie] g= 25  fit(gbest)=     418.188  tau=2  t=   23.4s
+[2026-11-07 15:15:28]     [abcvns:lie] g= 50  fit(gbest)=     418.418  tau=2  t=   64.5s
+[2026-11-07 15:16:05]     [abcvns:lie] g= 75  fit(gbest)=     425.081  tau=2  t=  101.2s
+[2026-11-07 15:16:40]     [abcvns:lie] g=100  fit(gbest)=     425.081  tau=2  t=  136.1s
+[2026-11-07 15:17:12]     [abcvns:lie] g=125  fit(gbest)=     425.081  tau=2  t=  168.8s
+[2026-11-07 15:17:47]     [abcvns:lie] g=150  fit(gbest)=     425.542  tau=2  t=  203.0s
+[2026-11-07 15:17:47]   done slashdot k=30 ABCVNS (paper)   rs=13 t=   203.05s pos=  2250.23 neg=     2.10 tot=  2252.33 fit=     425.542
+[2026-11-07 15:17:47] [slashdot] k=30 ABCVNS (paper) rs=14 budget=6000 ...
+[2026-11-07 15:18:17]     [abcvns:lie] g= 25  fit(gbest)=     426.228  tau=2  t=   30.0s
+[2026-11-07 15:18:49]     [abcvns:lie] g= 50  fit(gbest)=     426.228  tau=2  t=   62.3s
+[2026-11-07 15:19:23]     [abcvns:lie] g= 75  fit(gbest)=     426.479  tau=2  t=   96.5s
+[2026-11-07 15:19:58]     [abcvns:lie] g=100  fit(gbest)=     426.934  tau=2  t=  131.3s
+[2026-11-07 15:20:32]     [abcvns:lie] g=125  fit(gbest)=     426.970  tau=4  t=  165.8s
+[2026-11-07 15:21:09]     [abcvns:lie] g=150  fit(gbest)=     426.970  tau=4  t=  202.3s
+[2026-11-07 15:21:09]   done slashdot k=30 ABCVNS (paper)   rs=14 t=   202.34s pos=  2320.75 neg=     2.10 tot=  2322.85 fit=     426.970
+[2026-11-07 15:21:09] [slashdot] k=30 ABCVNS (paper) rs=15 budget=6000 ...
+[2026-11-07 15:21:30]     [abcvns:lie] g= 25  fit(gbest)=     426.970  tau=3  t=   20.9s
+[2026-11-07 15:22:07]     [abcvns:lie] g= 50  fit(gbest)=     426.970  tau=3  t=   58.0s
+[2026-11-07 15:22:42]     [abcvns:lie] g= 75  fit(gbest)=     426.970  tau=3  t=   93.3s
+[2026-11-07 15:23:19]     [abcvns:lie] g=100  fit(gbest)=     426.970  tau=3  t=  130.5s
+[2026-11-07 15:23:54]     [abcvns:lie] g=125  fit(gbest)=     426.970  tau=3  t=  165.4s
+[2026-11-07 15:24:29]     [abcvns:lie] g=150  fit(gbest)=     426.970  tau=3  t=  199.9s
+[2026-11-07 15:24:29]   done slashdot k=30 ABCVNS (paper)   rs=15 t=   199.91s pos=  2320.75 neg=     2.10 tot=  2322.85 fit=     426.970
+[2026-11-07 15:24:29] [slashdot] k=30 ABCVNS (paper) rs=16 budget=6000 ...
+[2026-11-07 15:24:53]     [abcvns:lie] g= 25  fit(gbest)=     425.081  tau=3  t=   24.2s
+[2026-11-07 15:25:28]     [abcvns:lie] g= 50  fit(gbest)=     425.081  tau=3  t=   58.9s
+[2026-11-07 15:25:59]     [abcvns:lie] g= 75  fit(gbest)=     425.081  tau=3  t=   90.5s
+[2026-11-07 15:26:35]     [abcvns:lie] g=100  fit(gbest)=     425.081  tau=3  t=  126.2s
+[2026-11-07 15:27:08]     [abcvns:lie] g=125  fit(gbest)=     425.081  tau=3  t=  159.5s
+[2026-11-07 15:27:41]     [abcvns:lie] g=150  fit(gbest)=     425.081  tau=3  t=  191.6s
+[2026-11-07 15:27:41]   done slashdot k=30 ABCVNS (paper)   rs=16 t=   191.62s pos=  2228.26 neg=     1.73 tot=  2229.99 fit=     425.081
+[2026-11-07 15:27:41] [slashdot] k=30 ABCVNS (paper) rs=17 budget=6000 ...
+[2026-11-07 15:28:00]     [abcvns:lie] g= 25  fit(gbest)=     426.228  tau=0  t=   19.0s
+[2026-11-07 15:28:32]     [abcvns:lie] g= 50  fit(gbest)=     426.228  tau=0  t=   51.5s
+[2026-11-07 15:29:03]     [abcvns:lie] g= 75  fit(gbest)=     426.228  tau=0  t=   82.5s
+[2026-11-07 15:29:37]     [abcvns:lie] g=100  fit(gbest)=     426.593  tau=0  t=  116.4s
+[2026-11-07 15:30:11]     [abcvns:lie] g=125  fit(gbest)=     426.934  tau=4  t=  150.1s
+[2026-11-07 15:30:43]     [abcvns:lie] g=150  fit(gbest)=     426.934  tau=4  t=  182.4s
+[2026-11-07 15:30:43]   done slashdot k=30 ABCVNS (paper)   rs=17 t=   182.39s pos=  2284.22 neg=     2.10 tot=  2286.32 fit=     426.934
+[2026-11-07 15:30:43] [slashdot] k=30 ABCVNS (paper) rs=18 budget=6000 ...
+[2026-11-07 15:31:06]     [abcvns:lie] g= 25  fit(gbest)=     420.411  tau=0  t=   23.3s
+[2026-11-07 15:31:41]     [abcvns:lie] g= 50  fit(gbest)=     420.411  tau=0  t=   58.1s
+[2026-11-07 15:32:15]     [abcvns:lie] g= 75  fit(gbest)=     426.934  tau=0  t=   91.6s
+[2026-11-07 15:32:47]     [abcvns:lie] g=100  fit(gbest)=     426.934  tau=0  t=  124.2s
+[2026-11-07 15:33:21]     [abcvns:lie] g=125  fit(gbest)=     426.934  tau=0  t=  158.2s
+[2026-11-07 15:33:56]     [abcvns:lie] g=150  fit(gbest)=     426.970  tau=0  t=  193.1s
+[2026-11-07 15:33:56]   done slashdot k=30 ABCVNS (paper)   rs=18 t=   193.13s pos=  2320.75 neg=     2.10 tot=  2322.85 fit=     426.970
+[2026-11-07 15:33:56] [slashdot] k=30 ABCVNS (paper) rs=19 budget=6000 ...
+[2026-11-07 15:34:24]     [abcvns:lie] g= 25  fit(gbest)=     424.636  tau=1  t=   27.6s
+[2026-11-07 15:34:59]     [abcvns:lie] g= 50  fit(gbest)=     424.636  tau=1  t=   63.1s
+[2026-11-07 15:35:34]     [abcvns:lie] g= 75  fit(gbest)=     424.636  tau=1  t=   98.1s
+[2026-11-07 15:36:11]     [abcvns:lie] g=100  fit(gbest)=     424.636  tau=1  t=  135.1s
+[2026-11-07 15:36:47]     [abcvns:lie] g=125  fit(gbest)=     424.636  tau=1  t=  170.9s
+[2026-11-07 15:37:23]     [abcvns:lie] g=150  fit(gbest)=     424.636  tau=1  t=  207.4s
+[2026-11-07 15:37:24]   done slashdot k=30 ABCVNS (paper)   rs=19 t=   207.41s pos=  2191.81 neg=     2.73 tot=  2194.54 fit=     424.636
+[2026-11-07 15:37:24] [slashdot] k=30 ABCVNS (paper) rs=20 budget=6000 ...
+[2026-11-07 15:37:49]     [abcvns:lie] g= 25  fit(gbest)=     425.081  tau=1  t=   25.9s
+[2026-11-07 15:38:23]     [abcvns:lie] g= 50  fit(gbest)=     425.081  tau=1  t=   59.9s
+[2026-11-07 15:38:56]     [abcvns:lie] g= 75  fit(gbest)=     425.081  tau=1  t=   92.7s
+[2026-11-07 15:39:30]     [abcvns:lie] g=100  fit(gbest)=     425.081  tau=1  t=  126.2s
+[2026-11-07 15:40:03]     [abcvns:lie] g=125  fit(gbest)=     425.081  tau=1  t=  159.4s
+[2026-11-07 15:40:34]     [abcvns:lie] g=150  fit(gbest)=     425.081  tau=1  t=  190.7s
+[2026-11-07 15:40:34]   done slashdot k=30 ABCVNS (paper)   rs=20 t=   190.68s pos=  2228.26 neg=     1.73 tot=  2229.99 fit=     425.081
+[2026-11-07 15:40:34] [slashdot] k=30 ABCVNS (paper) rs=21 budget=6000 ...
+[2026-11-07 15:41:00]     [abcvns:lie] g= 25  fit(gbest)=     425.310  tau=2  t=   26.2s
+[2026-11-07 15:41:38]     [abcvns:lie] g= 50  fit(gbest)=     425.764  tau=2  t=   63.7s
+[2026-11-07 15:42:17]     [abcvns:lie] g= 75  fit(gbest)=     425.764  tau=2  t=  102.4s
+[2026-11-07 15:42:50]     [abcvns:lie] g=100  fit(gbest)=     426.082  tau=0  t=  136.1s
+[2026-11-07 15:43:21]     [abcvns:lie] g=125  fit(gbest)=     426.466  tau=0  t=  167.3s
+[2026-11-07 15:43:53]     [abcvns:lie] g=150  fit(gbest)=     426.934  tau=0  t=  198.7s
+[2026-11-07 15:43:53]   done slashdot k=30 ABCVNS (paper)   rs=21 t=   198.66s pos=  2284.22 neg=     2.10 tot=  2286.32 fit=     426.934
+[2026-11-07 15:43:53] [slashdot] k=30 ABCVNS (paper) rs=22 budget=6000 ...
+[2026-11-07 15:44:16]     [abcvns:lie] g= 25  fit(gbest)=     426.934  tau=0  t=   23.6s
+[2026-11-07 15:44:49]     [abcvns:lie] g= 50  fit(gbest)=     426.934  tau=0  t=   56.5s
+[2026-11-07 15:45:23]     [abcvns:lie] g= 75  fit(gbest)=     426.934  tau=0  t=   90.0s
+[2026-11-07 15:45:55]     [abcvns:lie] g=100  fit(gbest)=     426.934  tau=0  t=  122.0s
+[2026-11-07 15:46:27]     [abcvns:lie] g=125  fit(gbest)=     426.970  tau=2  t=  154.5s
+[2026-11-07 15:47:00]     [abcvns:lie] g=150  fit(gbest)=     426.970  tau=2  t=  187.1s
+[2026-11-07 15:47:00]   done slashdot k=30 ABCVNS (paper)   rs=22 t=   187.09s pos=  2320.75 neg=     2.10 tot=  2322.85 fit=     426.970
+[2026-11-07 15:47:00] [slashdot] k=30 ABCVNS (paper) rs=23 budget=6000 ...
+[2026-11-07 15:47:22]     [abcvns:lie] g= 25  fit(gbest)=     426.228  tau=0  t=   22.4s
+[2026-11-07 15:47:51]     [abcvns:lie] g= 50  fit(gbest)=     426.228  tau=0  t=   51.5s
+[2026-11-07 15:48:22]     [abcvns:lie] g= 75  fit(gbest)=     426.228  tau=0  t=   82.2s
+[2026-11-07 15:48:55]     [abcvns:lie] g=100  fit(gbest)=     426.593  tau=4  t=  114.7s
+[2026-11-07 15:49:26]     [abcvns:lie] g=125  fit(gbest)=     426.593  tau=4  t=  146.1s
+[2026-11-07 15:49:58]     [abcvns:lie] g=150  fit(gbest)=     426.934  tau=4  t=  178.4s
+[2026-11-07 15:49:58]   done slashdot k=30 ABCVNS (paper)   rs=23 t=   178.38s pos=  2284.22 neg=     2.10 tot=  2286.32 fit=     426.934
+[2026-11-07 15:49:58] [slashdot] k=30 ABCVNS (paper) rs=24 budget=6000 ...
+[2026-11-07 15:50:24]     [abcvns:lie] g= 25  fit(gbest)=     426.766  tau=0  t=   25.6s
+[2026-11-07 15:50:56]     [abcvns:lie] g= 50  fit(gbest)=     426.766  tau=0  t=   57.2s
+[2026-11-07 15:51:27]     [abcvns:lie] g= 75  fit(gbest)=     426.766  tau=0  t=   88.4s
+[2026-11-07 15:51:58]     [abcvns:lie] g=100  fit(gbest)=     426.766  tau=0  t=  120.0s
+[2026-11-07 15:52:31]     [abcvns:lie] g=125  fit(gbest)=     426.766  tau=0  t=  152.2s
+[2026-11-07 15:53:06]     [abcvns:lie] g=150  fit(gbest)=     426.934  tau=0  t=  187.2s
+[2026-11-07 15:53:06]   done slashdot k=30 ABCVNS (paper)   rs=24 t=   187.18s pos=  2284.22 neg=     2.10 tot=  2286.32 fit=     426.934
+[2026-11-07 15:53:06] [slashdot] k=30 ABCVNS (paper) rs=25 budget=6000 ...
+[2026-11-07 15:53:30]     [abcvns:lie] g= 25  fit(gbest)=     419.518  tau=1  t=   24.3s
+[2026-11-07 15:54:01]     [abcvns:lie] g= 50  fit(gbest)=     419.997  tau=1  t=   55.2s
+[2026-11-07 15:54:32]     [abcvns:lie] g= 75  fit(gbest)=     419.997  tau=1  t=   86.1s
+[2026-11-07 15:55:02]     [abcvns:lie] g=100  fit(gbest)=     419.997  tau=1  t=  116.4s
+[2026-11-07 15:55:34]     [abcvns:lie] g=125  fit(gbest)=     419.997  tau=1  t=  148.4s
+[2026-11-07 15:56:04]     [abcvns:lie] g=150  fit(gbest)=     419.997  tau=1  t=  178.9s
+[2026-11-07 15:56:04]   done slashdot k=30 ABCVNS (paper)   rs=25 t=   178.90s pos=  2022.21 neg=     1.39 tot=  2023.60 fit=     419.998
+[2026-11-07 15:56:04] [slashdot] k=30 ABCVNS (paper) rs=26 budget=6000 ...
+[2026-11-07 15:56:27]     [abcvns:lie] g= 25  fit(gbest)=     426.228  tau=0  t=   22.2s
+[2026-11-07 15:56:57]     [abcvns:lie] g= 50  fit(gbest)=     426.228  tau=0  t=   52.8s
+[2026-11-07 15:57:30]     [abcvns:lie] g= 75  fit(gbest)=     426.934  tau=0  t=   85.3s
+[2026-11-07 15:58:05]     [abcvns:lie] g=100  fit(gbest)=     426.934  tau=0  t=  120.3s
+[2026-11-07 15:58:39]     [abcvns:lie] g=125  fit(gbest)=     426.934  tau=0  t=  154.4s
+[2026-11-07 15:59:11]     [abcvns:lie] g=150  fit(gbest)=     426.934  tau=0  t=  186.1s
+[2026-11-07 15:59:11]   done slashdot k=30 ABCVNS (paper)   rs=26 t=   186.06s pos=  2284.22 neg=     2.10 tot=  2286.32 fit=     426.934
+[2026-11-07 15:59:11] [slashdot] k=30 ABCVNS (paper) rs=27 budget=6000 ...
+[2026-11-07 15:59:32]     [abcvns:lie] g= 25  fit(gbest)=     424.906  tau=3  t=   21.9s
+[2026-11-07 16:00:04]     [abcvns:lie] g= 50  fit(gbest)=     425.542  tau=3  t=   53.9s
+[2026-11-07 16:00:38]     [abcvns:lie] g= 75  fit(gbest)=     425.542  tau=3  t=   87.6s
+[2026-11-07 16:01:12]     [abcvns:lie] g=100  fit(gbest)=     425.542  tau=3  t=  121.7s
+[2026-11-07 16:01:47]     [abcvns:lie] g=125  fit(gbest)=     425.542  tau=3  t=  156.4s
+[2026-11-07 16:02:23]     [abcvns:lie] g=150  fit(gbest)=     425.542  tau=3  t=  192.4s
+[2026-11-07 16:02:23]   done slashdot k=30 ABCVNS (paper)   rs=27 t=   192.42s pos=  2250.23 neg=     2.10 tot=  2252.33 fit=     425.542
+[2026-11-07 16:02:23] [slashdot] k=30 ABCVNS (paper) rs=28 budget=6000 ...
+[2026-11-07 16:02:51]     [abcvns:lie] g= 25  fit(gbest)=     427.095  tau=1  t=   27.9s
+[2026-11-07 16:03:23]     [abcvns:lie] g= 50  fit(gbest)=     427.095  tau=1  t=   60.4s
+[2026-11-07 16:03:58]     [abcvns:lie] g= 75  fit(gbest)=     427.095  tau=1  t=   95.4s
+[2026-11-07 16:04:32]     [abcvns:lie] g=100  fit(gbest)=     427.095  tau=1  t=  129.1s
+[2026-11-07 16:05:06]     [abcvns:lie] g=125  fit(gbest)=     427.095  tau=1  t=  163.1s
+[2026-11-07 16:05:39]     [abcvns:lie] g=150  fit(gbest)=     427.283  tau=3  t=  195.8s
+[2026-11-07 16:05:39]   done slashdot k=30 ABCVNS (paper)   rs=28 t=   195.84s pos=  2291.72 neg=     2.10 tot=  2293.82 fit=     427.283
+[2026-11-07 16:05:39] [slashdot] k=30 ABCVNS (paper) rs=29 budget=6000 ...
+[2026-11-07 16:06:05]     [abcvns:lie] g= 25  fit(gbest)=     417.474  tau=1  t=   26.3s
+[2026-11-07 16:06:35]     [abcvns:lie] g= 50  fit(gbest)=     418.418  tau=4  t=   56.4s
+[2026-11-07 16:07:10]     [abcvns:lie] g= 75  fit(gbest)=     425.887  tau=4  t=   91.0s
+[2026-11-07 16:07:42]     [abcvns:lie] g=100  fit(gbest)=     425.887  tau=4  t=  123.2s
+[2026-11-07 16:08:16]     [abcvns:lie] g=125  fit(gbest)=     425.887  tau=4  t=  157.3s
+[2026-11-07 16:17:20] [scheduler] phase -> --graphs slashdot --algs ABCVNS (paper)
+[2026-11-07 16:17:22] == signed benchmark == graphs=['slashdot'] ks=[10, 20, 30, 40, 50] restarts={'Random': 1, 'Degree': 1, 'ABC (proposed)': 30, 'ABCVNS (paper)': 30, 'ABCVNS (fixed)': 30} R_fit=30 R_ho=300 quick=False
+[2026-11-07 16:17:24] [slashdot] n=82140 m=500481 pool=200 R_fit=30 R_ho=300
+[2026-11-07 16:17:24] [slashdot] k=30 ABCVNS (paper) rs=29 budget=6000 ...
+[2026-11-07 16:17:50]     [abcvns:lie] g= 25  fit(gbest)=     417.474  tau=1  t=   25.9s
+[2026-11-07 16:18:20]     [abcvns:lie] g= 50  fit(gbest)=     418.418  tau=4  t=   55.7s
+[2026-11-07 16:18:55]     [abcvns:lie] g= 75  fit(gbest)=     425.887  tau=4  t=   90.4s
+[2026-11-07 16:19:30]     [abcvns:lie] g=100  fit(gbest)=     425.887  tau=4  t=  125.3s
+[2026-11-07 16:20:03]     [abcvns:lie] g=125  fit(gbest)=     425.887  tau=4  t=  158.7s
+[2026-11-07 16:20:36]     [abcvns:lie] g=150  fit(gbest)=     425.887  tau=4  t=  192.0s
+[2026-11-07 16:20:36]   done slashdot k=30 ABCVNS (paper)   rs=29 t=   191.99s pos=  2225.02 neg=     2.73 tot=  2227.75 fit=     425.887
+[2026-11-07 16:20:36] [slashdot] k=40 ABCVNS (paper) rs=0 budget=8000 ...
+[2026-11-07 16:21:07]     [abcvns:lie] g= 25  fit(gbest)=     485.472  tau=1  t=   30.3s
+[2026-11-07 16:21:56]     [abcvns:lie] g= 50  fit(gbest)=     485.472  tau=1  t=   79.4s
+[2026-11-07 16:22:44]     [abcvns:lie] g= 75  fit(gbest)=     485.472  tau=1  t=  127.7s
+[2026-11-07 16:23:30]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=1  t=  173.9s
+[2026-11-07 16:24:10]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=1  t=  213.5s
+[2026-11-07 16:24:47]     [abcvns:lie] g=150  fit(gbest)=     491.989  tau=1  t=  251.0s
+[2026-11-07 16:24:48]   done slashdot k=40 ABCVNS (paper)   rs= 0 t=   251.05s pos=  2445.17 neg=     6.10 tot=  2451.27 fit=     491.989
+[2026-11-07 16:24:48] [slashdot] k=40 ABCVNS (paper) rs=1 budget=8000 ...
+[2026-11-07 16:25:08]     [abcvns:lie] g= 25  fit(gbest)=     492.161  tau=0  t=   20.7s
+[2026-11-07 16:25:46]     [abcvns:lie] g= 50  fit(gbest)=     492.703  tau=0  t=   58.0s
+[2026-11-07 16:26:25]     [abcvns:lie] g= 75  fit(gbest)=     492.703  tau=0  t=   97.2s
+[2026-11-07 16:27:02]     [abcvns:lie] g=100  fit(gbest)=     492.703  tau=0  t=  134.1s
+[2026-11-07 16:27:40]     [abcvns:lie] g=125  fit(gbest)=     492.703  tau=0  t=  173.0s
+[2026-11-07 16:28:22]     [abcvns:lie] g=150  fit(gbest)=     492.703  tau=0  t=  214.1s
+[2026-11-07 16:28:22]   done slashdot k=40 ABCVNS (paper)   rs= 1 t=   214.11s pos=  2474.90 neg=     4.10 tot=  2479.00 fit=     492.702
+[2026-11-07 16:28:22] [slashdot] k=40 ABCVNS (paper) rs=2 budget=8000 ...
+[2026-11-07 16:28:49]     [abcvns:lie] g= 25  fit(gbest)=     491.989  tau=0  t=   27.3s
+[2026-11-07 16:29:24]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=0  t=   62.5s
+[2026-11-07 16:30:01]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=0  t=   99.7s
+[2026-11-07 16:30:41]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=0  t=  139.5s
+[2026-11-07 16:31:22]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=0  t=  180.4s
+[2026-11-07 16:31:58]     [abcvns:lie] g=150  fit(gbest)=     491.989  tau=0  t=  216.6s
+[2026-11-07 16:31:58]   done slashdot k=40 ABCVNS (paper)   rs= 2 t=   216.61s pos=  2445.17 neg=     6.10 tot=  2451.27 fit=     491.989
+[2026-11-07 16:31:58] [slashdot] k=40 ABCVNS (paper) rs=3 budget=8000 ...
+[2026-11-07 16:32:21]     [abcvns:lie] g= 25  fit(gbest)=     491.989  tau=2  t=   22.7s
+[2026-11-07 16:33:07]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=2  t=   68.9s
+[2026-11-07 16:33:43]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=2  t=  105.1s
+[2026-11-07 16:34:21]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=2  t=  142.5s
+[2026-11-07 16:34:58]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=2  t=  180.0s
+[2026-11-07 16:35:41]     [abcvns:lie] g=150  fit(gbest)=     491.989  tau=2  t=  222.4s
+[2026-11-07 16:35:41]   done slashdot k=40 ABCVNS (paper)   rs= 3 t=   222.38s pos=  2445.17 neg=     6.10 tot=  2451.27 fit=     491.989
+[2026-11-07 16:35:41] [slashdot] k=40 ABCVNS (paper) rs=4 budget=8000 ...
+[2026-11-07 16:36:15]     [abcvns:lie] g= 25  fit(gbest)=     485.682  tau=0  t=   34.1s
+[2026-11-07 16:37:00]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=3  t=   78.9s
+[2026-11-07 16:37:39]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=3  t=  118.1s
+[2026-11-07 16:38:18]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=3  t=  157.5s
+[2026-11-07 16:38:57]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=3  t=  196.1s
+[2026-11-07 16:39:38]     [abcvns:lie] g=150  fit(gbest)=     491.989  tau=3  t=  237.2s
+[2026-11-07 16:39:38]   done slashdot k=40 ABCVNS (paper)   rs= 4 t=   237.17s pos=  2445.17 neg=     6.10 tot=  2451.27 fit=     491.989
+[2026-11-07 16:39:38] [slashdot] k=40 ABCVNS (paper) rs=5 budget=8000 ...
+[2026-11-07 16:40:04]     [abcvns:lie] g= 25  fit(gbest)=     485.682  tau=4  t=   26.6s
+[2026-11-07 16:40:41]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=4  t=   63.4s
+[2026-11-07 16:41:24]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=4  t=  105.9s
+[2026-11-07 16:42:07]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=4  t=  149.4s
+[2026-11-07 16:42:45]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=4  t=  187.4s
+[2026-11-07 16:43:32]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=4  t=  234.5s
+[2026-11-07 16:43:32]   done slashdot k=40 ABCVNS (paper)   rs= 5 t=   234.47s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 16:43:32] [slashdot] k=40 ABCVNS (paper) rs=6 budget=8000 ...
+[2026-11-07 16:43:59]     [abcvns:lie] g= 25  fit(gbest)=     492.181  tau=1  t=   27.0s
+[2026-11-07 16:44:45]     [abcvns:lie] g= 50  fit(gbest)=     492.181  tau=1  t=   73.0s
+[2026-11-07 16:45:31]     [abcvns:lie] g= 75  fit(gbest)=     492.181  tau=1  t=  118.3s
+[2026-11-07 16:46:19]     [abcvns:lie] g=100  fit(gbest)=     492.181  tau=1  t=  166.7s
+[2026-11-07 16:47:08]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=1  t=  215.5s
+[2026-11-07 16:47:56]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=1  t=  263.7s
+[2026-11-07 16:47:56]   done slashdot k=40 ABCVNS (paper)   rs= 6 t=   263.66s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 16:47:56] [slashdot] k=40 ABCVNS (paper) rs=7 budget=8000 ...
+[2026-11-07 16:48:19]     [abcvns:lie] g= 25  fit(gbest)=     491.989  tau=0  t=   22.7s
+[2026-11-07 16:48:59]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=0  t=   62.6s
+[2026-11-07 16:49:40]     [abcvns:lie] g= 75  fit(gbest)=     492.181  tau=0  t=  103.5s
+[2026-11-07 16:50:33]     [abcvns:lie] g=100  fit(gbest)=     492.181  tau=0  t=  156.7s
+[2026-11-07 16:51:25]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=0  t=  209.3s
+[2026-11-07 16:52:13]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=0  t=  257.0s
+[2026-11-07 16:52:13]   done slashdot k=40 ABCVNS (paper)   rs= 7 t=   256.97s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 16:52:13] [slashdot] k=40 ABCVNS (paper) rs=8 budget=8000 ...
+[2026-11-07 16:52:40]     [abcvns:lie] g= 25  fit(gbest)=     492.181  tau=3  t=   26.9s
+[2026-11-07 16:53:26]     [abcvns:lie] g= 50  fit(gbest)=     492.181  tau=3  t=   73.2s
+[2026-11-07 16:54:15]     [abcvns:lie] g= 75  fit(gbest)=     492.181  tau=3  t=  122.4s
+[2026-11-07 16:55:02]     [abcvns:lie] g=100  fit(gbest)=     492.181  tau=3  t=  169.5s
+[2026-11-07 16:55:49]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=3  t=  215.8s
+[2026-11-07 16:56:36]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=3  t=  263.0s
+[2026-11-07 16:56:36]   done slashdot k=40 ABCVNS (paper)   rs= 8 t=   262.99s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 16:56:36] [slashdot] k=40 ABCVNS (paper) rs=9 budget=8000 ...
+[2026-11-07 16:56:57]     [abcvns:lie] g= 25  fit(gbest)=     491.822  tau=4  t=   21.3s
+[2026-11-07 16:57:39]     [abcvns:lie] g= 50  fit(gbest)=     491.822  tau=4  t=   63.3s
+[2026-11-07 16:58:20]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=4  t=  104.4s
+[2026-11-07 16:59:04]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=4  t=  148.3s
+[2026-11-07 16:59:48]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=4  t=  192.3s
+[2026-11-07 17:00:36]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=4  t=  240.4s
+[2026-11-07 17:00:36]   done slashdot k=40 ABCVNS (paper)   rs= 9 t=   240.39s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 17:00:36] [slashdot] k=40 ABCVNS (paper) rs=10 budget=8000 ...
+[2026-11-07 17:01:08]     [abcvns:lie] g= 25  fit(gbest)=     492.674  tau=3  t=   31.5s
+[2026-11-07 17:02:03]     [abcvns:lie] g= 50  fit(gbest)=     492.674  tau=3  t=   87.0s
+[2026-11-07 17:02:57]     [abcvns:lie] g= 75  fit(gbest)=     492.674  tau=3  t=  140.1s
+[2026-11-07 17:03:50]     [abcvns:lie] g=100  fit(gbest)=     492.674  tau=3  t=  193.6s
+[2026-11-07 17:04:47]     [abcvns:lie] g=125  fit(gbest)=     492.674  tau=3  t=  250.2s
+[2026-11-07 17:05:35]     [abcvns:lie] g=150  fit(gbest)=     492.674  tau=3  t=  298.5s
+[2026-11-07 17:05:35]   done slashdot k=40 ABCVNS (paper)   rs=10 t=   298.50s pos=  2458.23 neg=     4.10 tot=  2462.33 fit=     492.674
+[2026-11-07 17:05:35] [slashdot] k=40 ABCVNS (paper) rs=11 budget=8000 ...
+[2026-11-07 17:06:10]     [abcvns:lie] g= 25  fit(gbest)=     485.682  tau=4  t=   34.9s
+[2026-11-07 17:06:57]     [abcvns:lie] g= 50  fit(gbest)=     492.110  tau=3  t=   82.5s
+[2026-11-07 17:07:45]     [abcvns:lie] g= 75  fit(gbest)=     492.110  tau=3  t=  130.5s
+[2026-11-07 17:08:32]     [abcvns:lie] g=100  fit(gbest)=     492.110  tau=3  t=  177.4s
+[2026-11-07 17:09:22]     [abcvns:lie] g=125  fit(gbest)=     492.110  tau=3  t=  226.7s
+[2026-11-07 17:10:08]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=1  t=  273.3s
+[2026-11-07 17:10:08]   done slashdot k=40 ABCVNS (paper)   rs=11 t=   273.31s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 17:10:08] [slashdot] k=40 ABCVNS (paper) rs=12 budget=8000 ...
+[2026-11-07 17:10:38]     [abcvns:lie] g= 25  fit(gbest)=     492.110  tau=1  t=   29.4s
+[2026-11-07 17:11:27]     [abcvns:lie] g= 50  fit(gbest)=     492.110  tau=1  t=   78.9s
+[2026-11-07 17:12:17]     [abcvns:lie] g= 75  fit(gbest)=     492.110  tau=1  t=  128.6s
+[2026-11-07 17:13:04]     [abcvns:lie] g=100  fit(gbest)=     492.181  tau=1  t=  175.7s
+[2026-11-07 17:13:49]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=1  t=  221.1s
+[2026-11-07 17:14:35]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=1  t=  267.1s
+[2026-11-07 17:14:35]   done slashdot k=40 ABCVNS (paper)   rs=12 t=   267.13s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 17:14:35] [slashdot] k=40 ABCVNS (paper) rs=13 budget=8000 ...
+[2026-11-07 17:15:08]     [abcvns:lie] g= 25  fit(gbest)=     492.181  tau=2  t=   32.8s
+[2026-11-07 17:15:53]     [abcvns:lie] g= 50  fit(gbest)=     492.181  tau=2  t=   77.8s
+[2026-11-07 17:16:42]     [abcvns:lie] g= 75  fit(gbest)=     492.568  tau=0  t=  126.5s
+[2026-11-07 17:17:22]     [abcvns:lie] g=100  fit(gbest)=     492.568  tau=0  t=  167.1s
+[2026-11-07 19:41:56] [scheduler] phase -> --graphs slashdot --algs ABCVNS (paper)
+[2026-11-07 19:41:59] == signed benchmark == graphs=['slashdot'] ks=[10, 20, 30, 40, 50] restarts={'Random': 1, 'Degree': 1, 'ABC (proposed)': 30, 'ABCVNS (paper)': 30, 'ABCVNS (fixed)': 30} R_fit=30 R_ho=300 quick=False
+[2026-11-07 19:42:01] [slashdot] n=82140 m=500481 pool=200 R_fit=30 R_ho=300
+[2026-11-07 19:42:01] [slashdot] k=40 ABCVNS (paper) rs=13 budget=8000 ...
+[2026-11-07 19:42:31]     [abcvns:lie] g= 25  fit(gbest)=     492.181  tau=2  t=   30.6s
+[2026-11-07 19:43:16]     [abcvns:lie] g= 50  fit(gbest)=     492.181  tau=2  t=   75.4s
+[2026-11-07 19:44:06]     [abcvns:lie] g= 75  fit(gbest)=     492.568  tau=0  t=  124.8s
+[2026-11-07 19:44:44]     [abcvns:lie] g=100  fit(gbest)=     492.568  tau=0  t=  163.5s
+[2026-11-07 19:45:23]     [abcvns:lie] g=125  fit(gbest)=     492.568  tau=0  t=  202.5s
+[2026-11-07 19:46:09]     [abcvns:lie] g=150  fit(gbest)=     492.568  tau=0  t=  248.6s
+[2026-11-07 19:46:09]   done slashdot k=40 ABCVNS (paper)   rs=13 t=   248.63s pos=  2468.88 neg=     4.10 tot=  2472.98 fit=     492.568
+[2026-11-07 19:46:09] [slashdot] k=40 ABCVNS (paper) rs=14 budget=8000 ...
+[2026-11-07 19:46:44]     [abcvns:lie] g= 25  fit(gbest)=     485.472  tau=4  t=   34.5s
+[2026-11-07 19:47:39]     [abcvns:lie] g= 50  fit(gbest)=     485.472  tau=4  t=   89.7s
+[2026-11-07 19:48:25]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=2  t=  135.8s
+[2026-11-07 19:49:07]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=2  t=  177.6s
+[2026-11-07 19:49:49]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=2  t=  219.1s
+[2026-11-07 19:50:29]     [abcvns:lie] g=150  fit(gbest)=     491.989  tau=2  t=  259.5s
+[2026-11-07 19:50:29]   done slashdot k=40 ABCVNS (paper)   rs=14 t=   259.53s pos=  2445.17 neg=     6.10 tot=  2451.27 fit=     491.989
+[2026-11-07 19:50:29] [slashdot] k=40 ABCVNS (paper) rs=15 budget=8000 ...
+[2026-11-07 19:51:02]     [abcvns:lie] g= 25  fit(gbest)=     492.181  tau=4  t=   32.5s
+[2026-11-07 19:51:45]     [abcvns:lie] g= 50  fit(gbest)=     492.181  tau=4  t=   75.9s
+[2026-11-07 19:52:31]     [abcvns:lie] g= 75  fit(gbest)=     492.181  tau=4  t=  121.7s
+[2026-11-07 19:53:18]     [abcvns:lie] g=100  fit(gbest)=     492.181  tau=4  t=  169.3s
+[2026-11-07 19:54:02]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=4  t=  213.0s
+[2026-11-07 19:54:46]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=4  t=  256.7s
+[2026-11-07 19:54:46]   done slashdot k=40 ABCVNS (paper)   rs=15 t=   256.66s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 19:54:46] [slashdot] k=40 ABCVNS (paper) rs=16 budget=8000 ...
+[2026-11-07 19:55:11]     [abcvns:lie] g= 25  fit(gbest)=     491.989  tau=0  t=   25.5s
+[2026-11-07 19:55:48]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=0  t=   61.8s
+[2026-11-07 19:56:28]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=0  t=  102.6s
+[2026-11-07 19:57:05]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=0  t=  139.3s
+[2026-11-07 19:57:40]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=0  t=  174.8s
+[2026-11-07 19:58:19]     [abcvns:lie] g=150  fit(gbest)=     491.989  tau=0  t=  213.2s
+[2026-11-07 19:58:19]   done slashdot k=40 ABCVNS (paper)   rs=16 t=   213.18s pos=  2445.17 neg=     6.10 tot=  2451.27 fit=     491.989
+[2026-11-07 19:58:19] [slashdot] k=40 ABCVNS (paper) rs=17 budget=8000 ...
+[2026-11-07 19:58:42]     [abcvns:lie] g= 25  fit(gbest)=     492.181  tau=2  t=   23.3s
+[2026-11-07 19:59:29]     [abcvns:lie] g= 50  fit(gbest)=     492.181  tau=2  t=   69.8s
+[2026-11-07 20:00:12]     [abcvns:lie] g= 75  fit(gbest)=     492.181  tau=2  t=  112.8s
+[2026-11-07 20:00:54]     [abcvns:lie] g=100  fit(gbest)=     492.181  tau=2  t=  155.2s
+[2026-11-07 20:01:42]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=2  t=  202.8s
+[2026-11-07 20:02:25]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=2  t=  246.1s
+[2026-11-07 20:02:25]   done slashdot k=40 ABCVNS (paper)   rs=17 t=   246.14s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 20:02:25] [slashdot] k=40 ABCVNS (paper) rs=18 budget=8000 ...
+[2026-11-07 20:05:57] [scheduler] phase -> --graphs slashdot --algs ABCVNS (paper)
+[2026-11-07 20:05:59] == signed benchmark == graphs=['slashdot'] ks=[10, 20, 30, 40, 50] restarts={'Random': 1, 'Degree': 1, 'ABC (proposed)': 30, 'ABCVNS (paper)': 30, 'ABCVNS (fixed)': 30} R_fit=30 R_ho=300 quick=False
+[2026-11-07 20:06:01] [slashdot] n=82140 m=500481 pool=200 R_fit=30 R_ho=300
+[2026-11-07 20:06:01] [slashdot] k=40 ABCVNS (paper) rs=18 budget=8000 ...
+[2026-11-07 20:06:32]     [abcvns:lie] g= 25  fit(gbest)=     485.472  tau=3  t=   31.0s
+[2026-11-07 20:07:21]     [abcvns:lie] g= 50  fit(gbest)=     485.472  tau=3  t=   80.5s
+[2026-11-07 20:08:12]     [abcvns:lie] g= 75  fit(gbest)=     485.472  tau=3  t=  130.6s
+[2026-11-07 20:09:02]     [abcvns:lie] g=100  fit(gbest)=     485.472  tau=3  t=  181.6s
+[2026-11-07 20:09:53]     [abcvns:lie] g=125  fit(gbest)=     485.472  tau=3  t=  231.8s
+[2026-11-07 20:10:43]     [abcvns:lie] g=150  fit(gbest)=     485.472  tau=3  t=  281.8s
+[2026-11-07 20:10:43]   done slashdot k=40 ABCVNS (paper)   rs=18 t=   281.85s pos=  2221.01 neg=     5.76 tot=  2226.76 fit=     485.472
+[2026-11-07 20:10:43] [slashdot] k=40 ABCVNS (paper) rs=19 budget=8000 ...
+[2026-11-07 20:11:09]     [abcvns:lie] g= 25  fit(gbest)=     491.989  tau=1  t=   26.0s
+[2026-11-07 20:11:52]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=1  t=   68.9s
+[2026-11-07 20:12:30]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=1  t=  107.1s
+[2026-11-07 20:13:10]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=1  t=  147.4s
+[2026-11-07 20:13:55]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=1  t=  192.2s
+[2026-11-07 20:14:40]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=1  t=  236.9s
+[2026-11-07 20:14:40]   done slashdot k=40 ABCVNS (paper)   rs=19 t=   236.94s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 20:14:40] [slashdot] k=40 ABCVNS (paper) rs=20 budget=8000 ...
+[2026-11-07 20:15:03]     [abcvns:lie] g= 25  fit(gbest)=     492.181  tau=3  t=   23.5s
+[2026-11-07 20:15:48]     [abcvns:lie] g= 50  fit(gbest)=     492.181  tau=3  t=   68.5s
+[2026-11-07 20:16:34]     [abcvns:lie] g= 75  fit(gbest)=     492.181  tau=3  t=  114.1s
+[2026-11-07 20:17:21]     [abcvns:lie] g=100  fit(gbest)=     492.181  tau=3  t=  160.7s
+[2026-11-07 20:18:08]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=3  t=  207.7s
+[2026-11-07 20:18:54]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=3  t=  253.9s
+[2026-11-07 20:18:54]   done slashdot k=40 ABCVNS (paper)   rs=20 t=   253.86s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 20:18:54] [slashdot] k=40 ABCVNS (paper) rs=21 budget=8000 ...
+[2026-11-07 20:19:18]     [abcvns:lie] g= 25  fit(gbest)=     491.822  tau=2  t=   24.6s
+[2026-11-07 20:19:58]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=2  t=   64.3s
+[2026-11-07 20:20:44]     [abcvns:lie] g= 75  fit(gbest)=     492.181  tau=4  t=  110.2s
+[2026-11-07 20:21:30]     [abcvns:lie] g=100  fit(gbest)=     492.181  tau=4  t=  156.1s
+[2026-11-07 20:22:22]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=4  t=  208.0s
+[2026-11-07 20:23:10]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=4  t=  256.7s
+[2026-11-07 20:23:10]   done slashdot k=40 ABCVNS (paper)   rs=21 t=   256.67s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 20:23:10] [slashdot] k=40 ABCVNS (paper) rs=22 budget=8000 ...
+[2026-11-07 20:23:34]     [abcvns:lie] g= 25  fit(gbest)=     492.181  tau=1  t=   23.6s
+[2026-11-07 20:24:22]     [abcvns:lie] g= 50  fit(gbest)=     492.181  tau=1  t=   71.2s
+[2026-11-07 20:25:07]     [abcvns:lie] g= 75  fit(gbest)=     492.181  tau=1  t=  116.9s
+[2026-11-07 20:25:54]     [abcvns:lie] g=100  fit(gbest)=     492.181  tau=1  t=  163.7s
+[2026-11-07 20:26:42]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=1  t=  211.9s
+[2026-11-07 20:27:32]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=1  t=  261.4s
+[2026-11-07 20:27:32]   done slashdot k=40 ABCVNS (paper)   rs=22 t=   261.40s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 20:27:32] [slashdot] k=40 ABCVNS (paper) rs=23 budget=8000 ...
+[2026-11-07 20:28:00]     [abcvns:lie] g= 25  fit(gbest)=     491.989  tau=0  t=   28.3s
+[2026-11-07 20:28:40]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=0  t=   68.6s
+[2026-11-07 20:29:22]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=0  t=  109.9s
+[2026-11-07 20:30:03]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=0  t=  151.1s
+[2026-11-07 20:30:47]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=0  t=  195.2s
+[2026-11-07 20:31:30]     [abcvns:lie] g=150  fit(gbest)=     491.989  tau=0  t=  238.5s
+[2026-11-07 20:31:30]   done slashdot k=40 ABCVNS (paper)   rs=23 t=   238.51s pos=  2445.17 neg=     6.10 tot=  2451.27 fit=     491.989
+[2026-11-07 20:31:30] [slashdot] k=40 ABCVNS (paper) rs=24 budget=8000 ...
+[2026-11-07 20:32:05]     [abcvns:lie] g= 25  fit(gbest)=     492.674  tau=1  t=   34.4s
+[2026-11-07 20:32:58]     [abcvns:lie] g= 50  fit(gbest)=     492.674  tau=1  t=   88.1s
+[2026-11-07 20:33:53]     [abcvns:lie] g= 75  fit(gbest)=     492.674  tau=1  t=  142.6s
+[2026-11-07 20:34:47]     [abcvns:lie] g=100  fit(gbest)=     492.674  tau=1  t=  196.7s
+[2026-11-07 20:35:44]     [abcvns:lie] g=125  fit(gbest)=     492.674  tau=1  t=  253.6s
+[2026-11-07 20:36:37]     [abcvns:lie] g=150  fit(gbest)=     492.674  tau=1  t=  306.7s
+[2026-11-07 20:36:37]   done slashdot k=40 ABCVNS (paper)   rs=24 t=   306.72s pos=  2458.23 neg=     4.10 tot=  2462.33 fit=     492.674
+[2026-11-07 20:36:37] [slashdot] k=40 ABCVNS (paper) rs=25 budget=8000 ...
+[2026-11-07 20:37:08]     [abcvns:lie] g= 25  fit(gbest)=     492.181  tau=1  t=   30.9s
+[2026-11-07 20:37:56]     [abcvns:lie] g= 50  fit(gbest)=     492.181  tau=1  t=   79.3s
+[2026-11-07 20:38:45]     [abcvns:lie] g= 75  fit(gbest)=     492.181  tau=1  t=  127.7s
+[2026-11-07 20:39:33]     [abcvns:lie] g=100  fit(gbest)=     492.181  tau=1  t=  176.3s
+[2026-11-07 20:40:21]     [abcvns:lie] g=125  fit(gbest)=     492.181  tau=1  t=  224.0s
+[2026-11-07 20:41:08]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=1  t=  271.0s
+[2026-11-07 20:41:08]   done slashdot k=40 ABCVNS (paper)   rs=25 t=   271.01s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 20:41:08] [slashdot] k=40 ABCVNS (paper) rs=26 budget=8000 ...
+[2026-11-07 20:41:34]     [abcvns:lie] g= 25  fit(gbest)=     491.989  tau=4  t=   25.6s
+[2026-11-07 20:42:16]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=4  t=   67.7s
+[2026-11-07 20:42:58]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=4  t=  110.2s
+[2026-11-07 20:43:39]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=4  t=  151.2s
+[2026-11-07 20:44:24]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=4  t=  195.5s
+[2026-11-07 20:45:11]     [abcvns:lie] g=150  fit(gbest)=     492.181  tau=4  t=  243.0s
+[2026-11-07 20:45:11]   done slashdot k=40 ABCVNS (paper)   rs=26 t=   243.01s pos=  2451.35 neg=     5.10 tot=  2456.45 fit=     492.181
+[2026-11-07 20:45:11] [slashdot] k=40 ABCVNS (paper) rs=27 budget=8000 ...
+[2026-11-07 20:45:38]     [abcvns:lie] g= 25  fit(gbest)=     491.989  tau=1  t=   26.7s
+[2026-11-07 20:46:19]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=1  t=   67.9s
+[2026-11-07 20:46:59]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=1  t=  108.1s
+[2026-11-07 20:47:41]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=1  t=  150.2s
+[2026-11-07 20:48:22]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=1  t=  190.6s
+[2026-11-07 20:49:02]     [abcvns:lie] g=150  fit(gbest)=     491.989  tau=1  t=  231.3s
+[2026-11-07 20:49:02]   done slashdot k=40 ABCVNS (paper)   rs=27 t=   231.28s pos=  2445.17 neg=     6.10 tot=  2451.27 fit=     491.989
+[2026-11-07 20:49:02] [slashdot] k=40 ABCVNS (paper) rs=28 budget=8000 ...
+[2026-11-07 20:49:34]     [abcvns:lie] g= 25  fit(gbest)=     485.472  tau=0  t=   31.3s
+[2026-11-07 20:50:30]     [abcvns:lie] g= 50  fit(gbest)=     485.472  tau=0  t=   87.9s
+[2026-11-07 20:51:23]     [abcvns:lie] g= 75  fit(gbest)=     485.472  tau=0  t=  140.2s
+[2026-11-07 20:52:15]     [abcvns:lie] g=100  fit(gbest)=     485.472  tau=0  t=  193.0s
+[2026-11-07 20:53:06]     [abcvns:lie] g=125  fit(gbest)=     485.472  tau=0  t=  243.6s
+[2026-11-07 20:53:59]     [abcvns:lie] g=150  fit(gbest)=     485.472  tau=0  t=  296.2s
+[2026-11-07 20:53:59]   done slashdot k=40 ABCVNS (paper)   rs=28 t=   296.17s pos=  2221.01 neg=     5.76 tot=  2226.76 fit=     485.472
+[2026-11-07 20:53:59] [slashdot] k=40 ABCVNS (paper) rs=29 budget=8000 ...
+[2026-11-07 20:54:27]     [abcvns:lie] g= 25  fit(gbest)=     491.989  tau=2  t=   28.5s
+[2026-11-07 20:55:08]     [abcvns:lie] g= 50  fit(gbest)=     491.989  tau=2  t=   69.4s
+[2026-11-07 20:55:53]     [abcvns:lie] g= 75  fit(gbest)=     491.989  tau=2  t=  114.5s
+[2026-11-07 20:56:35]     [abcvns:lie] g=100  fit(gbest)=     491.989  tau=2  t=  156.8s
+[2026-11-07 20:57:19]     [abcvns:lie] g=125  fit(gbest)=     491.989  tau=2  t=  200.0s
+[2026-11-07 20:58:01]     [abcvns:lie] g=150  fit(gbest)=     491.989  tau=2  t=  242.1s
+[2026-11-07 20:58:01]   done slashdot k=40 ABCVNS (paper)   rs=29 t=   242.06s pos=  2445.17 neg=     6.10 tot=  2451.27 fit=     491.989
+[2026-11-07 20:58:01] [slashdot] k=50 ABCVNS (paper) rs=0 budget=10000 ...
+[2026-11-07 20:58:39]     [abcvns:lie] g= 25  fit(gbest)=     553.016  tau=4  t=   38.5s
+[2026-11-07 20:59:42]     [abcvns:lie] g= 50  fit(gbest)=     553.016  tau=4  t=  101.5s
+[2026-11-07 21:00:47]     [abcvns:lie] g= 75  fit(gbest)=     553.016  tau=4  t=  166.5s
+[2026-11-07 21:01:53]     [abcvns:lie] g=100  fit(gbest)=     553.016  tau=4  t=  232.5s
+[2026-11-07 21:02:59]     [abcvns:lie] g=125  fit(gbest)=     553.016  tau=4  t=  298.5s
+[2026-11-07 21:04:07]     [abcvns:lie] g=150  fit(gbest)=     553.016  tau=4  t=  366.5s
+[2026-11-07 21:04:07]   done slashdot k=50 ABCVNS (paper)   rs= 0 t=   366.51s pos=  2563.70 neg=     8.10 tot=  2571.80 fit=     553.016
+[2026-11-07 21:04:07] [slashdot] k=50 ABCVNS (paper) rs=1 budget=10000 ...
+[2026-11-07 21:04:40]     [abcvns:lie] g= 25  fit(gbest)=     553.218  tau=1  t=   33.2s
+[2026-11-07 21:05:48]     [abcvns:lie] g= 50  fit(gbest)=     553.218  tau=1  t=  100.6s
+[2026-11-07 21:06:54]     [abcvns:lie] g= 75  fit(gbest)=     553.218  tau=1  t=  166.6s
+[2026-11-07 21:07:58]     [abcvns:lie] g=100  fit(gbest)=     553.218  tau=1  t=  230.9s
+[2026-11-07 21:09:04]     [abcvns:lie] g=125  fit(gbest)=     553.218  tau=1  t=  297.3s
+[2026-11-07 21:10:12]     [abcvns:lie] g=150  fit(gbest)=     553.218  tau=1  t=  364.6s
+[2026-11-07 21:10:12]   done slashdot k=50 ABCVNS (paper)   rs= 1 t=   364.62s pos=  2574.10 neg=     7.27 tot=  2581.37 fit=     553.218
+[2026-11-07 21:10:12] [slashdot] k=50 ABCVNS (paper) rs=2 budget=10000 ...
+[2026-11-07 21:10:50]     [abcvns:lie] g= 25  fit(gbest)=     545.676  tau=0  t=   38.5s
+[2026-11-07 21:11:48]     [abcvns:lie] g= 50  fit(gbest)=     546.408  tau=4  t=   96.6s
+[2026-11-07 21:12:54]     [abcvns:lie] g= 75  fit(gbest)=     546.408  tau=4  t=  162.4s
+[2026-11-07 21:13:59]     [abcvns:lie] g=100  fit(gbest)=     546.408  tau=4  t=  226.9s
+[2026-11-07 21:15:04]     [abcvns:lie] g=125  fit(gbest)=     546.408  tau=4  t=  292.4s
+[2026-11-07 21:16:12]     [abcvns:lie] g=150  fit(gbest)=     546.408  tau=4  t=  360.5s
+[2026-11-07 21:16:12]   done slashdot k=50 ABCVNS (paper)   rs= 2 t=   360.54s pos=  2337.36 neg=     6.93 tot=  2344.29 fit=     546.408
+[2026-11-07 21:16:12] [slashdot] k=50 ABCVNS (paper) rs=3 budget=10000 ...
+[2026-11-07 21:16:38]     [abcvns:lie] g= 25  fit(gbest)=     552.762  tau=4  t=   25.5s
+[2026-11-07 21:17:40]     [abcvns:lie] g= 50  fit(gbest)=     553.466  tau=3  t=   88.0s
+[2026-11-07 21:18:43]     [abcvns:lie] g= 75  fit(gbest)=     553.466  tau=3  t=  150.9s
+[2026-11-07 21:19:47]     [abcvns:lie] g=100  fit(gbest)=     553.466  tau=3  t=  214.3s
+[2026-11-07 21:20:50]     [abcvns:lie] g=125  fit(gbest)=     553.466  tau=3  t=  277.9s
+[2026-11-07 21:21:52]     [abcvns:lie] g=150  fit(gbest)=     553.466  tau=3  t=  339.7s
+[2026-11-07 21:21:52]   done slashdot k=50 ABCVNS (paper)   rs= 3 t=   339.71s pos=  2573.10 neg=     7.10 tot=  2580.20 fit=     553.466
+[2026-11-07 21:21:52] [slashdot] k=50 ABCVNS (paper) rs=4 budget=10000 ...
+[2026-11-07 21:22:25]     [abcvns:lie] g= 25  fit(gbest)=     546.158  tau=2  t=   32.9s
+[2026-11-07 21:23:29]     [abcvns:lie] g= 50  fit(gbest)=     546.158  tau=2  t=   96.6s
+[2026-11-07 21:24:30]     [abcvns:lie] g= 75  fit(gbest)=     546.158  tau=2  t=  157.6s
+[2026-11-07 21:25:25]     [abcvns:lie] g=100  fit(gbest)=     546.445  tau=4  t=  213.2s
+[2026-11-07 21:26:22]     [abcvns:lie] g=125  fit(gbest)=     546.445  tau=4  t=  269.8s
+[2026-11-07 21:27:24]     [abcvns:lie] g=150  fit(gbest)=     546.537  tau=1  t=  332.3s
+[2026-11-07 21:27:25]   done slashdot k=50 ABCVNS (paper)   rs= 4 t=   332.29s pos=  2347.35 neg=     6.93 tot=  2354.28 fit=     546.537
+[2026-11-07 21:27:25] [slashdot] k=50 ABCVNS (paper) rs=5 budget=10000 ...
+[2026-11-07 21:27:55]     [abcvns:lie] g= 25  fit(gbest)=     552.602  tau=3  t=   30.4s
+[2026-11-07 21:28:53]     [abcvns:lie] g= 50  fit(gbest)=     552.845  tau=3  t=   88.4s
+[2026-11-07 21:29:51]     [abcvns:lie] g= 75  fit(gbest)=     553.218  tau=3  t=  146.4s
+[2026-11-07 21:30:54]     [abcvns:lie] g=100  fit(gbest)=     553.218  tau=3  t=  209.5s
+[2026-11-07 21:31:57]     [abcvns:lie] g=125  fit(gbest)=     553.218  tau=3  t=  272.4s
+[2026-11-07 21:32:56]     [abcvns:lie] g=150  fit(gbest)=     553.218  tau=3  t=  331.6s
+[2026-11-07 21:32:56]   done slashdot k=50 ABCVNS (paper)   rs= 5 t=   331.62s pos=  2574.10 neg=     7.27 tot=  2581.37 fit=     553.218
+[2026-11-07 21:32:56] [slashdot] k=50 ABCVNS (paper) rs=6 budget=10000 ...
+[2026-11-07 21:33:27]     [abcvns:lie] g= 25  fit(gbest)=     552.541  tau=1  t=   30.7s
+[2026-11-07 21:34:28]     [abcvns:lie] g= 50  fit(gbest)=     552.541  tau=1  t=   92.2s
+[2026-11-07 21:35:24]     [abcvns:lie] g= 75  fit(gbest)=     552.687  tau=3  t=  147.5s
+[2026-11-07 21:36:25]     [abcvns:lie] g=100  fit(gbest)=     552.687  tau=3  t=  208.5s
+[2026-11-07 21:37:31]     [abcvns:lie] g=125  fit(gbest)=     552.687  tau=3  t=  274.4s
+[2026-11-07 21:38:34]     [abcvns:lie] g=150  fit(gbest)=     552.687  tau=3  t=  337.4s
+[2026-11-07 21:38:34]   done slashdot k=50 ABCVNS (paper)   rs= 6 t=   337.36s pos=  2576.33 neg=     7.27 tot=  2583.60 fit=     552.687
+[2026-11-07 21:38:34] [slashdot] k=50 ABCVNS (paper) rs=7 budget=10000 ...
+[2026-11-07 21:39:01]     [abcvns:lie] g= 25  fit(gbest)=     552.345  tau=0  t=   27.4s
+[2026-11-07 21:39:58]     [abcvns:lie] g= 50  fit(gbest)=     552.602  tau=1  t=   84.0s
+[2026-11-07 21:40:54]     [abcvns:lie] g= 75  fit(gbest)=     552.602  tau=1  t=  140.2s
+[2026-11-07 21:41:55]     [abcvns:lie] g=100  fit(gbest)=     553.218  tau=2  t=  201.1s
+[2026-11-07 21:43:02]     [abcvns:lie] g=125  fit(gbest)=     553.218  tau=2  t=  268.6s
+[2026-11-07 21:44:02]     [abcvns:lie] g=150  fit(gbest)=     553.218  tau=2  t=  328.9s
+[2026-11-07 21:44:02]   done slashdot k=50 ABCVNS (paper)   rs= 7 t=   328.86s pos=  2574.10 neg=     7.27 tot=  2581.37 fit=     553.218
+[2026-11-07 21:44:02] [slashdot] k=50 ABCVNS (paper) rs=8 budget=10000 ...
+[2026-11-07 21:44:31]     [abcvns:lie] g= 25  fit(gbest)=     553.016  tau=0  t=   29.1s
+[2026-11-07 21:45:33]     [abcvns:lie] g= 50  fit(gbest)=     553.218  tau=2  t=   90.5s
+[2026-11-07 21:46:30]     [abcvns:lie] g= 75  fit(gbest)=     553.218  tau=2  t=  147.5s
+[2026-11-07 21:47:32]     [abcvns:lie] g=100  fit(gbest)=     553.218  tau=2  t=  209.3s
+[2026-11-07 21:48:31]     [abcvns:lie] g=125  fit(gbest)=     553.218  tau=2  t=  268.3s
+[2026-11-07 21:49:31]     [abcvns:lie] g=150  fit(gbest)=     553.218  tau=2  t=  328.8s
+[2026-11-07 21:49:31]   done slashdot k=50 ABCVNS (paper)   rs= 8 t=   328.85s pos=  2574.10 neg=     7.27 tot=  2581.37 fit=     553.218
+[2026-11-07 21:49:31] [slashdot] k=50 ABCVNS (paper) rs=9 budget=10000 ...
+[2026-11-07 21:50:00]     [abcvns:lie] g= 25  fit(gbest)=     553.196  tau=0  t=   28.5s
+[2026-11-07 21:50:59]     [abcvns:lie] g= 50  fit(gbest)=     553.196  tau=0  t=   88.2s
+[2026-11-07 21:52:03]     [abcvns:lie] g= 75  fit(gbest)=     553.218  tau=0  t=  151.6s
+[2026-11-07 21:53:06]     [abcvns:lie] g=100  fit(gbest)=     553.218  tau=0  t=  214.8s
+[2026-11-07 21:54:05]     [abcvns:lie] g=125  fit(gbest)=     553.218  tau=0  t=  273.2s
+[2026-11-07 21:55:04]     [abcvns:lie] g=150  fit(gbest)=     553.218  tau=0  t=  332.4s
+[2026-11-07 21:55:04]   done slashdot k=50 ABCVNS (paper)   rs= 9 t=   332.40s pos=  2574.10 neg=     7.27 tot=  2581.37 fit=     553.218
+[2026-11-07 21:55:04] [slashdot] k=50 ABCVNS (paper) rs=10 budget=10000 ...
+[2026-11-07 21:55:32]     [abcvns:lie] g= 25  fit(gbest)=     553.733  tau=0  t=   28.4s
+[2026-11-07 21:56:35]     [abcvns:lie] g= 50  fit(gbest)=     553.733  tau=0  t=   91.3s
+[2026-11-07 21:57:35]     [abcvns:lie] g= 75  fit(gbest)=     553.733  tau=0  t=  151.7s
+[2026-11-07 21:58:36]     [abcvns:lie] g=100  fit(gbest)=     553.733  tau=0  t=  211.9s
+[2026-11-07 21:59:34]     [abcvns:lie] g=125  fit(gbest)=     553.733  tau=0  t=  270.2s
+[2026-11-07 22:00:32]     [abcvns:lie] g=150  fit(gbest)=     553.733  tau=0  t=  328.1s
+[2026-11-07 22:00:32]   done slashdot k=50 ABCVNS (paper)   rs=10 t=   328.14s pos=  2579.00 neg=     7.10 tot=  2586.10 fit=     553.733
+[2026-11-07 22:00:32] [slashdot] k=50 ABCVNS (paper) rs=11 budget=10000 ...
+[2026-11-07 22:01:01]     [abcvns:lie] g= 25  fit(gbest)=     552.762  tau=1  t=   29.6s
+[2026-11-07 22:02:07]     [abcvns:lie] g= 50  fit(gbest)=     553.218  tau=1  t=   95.5s
+[2026-11-07 22:03:09]     [abcvns:lie] g= 75  fit(gbest)=     553.218  tau=1  t=  157.0s
+[2026-11-07 22:04:11]     [abcvns:lie] g=100  fit(gbest)=     553.218  tau=1  t=  218.9s
+[2026-11-07 22:05:11]     [abcvns:lie] g=125  fit(gbest)=     553.218  tau=1  t=  279.4s
+[2026-11-07 22:06:14]     [abcvns:lie] g=150  fit(gbest)=     553.218  tau=1  t=  342.2s
+[2026-11-07 22:06:14]   done slashdot k=50 ABCVNS (paper)   rs=11 t=   342.22s pos=  2574.10 neg=     7.27 tot=  2581.37 fit=     553.218
+[2026-11-07 22:06:14] [slashdot] k=50 ABCVNS (paper) rs=12 budget=10000 ...
+[2026-11-07 22:06:42]     [abcvns:lie] g= 25  fit(gbest)=     552.603  tau=2  t=   28.0s
+[2026-11-07 22:07:44]     [abcvns:lie] g= 50  fit(gbest)=     553.021  tau=2  t=   90.0s
+[2026-11-07 22:08:46]     [abcvns:lie] g= 75  fit(gbest)=     553.127  tau=2  t=  151.4s
+[2026-11-07 22:09:49]     [abcvns:lie] g=100  fit(gbest)=     553.345  tau=1  t=  215.0s
+[2026-11-07 22:10:53]     [abcvns:lie] g=125  fit(gbest)=     553.345  tau=1  t=  279.4s
+[2026-11-07 22:11:52]     [abcvns:lie] g=150  fit(gbest)=     553.345  tau=1  t=  338.3s
+[2026-11-07 22:11:53]   done slashdot k=50 ABCVNS (paper)   rs=12 t=   338.35s pos=  2580.84 neg=     7.27 tot=  2588.11 fit=     553.345
+[2026-11-07 22:11:53] [slashdot] k=50 ABCVNS (paper) rs=13 budget=10000 ...
+[2026-11-07 22:12:31]     [abcvns:lie] g= 25  fit(gbest)=     545.381  tau=0  t=   38.6s
+[2026-11-07 22:13:27]     [abcvns:lie] g= 50  fit(gbest)=     552.762  tau=1  t=   94.4s
+[2026-11-07 22:14:29]     [abcvns:lie] g= 75  fit(gbest)=     552.762  tau=1  t=  156.1s
+[2026-11-07 22:15:28]     [abcvns:lie] g=100  fit(gbest)=     552.953  tau=4  t=  215.5s
+[2026-11-07 22:16:29]     [abcvns:lie] g=125  fit(gbest)=     552.953  tau=4  t=  276.2s
+[2026-11-07 22:17:29]     [abcvns:lie] g=150  fit(gbest)=     552.953  tau=4  t=  336.9s
+[2026-11-07 22:17:30]   done slashdot k=50 ABCVNS (paper)   rs=13 t=   336.95s pos=  2568.20 neg=     7.27 tot=  2575.47 fit=     552.953
+[2026-11-07 22:17:30] [slashdot] k=50 ABCVNS (paper) rs=14 budget=10000 ...
+[2026-11-07 22:18:02]     [abcvns:lie] g= 25  fit(gbest)=     553.733  tau=3  t=   32.1s
+[2026-11-07 22:19:01]     [abcvns:lie] g= 50  fit(gbest)=     553.733  tau=3  t=   91.5s
+[2026-11-07 22:20:05]     [abcvns:lie] g= 75  fit(gbest)=     553.733  tau=3  t=  155.4s
+[2026-11-07 22:21:05]     [abcvns:lie] g=100  fit(gbest)=     553.733  tau=3  t=  215.9s
+[2026-11-07 22:22:05]     [abcvns:lie] g=125  fit(gbest)=     553.733  tau=3  t=  275.9s
+[2026-11-07 22:23:12]     [abcvns:lie] g=150  fit(gbest)=     553.733  tau=3  t=  343.0s
+[2026-11-07 22:23:12]   done slashdot k=50 ABCVNS (paper)   rs=14 t=   342.99s pos=  2579.00 neg=     7.10 tot=  2586.10 fit=     553.733
+[2026-11-07 22:23:12] [slashdot] k=50 ABCVNS (paper) rs=15 budget=10000 ...
+[2026-11-07 22:23:41]     [abcvns:lie] g= 25  fit(gbest)=     552.603  tau=3  t=   28.7s
+[2026-11-07 22:24:45]     [abcvns:lie] g= 50  fit(gbest)=     552.631  tau=3  t=   92.5s
+[2026-11-07 22:25:46]     [abcvns:lie] g= 75  fit(gbest)=     553.021  tau=1  t=  153.2s
+[2026-11-07 22:26:45]     [abcvns:lie] g=100  fit(gbest)=     553.112  tau=1  t=  212.1s
+[2026-11-07 22:27:45]     [abcvns:lie] g=125  fit(gbest)=     553.112  tau=1  t=  272.4s
+[2026-11-07 22:28:50]     [abcvns:lie] g=150  fit(gbest)=     553.112  tau=1  t=  338.0s
+[2026-11-07 22:28:51]   done slashdot k=50 ABCVNS (paper)   rs=15 t=   337.98s pos=  2570.04 neg=     7.10 tot=  2577.14 fit=     553.111
+[2026-11-07 22:28:51] [slashdot] k=50 ABCVNS (paper) rs=16 budget=10000 ...
+[2026-11-07 22:29:23]     [abcvns:lie] g= 25  fit(gbest)=     545.381  tau=2  t=   32.3s
+[2026-11-07 22:30:24]     [abcvns:lie] g= 50  fit(gbest)=     545.381  tau=2  t=   93.3s
+[2026-11-07 22:31:25]     [abcvns:lie] g= 75  fit(gbest)=     546.166  tau=1  t=  154.8s
+[2026-11-07 22:32:24]     [abcvns:lie] g=100  fit(gbest)=     546.166  tau=1  t=  213.7s
+[2026-11-07 22:33:24]     [abcvns:lie] g=125  fit(gbest)=     546.166  tau=1  t=  273.2s
+[2026-11-07 22:34:23]     [abcvns:lie] g=150  fit(gbest)=     546.166  tau=1  t=  332.5s
+[2026-11-07 22:34:23]   done slashdot k=50 ABCVNS (paper)   rs=16 t=   332.50s pos=  2322.85 neg=     7.76 tot=  2330.61 fit=     546.166
+[2026-11-07 22:34:23] [slashdot] k=50 ABCVNS (paper) rs=17 budget=10000 ...
+[2026-11-07 22:34:46]     [abcvns:lie] g= 25  fit(gbest)=     546.158  tau=2  t=   23.4s
+[2026-11-07 22:35:49]     [abcvns:lie] g= 50  fit(gbest)=     546.158  tau=2  t=   86.2s
+[2026-11-07 22:36:52]     [abcvns:lie] g= 75  fit(gbest)=     546.158  tau=2  t=  148.6s
+[2026-11-07 22:37:53]     [abcvns:lie] g=100  fit(gbest)=     546.158  tau=2  t=  210.3s
+[2026-11-07 22:38:56]     [abcvns:lie] g=125  fit(gbest)=     553.127  tau=1  t=  273.0s
+[2026-11-07 22:39:54]     [abcvns:lie] g=150  fit(gbest)=     553.345  tau=4  t=  330.6s
+[2026-11-07 22:39:54]   done slashdot k=50 ABCVNS (paper)   rs=17 t=   330.58s pos=  2580.84 neg=     7.27 tot=  2588.11 fit=     553.345
+[2026-11-07 22:39:54] [slashdot] k=50 ABCVNS (paper) rs=18 budget=10000 ...
+[2026-11-07 22:40:21]     [abcvns:lie] g= 25  fit(gbest)=     552.682  tau=0  t=   27.4s
+[2026-11-07 22:41:20]     [abcvns:lie] g= 50  fit(gbest)=     552.682  tau=0  t=   86.5s
+[2026-11-07 22:42:22]     [abcvns:lie] g= 75  fit(gbest)=     553.079  tau=0  t=  148.4s
+[2026-11-07 22:43:25]     [abcvns:lie] g=100  fit(gbest)=     553.079  tau=0  t=  211.2s
+[2026-11-07 22:44:24]     [abcvns:lie] g=125  fit(gbest)=     553.367  tau=0  t=  270.6s
+[2026-11-07 22:45:26]     [abcvns:lie] g=150  fit(gbest)=     553.367  tau=0  t=  332.5s
+[2026-11-07 22:45:26]   done slashdot k=50 ABCVNS (paper)   rs=18 t=   332.51s pos=  2566.76 neg=     8.10 tot=  2574.86 fit=     553.367
+[2026-11-07 22:45:26] [slashdot] k=50 ABCVNS (paper) rs=19 budget=10000 ...
+[2026-11-07 22:45:55]     [abcvns:lie] g= 25  fit(gbest)=     551.615  tau=1  t=   28.8s
+[2026-11-07 22:46:58]     [abcvns:lie] g= 50  fit(gbest)=     551.615  tau=1  t=   91.8s
+[2026-11-07 22:48:01]     [abcvns:lie] g= 75  fit(gbest)=     551.615  tau=1  t=  154.6s
+[2026-11-07 22:49:01]     [abcvns:lie] g=100  fit(gbest)=     551.615  tau=1  t=  214.5s
+[2026-11-07 22:50:01]     [abcvns:lie] g=125  fit(gbest)=     551.615  tau=1  t=  274.6s
+[2026-11-07 22:51:01]     [abcvns:lie] g=150  fit(gbest)=     552.631  tau=0  t=  334.9s
+[2026-11-07 22:51:01]   done slashdot k=50 ABCVNS (paper)   rs=19 t=   334.89s pos=  2569.74 neg=     8.10 tot=  2577.84 fit=     552.631
+[2026-11-07 22:51:01] [slashdot] k=50 ABCVNS (paper) rs=20 budget=10000 ...
+[2026-11-07 22:51:31]     [abcvns:lie] g= 25  fit(gbest)=     552.682  tau=2  t=   30.1s
+[2026-11-07 22:52:30]     [abcvns:lie] g= 50  fit(gbest)=     552.682  tau=2  t=   88.8s
+[2026-11-07 22:53:30]     [abcvns:lie] g= 75  fit(gbest)=     552.682  tau=2  t=  149.2s
+[2026-11-07 22:54:34]     [abcvns:lie] g=100  fit(gbest)=     552.682  tau=2  t=  212.9s
+[2026-11-07 22:55:36]     [abcvns:lie] g=125  fit(gbest)=     553.079  tau=2  t=  274.8s
+[2026-11-07 22:56:33]     [abcvns:lie] g=150  fit(gbest)=     553.079  tau=2  t=  331.8s
+[2026-11-07 22:56:33]   done slashdot k=50 ABCVNS (paper)   rs=20 t=   331.75s pos=  2573.43 neg=     8.10 tot=  2581.53 fit=     553.079
+[2026-11-07 22:56:33] [slashdot] k=50 ABCVNS (paper) rs=21 budget=10000 ...
+[2026-11-07 22:57:10]     [abcvns:lie] g= 25  fit(gbest)=     552.345  tau=0  t=   37.2s
+[2026-11-07 22:58:12]     [abcvns:lie] g= 50  fit(gbest)=     552.687  tau=3  t=   99.2s
+[2026-11-07 22:59:16]     [abcvns:lie] g= 75  fit(gbest)=     552.687  tau=3  t=  162.8s
+[2026-11-07 23:00:19]     [abcvns:lie] g=100  fit(gbest)=     552.687  tau=3  t=  225.8s
+[2026-11-07 23:01:23]     [abcvns:lie] g=125  fit(gbest)=     552.687  tau=3  t=  290.2s
+[2026-11-07 23:02:28]     [abcvns:lie] g=150  fit(gbest)=     552.687  tau=3  t=  355.3s
+[2026-11-07 23:02:28]   done slashdot k=50 ABCVNS (paper)   rs=21 t=   355.34s pos=  2576.33 neg=     7.27 tot=  2583.60 fit=     552.687
+[2026-11-07 23:02:28] [slashdot] k=50 ABCVNS (paper) rs=22 budget=10000 ...
+[2026-11-07 23:02:59]     [abcvns:lie] g= 25  fit(gbest)=     553.016  tau=1  t=   30.9s
+[2026-11-07 23:04:00]     [abcvns:lie] g= 50  fit(gbest)=     553.218  tau=4  t=   91.3s
+[2026-11-07 23:04:59]     [abcvns:lie] g= 75  fit(gbest)=     553.218  tau=4  t=  151.0s
+[2026-11-07 23:06:06]     [abcvns:lie] g=100  fit(gbest)=     553.218  tau=4  t=  218.1s
+[2026-11-07 23:07:09]     [abcvns:lie] g=125  fit(gbest)=     553.218  tau=4  t=  280.6s
+[2026-11-07 23:08:14]     [abcvns:lie] g=150  fit(gbest)=     553.218  tau=4  t=  345.6s
+[2026-11-07 23:08:14]   done slashdot k=50 ABCVNS (paper)   rs=22 t=   345.61s pos=  2574.10 neg=     7.27 tot=  2581.37 fit=     553.218
+[2026-11-07 23:08:14] [slashdot] k=50 ABCVNS (paper) rs=23 budget=10000 ...
+[2026-11-07 23:08:52]     [abcvns:lie] g= 25  fit(gbest)=     546.779  tau=0  t=   37.6s
+[2026-11-07 23:09:53]     [abcvns:lie] g= 50  fit(gbest)=     547.054  tau=4  t=   99.0s
+[2026-11-07 23:10:59]     [abcvns:lie] g= 75  fit(gbest)=     547.054  tau=4  t=  165.3s
+[2026-11-07 23:12:01]     [abcvns:lie] g=100  fit(gbest)=     547.054  tau=4  t=  227.1s
+[2026-11-07 23:13:05]     [abcvns:lie] g=125  fit(gbest)=     547.054  tau=4  t=  291.0s
+[2026-11-07 23:14:07]     [abcvns:lie] g=150  fit(gbest)=     547.054  tau=4  t=  353.3s
+[2026-11-07 23:14:07]   done slashdot k=50 ABCVNS (paper)   rs=23 t=   353.28s pos=  2341.96 neg=     6.93 tot=  2348.89 fit=     547.054
+[2026-11-07 23:14:07] [slashdot] k=50 ABCVNS (paper) rs=24 budget=10000 ...
+[2026-11-07 23:14:39]     [abcvns:lie] g= 25  fit(gbest)=     552.749  tau=3  t=   32.1s
+[2026-11-07 23:15:42]     [abcvns:lie] g= 50  fit(gbest)=     553.034  tau=3  t=   94.6s
+[2026-11-07 23:16:46]     [abcvns:lie] g= 75  fit(gbest)=     553.089  tau=4  t=  158.7s
+[2026-11-07 23:17:50]     [abcvns:lie] g=100  fit(gbest)=     553.199  tau=4  t=  222.6s
+[2026-11-07 23:18:52]     [abcvns:lie] g=125  fit(gbest)=     553.199  tau=4  t=  284.7s
+[2026-11-07 23:19:55]     [abcvns:lie] g=150  fit(gbest)=     553.199  tau=4  t=  347.6s
+[2026-11-07 23:19:55]   done slashdot k=50 ABCVNS (paper)   rs=24 t=   347.57s pos=  2584.64 neg=     6.27 tot=  2590.91 fit=     553.199
+[2026-11-07 23:19:55] [slashdot] k=50 ABCVNS (paper) rs=25 budget=10000 ...
+[2026-11-07 23:20:30]     [abcvns:lie] g= 25  fit(gbest)=     546.166  tau=3  t=   34.9s
+[2026-11-07 23:21:35]     [abcvns:lie] g= 50  fit(gbest)=     546.359  tau=0  t=   99.9s
+[2026-11-07 23:22:35]     [abcvns:lie] g= 75  fit(gbest)=     546.408  tau=3  t=  159.6s
+[2026-11-07 23:23:35]     [abcvns:lie] g=100  fit(gbest)=     546.408  tau=3  t=  219.6s
+[2026-11-07 23:24:37]     [abcvns:lie] g=125  fit(gbest)=     546.408  tau=3  t=  282.4s
+[2026-11-07 23:25:35]     [abcvns:lie] g=150  fit(gbest)=     553.112  tau=2  t=  340.4s
+[2026-11-07 23:25:35]   done slashdot k=50 ABCVNS (paper)   rs=25 t=   340.42s pos=  2570.04 neg=     7.10 tot=  2577.14 fit=     553.111
+[2026-11-07 23:25:35] [slashdot] k=50 ABCVNS (paper) rs=26 budget=10000 ...
+[2026-11-07 23:26:04]     [abcvns:lie] g= 25  fit(gbest)=     551.625  tau=1  t=   29.2s
+[2026-11-07 23:27:07]     [abcvns:lie] g= 50  fit(gbest)=     551.993  tau=1  t=   91.3s
+[2026-11-07 23:28:09]     [abcvns:lie] g= 75  fit(gbest)=     551.993  tau=1  t=  153.9s
+[2026-11-07 23:29:10]     [abcvns:lie] g=100  fit(gbest)=     551.993  tau=1  t=  214.6s
+[2026-11-07 23:30:13]     [abcvns:lie] g=125  fit(gbest)=     552.969  tau=1  t=  277.9s
+[2026-11-07 23:31:16]     [abcvns:lie] g=150  fit(gbest)=     553.016  tau=1  t=  341.0s
+[2026-11-07 23:31:16]   done slashdot k=50 ABCVNS (paper)   rs=26 t=   341.02s pos=  2563.70 neg=     8.10 tot=  2571.80 fit=     553.016
+[2026-11-07 23:31:16] [slashdot] k=50 ABCVNS (paper) rs=27 budget=10000 ...
+[2026-11-07 23:31:47]     [abcvns:lie] g= 25  fit(gbest)=     553.016  tau=0  t=   31.0s
+[2026-11-07 23:32:53]     [abcvns:lie] g= 50  fit(gbest)=     553.016  tau=0  t=   96.4s
+[2026-11-07 23:33:54]     [abcvns:lie] g= 75  fit(gbest)=     553.016  tau=0  t=  157.7s
+[2026-11-07 23:34:58]     [abcvns:lie] g=100  fit(gbest)=     553.016  tau=0  t=  222.0s
+[2026-11-07 23:36:02]     [abcvns:lie] g=125  fit(gbest)=     553.016  tau=0  t=  285.5s
+[2026-11-07 23:37:04]     [abcvns:lie] g=150  fit(gbest)=     553.016  tau=0  t=  347.5s
+[2026-11-07 23:37:04]   done slashdot k=50 ABCVNS (paper)   rs=27 t=   347.48s pos=  2563.70 neg=     8.10 tot=  2571.80 fit=     553.016
+[2026-11-07 23:37:04] [slashdot] k=50 ABCVNS (paper) rs=28 budget=10000 ...
+[2026-11-07 23:37:34]     [abcvns:lie] g= 25  fit(gbest)=     552.631  tau=2  t=   29.8s
+[2026-11-07 23:38:38]     [abcvns:lie] g= 50  fit(gbest)=     553.021  tau=2  t=   94.1s
+[2026-11-07 23:39:38]     [abcvns:lie] g= 75  fit(gbest)=     553.127  tau=2  t=  154.1s
+[2026-11-07 23:40:42]     [abcvns:lie] g=100  fit(gbest)=     553.466  tau=0  t=  218.3s
+[2026-11-07 23:41:46]     [abcvns:lie] g=125  fit(gbest)=     553.466  tau=0  t=  281.9s
+[2026-11-07 23:42:44]     [abcvns:lie] g=150  fit(gbest)=     553.641  tau=0  t=  340.3s
+[2026-11-07 23:42:44]   done slashdot k=50 ABCVNS (paper)   rs=28 t=   340.34s pos=  2577.16 neg=     7.27 tot=  2584.43 fit=     553.641
+[2026-11-07 23:42:44] [slashdot] k=50 ABCVNS (paper) rs=29 budget=10000 ...
+[2026-11-07 23:43:15]     [abcvns:lie] g= 25  fit(gbest)=     545.712  tau=0  t=   30.6s
+[2026-11-07 23:44:11]     [abcvns:lie] g= 50  fit(gbest)=     546.408  tau=0  t=   86.3s
+[2026-11-07 23:45:14]     [abcvns:lie] g= 75  fit(gbest)=     546.408  tau=0  t=  149.9s
+[2026-11-07 23:46:15]     [abcvns:lie] g=100  fit(gbest)=     546.408  tau=0  t=  211.0s
+[2026-11-07 23:47:16]     [abcvns:lie] g=125  fit(gbest)=     546.408  tau=0  t=  272.3s
+[2026-11-07 23:48:16]     [abcvns:lie] g=150  fit(gbest)=     553.218  tau=2  t=  331.7s
+[2026-11-07 23:48:16]   done slashdot k=50 ABCVNS (paper)   rs=29 t=   331.68s pos=  2574.10 neg=     7.27 tot=  2581.37 fit=     553.218
+[2026-11-07 23:48:16] benchmark finished: 42 new cells (1230 total) -> results.csv
+[2026-11-07 23:48:17] [scheduler] phase -> --graphs slashdot --algs ABCVNS (fixed)
+[2026-11-07 23:48:19] == signed benchmark == graphs=['slashdot'] ks=[10, 20, 30, 40, 50] restarts={'Random': 1, 'Degree': 1, 'ABC (proposed)': 30, 'ABCVNS (paper)': 30, 'ABCVNS (fixed)': 30} R_fit=30 R_ho=300 quick=False
+[2026-11-07 23:48:20] [slashdot] n=82140 m=500481 pool=200 R_fit=30 R_ho=300
+[2026-11-07 23:48:20] [slashdot] k=10 ABCVNS (fixed) rs=0 budget=2000 ...
+[2026-11-07 23:48:31]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=2  t=   10.1s
+[2026-11-07 23:48:42]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=2  t=   21.8s
+[2026-11-07 23:48:55]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=2  t=   34.4s
+[2026-11-07 23:49:06]     [abcvns:mr] g=100  fit(gbest)=    1679.366  tau=2  t=   45.2s
+[2026-11-07 23:49:17]     [abcvns:mr] g=125  fit(gbest)=    1679.366  tau=2  t=   56.5s
+[2026-11-07 23:49:30]     [abcvns:mr] g=150  fit(gbest)=    1679.366  tau=2  t=   69.2s
+[2026-11-07 23:49:30]   done slashdot k=10 ABCVNS (fixed)   rs= 0 t=    69.16s pos=  1706.79 neg=     0.54 tot=  1707.33 fit=    1679.366
+[2026-11-07 23:49:30] [slashdot] k=10 ABCVNS (fixed) rs=1 budget=2000 ...
+[2026-11-07 23:49:40]     [abcvns:mr] g= 25  fit(gbest)=    1725.799  tau=2  t=    9.9s
+[2026-11-07 23:49:51]     [abcvns:mr] g= 50  fit(gbest)=    1790.390  tau=4  t=   20.8s
+[2026-11-07 23:50:03]     [abcvns:mr] g= 75  fit(gbest)=    1790.390  tau=4  t=   33.0s
+[2026-11-07 23:50:15]     [abcvns:mr] g=100  fit(gbest)=    1790.390  tau=4  t=   45.2s
+[2026-11-07 23:50:28]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=4  t=   58.0s
+[2026-11-07 23:50:39]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=4  t=   69.5s
+[2026-11-07 23:50:39]   done slashdot k=10 ABCVNS (fixed)   rs= 1 t=    69.48s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-07 23:50:39] [slashdot] k=10 ABCVNS (fixed) rs=2 budget=2000 ...
+[2026-11-07 23:50:50]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=3  t=   10.4s
+[2026-11-07 23:51:03]     [abcvns:mr] g= 50  fit(gbest)=    1725.799  tau=1  t=   23.3s
+[2026-11-07 23:51:15]     [abcvns:mr] g= 75  fit(gbest)=    1725.799  tau=1  t=   35.7s
+[2026-11-07 23:51:26]     [abcvns:mr] g=100  fit(gbest)=    1725.799  tau=1  t=   46.9s
+[2026-11-07 23:51:39]     [abcvns:mr] g=125  fit(gbest)=    1725.799  tau=1  t=   59.4s
+[2026-11-07 23:51:51]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=1  t=   71.6s
+[2026-11-07 23:51:51]   done slashdot k=10 ABCVNS (fixed)   rs= 2 t=    71.57s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-07 23:51:51] [slashdot] k=10 ABCVNS (fixed) rs=3 budget=2000 ...
+[2026-11-07 23:52:02]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=4  t=   10.9s
+[2026-11-07 23:52:13]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=4  t=   21.9s
+[2026-11-07 23:52:24]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=4  t=   33.3s
+[2026-11-07 23:52:36]     [abcvns:mr] g=100  fit(gbest)=    1679.366  tau=4  t=   44.7s
+[2026-11-07 23:52:46]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=3  t=   55.1s
+[2026-11-07 23:52:57]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=3  t=   66.6s
+[2026-11-07 23:52:57]   done slashdot k=10 ABCVNS (fixed)   rs= 3 t=    66.55s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-07 23:52:57] [slashdot] k=10 ABCVNS (fixed) rs=4 budget=2000 ...
+[2026-11-07 23:53:09]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=4  t=   11.8s
+[2026-11-07 23:53:22]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=4  t=   24.3s
+[2026-11-07 23:53:34]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=4  t=   36.1s
+[2026-11-07 23:53:45]     [abcvns:mr] g=100  fit(gbest)=    1790.390  tau=0  t=   47.9s
+[2026-11-07 23:53:58]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=0  t=   60.5s
+[2026-11-07 23:54:09]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=0  t=   72.0s
+[2026-11-07 23:54:09]   done slashdot k=10 ABCVNS (fixed)   rs= 4 t=    72.00s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-07 23:54:09] [slashdot] k=10 ABCVNS (fixed) rs=5 budget=2000 ...
+[2026-11-07 23:54:22]     [abcvns:mr] g= 25  fit(gbest)=    1544.935  tau=0  t=   12.9s
+[2026-11-07 23:54:34]     [abcvns:mr] g= 50  fit(gbest)=    1544.935  tau=0  t=   25.0s
+[2026-11-07 23:54:46]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=0  t=   36.6s
+[2026-11-07 23:54:59]     [abcvns:mr] g=100  fit(gbest)=    1679.366  tau=0  t=   50.0s
+[2026-11-07 23:55:12]     [abcvns:mr] g=125  fit(gbest)=    1679.366  tau=0  t=   62.2s
+[2026-11-07 23:55:23]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=0  t=   73.8s
+[2026-11-07 23:55:23]   done slashdot k=10 ABCVNS (fixed)   rs= 5 t=    73.84s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-07 23:55:23] [slashdot] k=10 ABCVNS (fixed) rs=6 budget=2000 ...
+[2026-11-07 23:55:33]     [abcvns:mr] g= 25  fit(gbest)=    1763.851  tau=0  t=   10.1s
+[2026-11-07 23:55:46]     [abcvns:mr] g= 50  fit(gbest)=    1790.390  tau=3  t=   22.8s
+[2026-11-07 23:55:58]     [abcvns:mr] g= 75  fit(gbest)=    1790.390  tau=3  t=   34.4s
+[2026-11-07 23:56:12]     [abcvns:mr] g=100  fit(gbest)=    1790.390  tau=3  t=   48.5s
+[2026-11-07 23:56:24]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=3  t=   60.4s
+[2026-11-07 23:56:38]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=3  t=   74.6s
+[2026-11-07 23:56:38]   done slashdot k=10 ABCVNS (fixed)   rs= 6 t=    74.59s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-07 23:56:38] [slashdot] k=10 ABCVNS (fixed) rs=7 budget=2000 ...
+[2026-11-07 23:56:52]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=0  t=   14.4s
+[2026-11-07 23:57:06]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=0  t=   27.8s
+[2026-11-07 23:57:18]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=0  t=   40.5s
+[2026-11-07 23:57:30]     [abcvns:mr] g=100  fit(gbest)=    1679.366  tau=0  t=   52.6s
+[2026-11-07 23:57:43]     [abcvns:mr] g=125  fit(gbest)=    1679.366  tau=0  t=   64.7s
+[2026-11-07 23:57:53]     [abcvns:mr] g=150  fit(gbest)=    1679.366  tau=0  t=   75.3s
+[2026-11-07 23:57:53]   done slashdot k=10 ABCVNS (fixed)   rs= 7 t=    75.32s pos=  1706.79 neg=     0.54 tot=  1707.33 fit=    1679.366
+[2026-11-07 23:57:53] [slashdot] k=10 ABCVNS (fixed) rs=8 budget=2000 ...
+[2026-11-07 23:58:06]     [abcvns:mr] g= 25  fit(gbest)=    1725.799  tau=3  t=   13.0s
+[2026-11-07 23:58:18]     [abcvns:mr] g= 50  fit(gbest)=    1725.799  tau=3  t=   24.5s
+[2026-11-07 23:58:30]     [abcvns:mr] g= 75  fit(gbest)=    1725.799  tau=3  t=   37.0s
+[2026-11-07 23:58:45]     [abcvns:mr] g=100  fit(gbest)=    1725.799  tau=3  t=   51.5s
+[2026-11-07 23:58:57]     [abcvns:mr] g=125  fit(gbest)=    1725.799  tau=3  t=   63.9s
+[2026-11-07 23:59:11]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=3  t=   78.0s
+[2026-11-07 23:59:11]   done slashdot k=10 ABCVNS (fixed)   rs= 8 t=    78.01s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-07 23:59:11] [slashdot] k=10 ABCVNS (fixed) rs=9 budget=2000 ...
+[2026-11-07 23:59:25]     [abcvns:mr] g= 25  fit(gbest)=    1725.799  tau=3  t=   13.7s
+[2026-11-07 23:59:37]     [abcvns:mr] g= 50  fit(gbest)=    1790.390  tau=0  t=   25.7s
+[2026-11-07 23:59:51]     [abcvns:mr] g= 75  fit(gbest)=    1790.390  tau=0  t=   39.4s
+[2026-11-08 00:00:04]     [abcvns:mr] g=100  fit(gbest)=    1790.390  tau=0  t=   52.7s
+[2026-11-08 00:00:17]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=0  t=   65.7s
+[2026-11-08 00:00:30]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=0  t=   79.2s
+[2026-11-08 00:00:30]   done slashdot k=10 ABCVNS (fixed)   rs= 9 t=    79.20s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-08 00:00:30] [slashdot] k=10 ABCVNS (fixed) rs=10 budget=2000 ...
+[2026-11-08 00:00:40]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=3  t=   10.0s
+[2026-11-08 00:00:52]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=3  t=   21.4s
+[2026-11-08 00:01:04]     [abcvns:mr] g= 75  fit(gbest)=    1765.329  tau=4  t=   34.0s
+[2026-11-08 00:01:17]     [abcvns:mr] g=100  fit(gbest)=    1765.329  tau=4  t=   46.7s
+[2026-11-08 00:01:29]     [abcvns:mr] g=125  fit(gbest)=    1765.329  tau=4  t=   58.4s
+[2026-11-08 00:01:43]     [abcvns:mr] g=150  fit(gbest)=    1765.329  tau=4  t=   72.1s
+[2026-11-08 00:01:43]   done slashdot k=10 ABCVNS (fixed)   rs=10 t=    72.12s pos=  1789.52 neg=     0.54 tot=  1790.06 fit=    1765.329
+[2026-11-08 00:01:43] [slashdot] k=10 ABCVNS (fixed) rs=11 budget=2000 ...
+[2026-11-08 00:01:53]     [abcvns:mr] g= 25  fit(gbest)=    1725.799  tau=2  t=   10.9s
+[2026-11-08 00:02:07]     [abcvns:mr] g= 50  fit(gbest)=    1725.799  tau=2  t=   24.1s
+[2026-11-08 00:02:18]     [abcvns:mr] g= 75  fit(gbest)=    1725.799  tau=2  t=   35.5s
+[2026-11-08 00:02:29]     [abcvns:mr] g=100  fit(gbest)=    1725.799  tau=2  t=   46.9s
+[2026-11-08 00:02:43]     [abcvns:mr] g=125  fit(gbest)=    1725.799  tau=2  t=   60.1s
+[2026-11-08 00:02:58]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=2  t=   75.1s
+[2026-11-08 00:02:58]   done slashdot k=10 ABCVNS (fixed)   rs=11 t=    75.11s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-08 00:02:58] [slashdot] k=10 ABCVNS (fixed) rs=12 budget=2000 ...
+[2026-11-08 00:03:11]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=3  t=   12.8s
+[2026-11-08 00:03:25]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=3  t=   27.0s
+[2026-11-08 00:03:37]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=3  t=   39.2s
+[2026-11-08 00:03:50]     [abcvns:mr] g=100  fit(gbest)=    1725.799  tau=2  t=   52.0s
+[2026-11-08 00:04:01]     [abcvns:mr] g=125  fit(gbest)=    1725.799  tau=2  t=   63.6s
+[2026-11-08 00:04:17]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=2  t=   79.1s
+[2026-11-08 00:04:17]   done slashdot k=10 ABCVNS (fixed)   rs=12 t=    79.07s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-08 00:04:17] [slashdot] k=10 ABCVNS (fixed) rs=13 budget=2000 ...
+[2026-11-08 00:04:28]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=3  t=   11.3s
+[2026-11-08 00:04:40]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=3  t=   23.6s
+[2026-11-08 00:04:52]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=3  t=   35.7s
+[2026-11-08 00:05:05]     [abcvns:mr] g=100  fit(gbest)=    1679.366  tau=3  t=   48.5s
+[2026-11-08 00:05:18]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=4  t=   60.8s
+[2026-11-08 00:05:29]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=4  t=   72.3s
+[2026-11-08 00:05:29]   done slashdot k=10 ABCVNS (fixed)   rs=13 t=    72.31s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-08 00:05:29] [slashdot] k=10 ABCVNS (fixed) rs=14 budget=2000 ...
+[2026-11-08 00:05:41]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=4  t=   12.0s
+[2026-11-08 00:05:53]     [abcvns:mr] g= 50  fit(gbest)=    1725.799  tau=4  t=   24.2s
+[2026-11-08 00:06:05]     [abcvns:mr] g= 75  fit(gbest)=    1725.799  tau=4  t=   36.2s
+[2026-11-08 00:06:17]     [abcvns:mr] g=100  fit(gbest)=    1725.799  tau=4  t=   47.9s
+[2026-11-08 00:06:29]     [abcvns:mr] g=125  fit(gbest)=    1725.799  tau=4  t=   59.9s
+[2026-11-08 00:06:41]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=4  t=   72.1s
+[2026-11-08 00:06:41]   done slashdot k=10 ABCVNS (fixed)   rs=14 t=    72.10s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-08 00:06:41] [slashdot] k=10 ABCVNS (fixed) rs=15 budget=2000 ...
+[2026-11-08 00:06:52]     [abcvns:mr] g= 25  fit(gbest)=    1725.799  tau=0  t=   11.2s
+[2026-11-08 00:07:04]     [abcvns:mr] g= 50  fit(gbest)=    1725.799  tau=0  t=   23.1s
+[2026-11-08 00:07:17]     [abcvns:mr] g= 75  fit(gbest)=    1725.799  tau=0  t=   36.2s
+[2026-11-08 00:07:30]     [abcvns:mr] g=100  fit(gbest)=    1725.799  tau=0  t=   48.9s
+[2026-11-08 00:07:44]     [abcvns:mr] g=125  fit(gbest)=    1725.799  tau=0  t=   63.2s
+[2026-11-08 00:07:56]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=0  t=   74.8s
+[2026-11-08 00:07:56]   done slashdot k=10 ABCVNS (fixed)   rs=15 t=    74.76s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-08 00:07:56] [slashdot] k=10 ABCVNS (fixed) rs=16 budget=2000 ...
+[2026-11-08 00:08:07]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=3  t=   11.4s
+[2026-11-08 00:08:20]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=3  t=   23.6s
+[2026-11-08 00:08:30]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=3  t=   34.6s
+[2026-11-08 00:08:41]     [abcvns:mr] g=100  fit(gbest)=    1698.890  tau=2  t=   45.2s
+[2026-11-08 00:08:53]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=2  t=   56.9s
+[2026-11-08 00:09:05]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=2  t=   68.8s
+[2026-11-08 00:09:05]   done slashdot k=10 ABCVNS (fixed)   rs=16 t=    68.83s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-08 00:09:05] [slashdot] k=10 ABCVNS (fixed) rs=17 budget=2000 ...
+[2026-11-08 00:09:16]     [abcvns:mr] g= 25  fit(gbest)=    1725.799  tau=4  t=   11.7s
+[2026-11-08 00:09:28]     [abcvns:mr] g= 50  fit(gbest)=    1725.799  tau=4  t=   23.6s
+[2026-11-08 00:09:42]     [abcvns:mr] g= 75  fit(gbest)=    1725.799  tau=4  t=   37.0s
+[2026-11-08 00:09:54]     [abcvns:mr] g=100  fit(gbest)=    1725.799  tau=4  t=   48.9s
+[2026-11-08 00:10:06]     [abcvns:mr] g=125  fit(gbest)=    1725.799  tau=4  t=   61.1s
+[2026-11-08 00:10:19]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=4  t=   74.7s
+[2026-11-08 00:10:19]   done slashdot k=10 ABCVNS (fixed)   rs=17 t=    74.74s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-08 00:10:19] [slashdot] k=10 ABCVNS (fixed) rs=18 budget=2000 ...
+[2026-11-08 00:10:33]     [abcvns:mr] g= 25  fit(gbest)=    1790.390  tau=0  t=   13.0s
+[2026-11-08 00:10:46]     [abcvns:mr] g= 50  fit(gbest)=    1790.390  tau=0  t=   26.3s
+[2026-11-08 00:10:58]     [abcvns:mr] g= 75  fit(gbest)=    1790.390  tau=0  t=   38.9s
+[2026-11-08 00:11:12]     [abcvns:mr] g=100  fit(gbest)=    1790.390  tau=0  t=   52.3s
+[2026-11-08 00:11:24]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=0  t=   65.0s
+[2026-11-08 00:11:39]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=0  t=   79.2s
+[2026-11-08 00:11:39]   done slashdot k=10 ABCVNS (fixed)   rs=18 t=    79.17s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-08 00:11:39] [slashdot] k=10 ABCVNS (fixed) rs=19 budget=2000 ...
+[2026-11-08 00:11:50]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=1  t=   11.1s
+[2026-11-08 00:12:01]     [abcvns:mr] g= 50  fit(gbest)=    1725.799  tau=2  t=   22.8s
+[2026-11-08 00:12:14]     [abcvns:mr] g= 75  fit(gbest)=    1725.799  tau=2  t=   35.5s
+[2026-11-08 00:12:26]     [abcvns:mr] g=100  fit(gbest)=    1725.799  tau=2  t=   47.0s
+[2026-11-08 00:12:37]     [abcvns:mr] g=125  fit(gbest)=    1725.799  tau=2  t=   58.5s
+[2026-11-08 00:12:51]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=2  t=   72.0s
+[2026-11-08 00:12:51]   done slashdot k=10 ABCVNS (fixed)   rs=19 t=    72.00s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-08 00:12:51] [slashdot] k=10 ABCVNS (fixed) rs=20 budget=2000 ...
+[2026-11-08 00:13:04]     [abcvns:mr] g= 25  fit(gbest)=    1725.799  tau=2  t=   12.9s
+[2026-11-08 00:13:15]     [abcvns:mr] g= 50  fit(gbest)=    1725.799  tau=2  t=   24.5s
+[2026-11-08 00:13:26]     [abcvns:mr] g= 75  fit(gbest)=    1725.799  tau=2  t=   35.6s
+[2026-11-08 00:13:38]     [abcvns:mr] g=100  fit(gbest)=    1725.799  tau=2  t=   47.5s
+[2026-11-08 00:13:51]     [abcvns:mr] g=125  fit(gbest)=    1725.799  tau=2  t=   59.9s
+[2026-11-08 00:14:02]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=2  t=   71.5s
+[2026-11-08 00:14:02]   done slashdot k=10 ABCVNS (fixed)   rs=20 t=    71.54s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-08 00:14:02] [slashdot] k=10 ABCVNS (fixed) rs=21 budget=2000 ...
+[2026-11-08 00:14:14]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=0  t=   11.3s
+[2026-11-08 00:14:25]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=0  t=   23.2s
+[2026-11-08 00:14:38]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=0  t=   36.1s
+[2026-11-08 00:14:51]     [abcvns:mr] g=100  fit(gbest)=    1679.366  tau=0  t=   48.9s
+[2026-11-08 00:15:03]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=0  t=   61.2s
+[2026-11-08 00:15:15]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=0  t=   72.7s
+[2026-11-08 00:15:15]   done slashdot k=10 ABCVNS (fixed)   rs=21 t=    72.71s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-08 00:15:15] [slashdot] k=10 ABCVNS (fixed) rs=22 budget=2000 ...
+[2026-11-08 00:15:27]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=0  t=   12.2s
+[2026-11-08 00:15:38]     [abcvns:mr] g= 50  fit(gbest)=    1790.390  tau=1  t=   23.1s
+[2026-11-08 00:15:51]     [abcvns:mr] g= 75  fit(gbest)=    1790.390  tau=1  t=   35.8s
+[2026-11-08 00:16:04]     [abcvns:mr] g=100  fit(gbest)=    1790.390  tau=1  t=   49.4s
+[2026-11-08 00:16:17]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=1  t=   62.4s
+[2026-11-08 00:16:29]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=1  t=   74.1s
+[2026-11-08 00:16:29]   done slashdot k=10 ABCVNS (fixed)   rs=22 t=    74.07s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-08 00:16:29] [slashdot] k=10 ABCVNS (fixed) rs=23 budget=2000 ...
+[2026-11-08 00:16:43]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=4  t=   14.2s
+[2026-11-08 00:16:56]     [abcvns:mr] g= 50  fit(gbest)=    1790.390  tau=3  t=   27.3s
+[2026-11-08 00:17:09]     [abcvns:mr] g= 75  fit(gbest)=    1790.390  tau=3  t=   40.0s
+[2026-11-08 00:17:21]     [abcvns:mr] g=100  fit(gbest)=    1790.390  tau=3  t=   52.2s
+[2026-11-08 00:17:33]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=3  t=   64.4s
+[2026-11-08 00:17:47]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=3  t=   78.1s
+[2026-11-08 00:17:47]   done slashdot k=10 ABCVNS (fixed)   rs=23 t=    78.10s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-08 00:17:47] [slashdot] k=10 ABCVNS (fixed) rs=24 budget=2000 ...
+[2026-11-08 00:17:59]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=0  t=   12.3s
+[2026-11-08 00:18:13]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=0  t=   26.1s
+[2026-11-08 00:18:25]     [abcvns:mr] g= 75  fit(gbest)=    1725.799  tau=0  t=   37.6s
+[2026-11-08 00:18:38]     [abcvns:mr] g=100  fit(gbest)=    1725.799  tau=0  t=   51.1s
+[2026-11-08 00:18:51]     [abcvns:mr] g=125  fit(gbest)=    1725.799  tau=0  t=   63.5s
+[2026-11-08 00:19:03]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=0  t=   76.2s
+[2026-11-08 00:19:03]   done slashdot k=10 ABCVNS (fixed)   rs=24 t=    76.19s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-08 00:19:03] [slashdot] k=10 ABCVNS (fixed) rs=25 budget=2000 ...
+[2026-11-08 00:19:13]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=4  t=   10.1s
+[2026-11-08 00:19:26]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=4  t=   22.6s
+[2026-11-08 00:19:39]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=4  t=   35.6s
+[2026-11-08 00:19:51]     [abcvns:mr] g=100  fit(gbest)=    1679.366  tau=4  t=   47.3s
+[2026-11-08 00:20:02]     [abcvns:mr] g=125  fit(gbest)=    1679.366  tau=4  t=   59.2s
+[2026-11-08 00:20:14]     [abcvns:mr] g=150  fit(gbest)=    1679.366  tau=4  t=   70.7s
+[2026-11-08 00:20:14]   done slashdot k=10 ABCVNS (fixed)   rs=25 t=    70.72s pos=  1706.79 neg=     0.54 tot=  1707.33 fit=    1679.366
+[2026-11-08 00:20:14] [slashdot] k=10 ABCVNS (fixed) rs=26 budget=2000 ...
+[2026-11-08 00:20:25]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=3  t=   11.3s
+[2026-11-08 00:20:38]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=3  t=   24.1s
+[2026-11-08 00:20:49]     [abcvns:mr] g= 75  fit(gbest)=    1790.390  tau=0  t=   35.5s
+[2026-11-08 00:21:03]     [abcvns:mr] g=100  fit(gbest)=    1790.390  tau=0  t=   48.7s
+[2026-11-08 00:21:16]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=0  t=   62.0s
+[2026-11-08 00:21:28]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=0  t=   73.9s
+[2026-11-08 00:21:28]   done slashdot k=10 ABCVNS (fixed)   rs=26 t=    73.85s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-08 00:21:28] [slashdot] k=10 ABCVNS (fixed) rs=27 budget=2000 ...
+[2026-11-08 00:21:38]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=0  t=   10.6s
+[2026-11-08 00:21:49]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=0  t=   21.6s
+[2026-11-08 00:22:01]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=0  t=   33.4s
+[2026-11-08 00:22:13]     [abcvns:mr] g=100  fit(gbest)=    1790.390  tau=4  t=   45.0s
+[2026-11-08 00:22:26]     [abcvns:mr] g=125  fit(gbest)=    1790.390  tau=4  t=   57.8s
+[2026-11-08 00:22:38]     [abcvns:mr] g=150  fit(gbest)=    1790.390  tau=4  t=   70.2s
+[2026-11-08 00:22:38]   done slashdot k=10 ABCVNS (fixed)   rs=27 t=    70.25s pos=  1817.18 neg=     0.54 tot=  1817.72 fit=    1790.390
+[2026-11-08 00:22:38] [slashdot] k=10 ABCVNS (fixed) rs=28 budget=2000 ...
+[2026-11-08 00:22:49]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=2  t=   11.2s
+[2026-11-08 00:23:01]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=2  t=   22.8s
+[2026-11-08 00:23:14]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=2  t=   35.7s
+[2026-11-08 00:23:27]     [abcvns:mr] g=100  fit(gbest)=    1679.366  tau=2  t=   48.4s
+[2026-11-08 00:23:40]     [abcvns:mr] g=125  fit(gbest)=    1679.366  tau=2  t=   61.6s
+[2026-11-08 00:23:52]     [abcvns:mr] g=150  fit(gbest)=    1679.366  tau=2  t=   73.5s
+[2026-11-08 00:23:52]   done slashdot k=10 ABCVNS (fixed)   rs=28 t=    73.52s pos=  1706.79 neg=     0.54 tot=  1707.33 fit=    1679.366
+[2026-11-08 00:23:52] [slashdot] k=10 ABCVNS (fixed) rs=29 budget=2000 ...
+[2026-11-08 00:24:04]     [abcvns:mr] g= 25  fit(gbest)=    1679.366  tau=4  t=   12.1s
+[2026-11-08 00:24:15]     [abcvns:mr] g= 50  fit(gbest)=    1679.366  tau=4  t=   23.6s
+[2026-11-08 00:24:28]     [abcvns:mr] g= 75  fit(gbest)=    1679.366  tau=4  t=   36.4s
+[2026-11-08 00:24:42]     [abcvns:mr] g=100  fit(gbest)=    1679.366  tau=4  t=   50.7s
+[2026-11-08 00:24:54]     [abcvns:mr] g=125  fit(gbest)=    1679.366  tau=4  t=   62.3s
+[2026-11-08 00:25:06]     [abcvns:mr] g=150  fit(gbest)=    1725.799  tau=0  t=   74.3s
+[2026-11-08 00:25:06]   done slashdot k=10 ABCVNS (fixed)   rs=29 t=    74.34s pos=  1752.86 neg=     0.54 tot=  1753.40 fit=    1725.799
+[2026-11-08 00:25:06] [slashdot] k=20 ABCVNS (fixed) rs=0 budget=4000 ...
+[2026-11-08 00:25:18]     [abcvns:mr] g= 25  fit(gbest)=    2047.610  tau=2  t=   12.5s
+[2026-11-08 00:25:34]     [abcvns:mr] g= 50  fit(gbest)=    2047.610  tau=2  t=   28.0s
+[2026-11-08 00:25:48]     [abcvns:mr] g= 75  fit(gbest)=    2059.205  tau=1  t=   42.0s
+[2026-11-08 00:26:02]     [abcvns:mr] g=100  fit(gbest)=    2068.306  tau=4  t=   56.3s
+[2026-11-08 00:26:18]     [abcvns:mr] g=125  fit(gbest)=    2188.532  tau=2  t=   72.4s
+[2026-11-08 00:26:37]     [abcvns:mr] g=150  fit(gbest)=    2188.532  tau=2  t=   91.0s
+[2026-11-08 00:26:37]   done slashdot k=20 ABCVNS (fixed)   rs= 0 t=    90.98s pos=  2221.50 neg=     1.10 tot=  2222.60 fit=    2188.532
+[2026-11-08 00:26:37] [slashdot] k=20 ABCVNS (fixed) rs=1 budget=4000 ...
+[2026-11-08 00:26:49]     [abcvns:mr] g= 25  fit(gbest)=    2026.377  tau=2  t=   12.4s
+[2026-11-08 00:27:04]     [abcvns:mr] g= 50  fit(gbest)=    2041.184  tau=2  t=   27.0s
+[2026-11-08 00:27:21]     [abcvns:mr] g= 75  fit(gbest)=    2068.306  tau=1  t=   43.9s
+[2026-11-08 00:27:39]     [abcvns:mr] g=100  fit(gbest)=    2068.306  tau=1  t=   61.6s
+[2026-11-08 00:27:54]     [abcvns:mr] g=125  fit(gbest)=    2068.306  tau=1  t=   77.5s
+[2026-11-08 00:28:11]     [abcvns:mr] g=150  fit(gbest)=    2069.068  tau=4  t=   94.5s
+[2026-11-08 00:28:12]   done slashdot k=20 ABCVNS (fixed)   rs= 1 t=    94.51s pos=  2102.34 neg=     1.10 tot=  2103.44 fit=    2069.068
+[2026-11-08 00:28:12] [slashdot] k=20 ABCVNS (fixed) rs=2 budget=4000 ...
+[2026-11-08 00:28:23]     [abcvns:mr] g= 25  fit(gbest)=    2043.686  tau=1  t=   11.9s
+[2026-11-08 00:28:38]     [abcvns:mr] g= 50  fit(gbest)=    2043.686  tau=1  t=   26.0s
+[2026-11-08 00:28:54]     [abcvns:mr] g= 75  fit(gbest)=    2051.244  tau=0  t=   42.0s
+[2026-11-08 00:29:10]     [abcvns:mr] g=100  fit(gbest)=    2057.650  tau=4  t=   58.6s
+[2026-11-08 00:29:26]     [abcvns:mr] g=125  fit(gbest)=    2057.650  tau=4  t=   74.3s
+[2026-11-08 00:29:42]     [abcvns:mr] g=150  fit(gbest)=    2057.650  tau=4  t=   90.5s
+[2026-11-08 00:29:42]   done slashdot k=20 ABCVNS (fixed)   rs= 2 t=    90.52s pos=  2090.90 neg=     1.10 tot=  2092.00 fit=    2057.650
+[2026-11-08 00:29:42] [slashdot] k=20 ABCVNS (fixed) rs=3 budget=4000 ...
+[2026-11-08 00:29:54]     [abcvns:mr] g= 25  fit(gbest)=    2066.752  tau=2  t=   12.3s
+[2026-11-08 00:30:12]     [abcvns:mr] g= 50  fit(gbest)=    2099.723  tau=0  t=   30.2s
+[2026-11-08 00:30:30]     [abcvns:mr] g= 75  fit(gbest)=    2159.870  tau=3  t=   48.3s
+[2026-11-08 00:30:50]     [abcvns:mr] g=100  fit(gbest)=    2159.870  tau=3  t=   67.4s
+[2026-11-08 00:31:04]     [abcvns:mr] g=125  fit(gbest)=    2182.655  tau=0  t=   82.3s
+[2026-11-08 00:31:19]     [abcvns:mr] g=150  fit(gbest)=    2193.561  tau=0  t=   97.2s
+[2026-11-08 00:31:19]   done slashdot k=20 ABCVNS (fixed)   rs= 3 t=    97.19s pos=  2227.04 neg=     1.10 tot=  2228.14 fit=    2193.561
+[2026-11-08 00:31:19] [slashdot] k=20 ABCVNS (fixed) rs=4 budget=4000 ...
+[2026-11-08 00:31:32]     [abcvns:mr] g= 25  fit(gbest)=    2066.752  tau=0  t=   12.5s
+[2026-11-08 00:31:52]     [abcvns:mr] g= 50  fit(gbest)=    2066.752  tau=0  t=   32.2s
+[2026-11-08 00:32:08]     [abcvns:mr] g= 75  fit(gbest)=    2066.752  tau=0  t=   48.8s
+[2026-11-08 00:32:24]     [abcvns:mr] g=100  fit(gbest)=    2066.752  tau=0  t=   64.8s
+[2026-11-08 00:32:39]     [abcvns:mr] g=125  fit(gbest)=    2180.027  tau=2  t=   79.4s
+[2026-11-08 00:32:56]     [abcvns:mr] g=150  fit(gbest)=    2193.561  tau=0  t=   97.2s
+[2026-11-08 00:32:56]   done slashdot k=20 ABCVNS (fixed)   rs= 4 t=    97.16s pos=  2227.04 neg=     1.10 tot=  2228.14 fit=    2193.561
+[2026-11-08 00:32:56] [slashdot] k=20 ABCVNS (fixed) rs=5 budget=4000 ...
+[2026-11-08 00:33:10]     [abcvns:mr] g= 25  fit(gbest)=    2043.686  tau=1  t=   13.9s
+[2026-11-08 00:33:28]     [abcvns:mr] g= 50  fit(gbest)=    2050.919  tau=1  t=   31.3s
+[2026-11-08 00:33:44]     [abcvns:mr] g= 75  fit(gbest)=    2050.919  tau=1  t=   47.2s
+[2026-11-08 00:34:00]     [abcvns:mr] g=100  fit(gbest)=    2050.919  tau=1  t=   63.6s
+[2026-11-08 00:34:18]     [abcvns:mr] g=125  fit(gbest)=    2070.090  tau=1  t=   81.3s
+[2026-11-08 00:34:35]     [abcvns:mr] g=150  fit(gbest)=    2070.090  tau=1  t=   98.6s
+[2026-11-08 00:34:35]   done slashdot k=20 ABCVNS (fixed)   rs= 5 t=    98.60s pos=  2104.50 neg=     1.10 tot=  2105.60 fit=    2070.090
+[2026-11-08 00:34:35] [slashdot] k=20 ABCVNS (fixed) rs=6 budget=4000 ...
+[2026-11-08 00:34:48]     [abcvns:mr] g= 25  fit(gbest)=    2010.948  tau=1  t=   12.8s
+[2026-11-08 00:35:03]     [abcvns:mr] g= 50  fit(gbest)=    2010.948  tau=1  t=   27.9s
+[2026-11-08 00:35:17]     [abcvns:mr] g= 75  fit(gbest)=    2067.120  tau=2  t=   41.9s
+[2026-11-08 00:35:31]     [abcvns:mr] g=100  fit(gbest)=    2163.476  tau=0  t=   55.8s
+[2026-11-08 00:35:45]     [abcvns:mr] g=125  fit(gbest)=    2198.277  tau=2  t=   69.4s
+[2026-11-08 00:36:00]     [abcvns:mr] g=150  fit(gbest)=    2198.277  tau=2  t=   85.0s
+[2026-11-08 00:36:00]   done slashdot k=20 ABCVNS (fixed)   rs= 6 t=    85.01s pos=  2232.98 neg=     1.10 tot=  2234.08 fit=    2198.277
+[2026-11-08 00:36:00] [slashdot] k=20 ABCVNS (fixed) rs=7 budget=4000 ...
+[2026-11-08 00:36:13]     [abcvns:mr] g= 25  fit(gbest)=    2040.464  tau=1  t=   13.2s
+[2026-11-08 00:36:29]     [abcvns:mr] g= 50  fit(gbest)=    2061.964  tau=0  t=   29.0s
+[2026-11-08 00:36:45]     [abcvns:mr] g= 75  fit(gbest)=    2061.964  tau=0  t=   44.8s
+[2026-11-08 00:37:00]     [abcvns:mr] g=100  fit(gbest)=    2061.964  tau=0  t=   59.4s
+[2026-11-08 00:37:15]     [abcvns:mr] g=125  fit(gbest)=    2066.752  tau=0  t=   75.2s
+[2026-11-08 00:37:32]     [abcvns:mr] g=150  fit(gbest)=    2066.752  tau=0  t=   92.2s
+[2026-11-08 00:37:32]   done slashdot k=20 ABCVNS (fixed)   rs= 7 t=    92.25s pos=  2100.19 neg=     1.10 tot=  2101.29 fit=    2066.752
+[2026-11-08 00:37:32] [slashdot] k=20 ABCVNS (fixed) rs=8 budget=4000 ...
+[2026-11-08 00:37:44]     [abcvns:mr] g= 25  fit(gbest)=    1946.737  tau=2  t=   11.5s
+[2026-11-08 00:37:57]     [abcvns:mr] g= 50  fit(gbest)=    2068.306  tau=3  t=   24.8s
+[2026-11-08 00:38:16]     [abcvns:mr] g= 75  fit(gbest)=    2068.306  tau=3  t=   43.5s
+[2026-11-08 00:38:33]     [abcvns:mr] g=100  fit(gbest)=    2068.306  tau=3  t=   60.2s
+[2026-11-08 00:38:51]     [abcvns:mr] g=125  fit(gbest)=    2068.306  tau=3  t=   78.8s
+[2026-11-08 00:39:07]     [abcvns:mr] g=150  fit(gbest)=    2068.306  tau=3  t=   94.1s
+[2026-11-08 00:39:07]   done slashdot k=20 ABCVNS (fixed)   rs= 8 t=    94.14s pos=  2102.06 neg=     1.10 tot=  2103.16 fit=    2068.306
+[2026-11-08 00:39:07] [slashdot] k=20 ABCVNS (fixed) rs=9 budget=4000 ...
+[2026-11-08 00:39:19]     [abcvns:mr] g= 25  fit(gbest)=    1870.681  tau=4  t=   12.3s
+[2026-11-08 00:39:35]     [abcvns:mr] g= 50  fit(gbest)=    1996.416  tau=2  t=   28.4s
+[2026-11-08 00:39:49]     [abcvns:mr] g= 75  fit(gbest)=    2151.598  tau=2  t=   42.0s
+[2026-11-08 00:40:06]     [abcvns:mr] g=100  fit(gbest)=    2151.598  tau=2  t=   59.7s
+[2026-11-08 00:40:22]     [abcvns:mr] g=125  fit(gbest)=    2151.598  tau=2  t=   75.3s
+[2026-11-08 00:40:39]     [abcvns:mr] g=150  fit(gbest)=    2159.870  tau=2  t=   92.6s
+[2026-11-08 00:40:39]   done slashdot k=20 ABCVNS (fixed)   rs= 9 t=    92.57s pos=  2190.87 neg=     0.73 tot=  2191.60 fit=    2159.870
+[2026-11-08 00:40:39] [slashdot] k=20 ABCVNS (fixed) rs=10 budget=4000 ...
+[2026-11-08 00:40:51]     [abcvns:mr] g= 25  fit(gbest)=    2050.974  tau=0  t=   11.4s
+[2026-11-08 00:41:07]     [abcvns:mr] g= 50  fit(gbest)=    2050.974  tau=0  t=   27.4s
+[2026-11-08 00:41:22]     [abcvns:mr] g= 75  fit(gbest)=    2050.974  tau=0  t=   43.1s
+[2026-11-08 00:41:39]     [abcvns:mr] g=100  fit(gbest)=    2050.974  tau=0  t=   60.0s
+[2026-11-08 00:41:57]     [abcvns:mr] g=125  fit(gbest)=    2057.845  tau=0  t=   77.8s
+[2026-11-08 00:42:13]     [abcvns:mr] g=150  fit(gbest)=    2067.712  tau=4  t=   93.7s
+[2026-11-08 00:42:13]   done slashdot k=20 ABCVNS (fixed)   rs=10 t=    93.66s pos=  2102.28 neg=     1.10 tot=  2103.38 fit=    2067.712
+[2026-11-08 00:42:13] [slashdot] k=20 ABCVNS (fixed) rs=11 budget=4000 ...
+[2026-11-08 00:42:27]     [abcvns:mr] g= 25  fit(gbest)=    2046.806  tau=1  t=   13.5s
+[2026-11-08 00:42:42]     [abcvns:mr] g= 50  fit(gbest)=    2066.752  tau=4  t=   29.5s
+[2026-11-08 00:42:57]     [abcvns:mr] g= 75  fit(gbest)=    2187.424  tau=2  t=   44.3s
+[2026-11-08 00:43:12]     [abcvns:mr] g=100  fit(gbest)=    2194.323  tau=3  t=   59.1s
+[2026-11-08 00:43:30]     [abcvns:mr] g=125  fit(gbest)=    2194.323  tau=3  t=   76.8s
+[2026-11-08 00:43:47]     [abcvns:mr] g=150  fit(gbest)=    2194.323  tau=3  t=   94.1s
+[2026-11-08 00:43:47]   done slashdot k=20 ABCVNS (fixed)   rs=11 t=    94.06s pos=  2227.33 neg=     1.10 tot=  2228.43 fit=    2194.323
+[2026-11-08 00:43:47] [slashdot] k=20 ABCVNS (fixed) rs=12 budget=4000 ...
+[2026-11-08 00:44:01]     [abcvns:mr] g= 25  fit(gbest)=    2048.353  tau=1  t=   14.3s
+[2026-11-08 00:44:19]     [abcvns:mr] g= 50  fit(gbest)=    2048.353  tau=1  t=   32.2s
+[2026-11-08 00:44:36]     [abcvns:mr] g= 75  fit(gbest)=    2048.353  tau=1  t=   49.0s
+[2026-11-08 00:44:53]     [abcvns:mr] g=100  fit(gbest)=    2048.353  tau=1  t=   66.2s
+[2026-11-08 00:45:10]     [abcvns:mr] g=125  fit(gbest)=    2048.353  tau=1  t=   83.1s
+[2026-11-08 00:45:29]     [abcvns:mr] g=150  fit(gbest)=    2050.974  tau=1  t=  101.7s
+[2026-11-08 00:45:29]   done slashdot k=20 ABCVNS (fixed)   rs=12 t=   101.68s pos=  2085.28 neg=     1.10 tot=  2086.38 fit=    2050.974
+[2026-11-08 00:45:29] [slashdot] k=20 ABCVNS (fixed) rs=13 budget=4000 ...
+[2026-11-08 00:45:42]     [abcvns:mr] g= 25  fit(gbest)=    2043.686  tau=1  t=   13.4s
+[2026-11-08 00:45:59]     [abcvns:mr] g= 50  fit(gbest)=    2050.974  tau=0  t=   30.6s
+[2026-11-08 00:46:17]     [abcvns:mr] g= 75  fit(gbest)=    2050.974  tau=0  t=   48.6s
+[2026-11-08 00:46:34]     [abcvns:mr] g=100  fit(gbest)=    2050.974  tau=0  t=   65.6s
+[2026-11-08 00:46:52]     [abcvns:mr] g=125  fit(gbest)=    2177.724  tau=1  t=   82.8s
+[2026-11-08 00:47:10]     [abcvns:mr] g=150  fit(gbest)=    2178.545  tau=3  t=  100.8s
+[2026-11-08 00:47:10]   done slashdot k=20 ABCVNS (fixed)   rs=13 t=   100.84s pos=  2212.41 neg=     1.10 tot=  2213.51 fit=    2178.545
+[2026-11-08 00:47:10] [slashdot] k=20 ABCVNS (fixed) rs=14 budget=4000 ...
+[2026-11-08 00:47:23]     [abcvns:mr] g= 25  fit(gbest)=    2003.976  tau=2  t=   13.4s
+[2026-11-08 00:47:40]     [abcvns:mr] g= 50  fit(gbest)=    2003.976  tau=2  t=   29.9s
+[2026-11-08 00:47:55]     [abcvns:mr] g= 75  fit(gbest)=    2003.976  tau=2  t=   45.0s
+[2026-11-08 00:48:11]     [abcvns:mr] g=100  fit(gbest)=    2005.298  tau=0  t=   61.0s
+[2026-11-08 00:48:27]     [abcvns:mr] g=125  fit(gbest)=    2014.399  tau=0  t=   77.4s
+[2026-11-08 00:48:45]     [abcvns:mr] g=150  fit(gbest)=    2014.399  tau=0  t=   95.0s
+[2026-11-08 00:48:45]   done slashdot k=20 ABCVNS (fixed)   rs=14 t=    95.00s pos=  2046.83 neg=     0.73 tot=  2047.56 fit=    2014.399
+[2026-11-08 00:48:45] [slashdot] k=20 ABCVNS (fixed) rs=15 budget=4000 ...
+[2026-11-08 00:48:58]     [abcvns:mr] g= 25  fit(gbest)=    2040.091  tau=3  t=   13.6s
+[2026-11-08 00:49:16]     [abcvns:mr] g= 50  fit(gbest)=    2047.597  tau=3  t=   31.4s
+[2026-11-08 00:49:32]     [abcvns:mr] g= 75  fit(gbest)=    2047.597  tau=3  t=   47.5s
+[2026-11-08 00:49:49]     [abcvns:mr] g=100  fit(gbest)=    2047.597  tau=3  t=   64.4s
+[2026-11-08 00:50:07]     [abcvns:mr] g=125  fit(gbest)=    2047.597  tau=3  t=   82.4s
+[2026-11-08 00:50:24]     [abcvns:mr] g=150  fit(gbest)=    2047.597  tau=3  t=   99.3s
+[2026-11-08 00:50:24]   done slashdot k=20 ABCVNS (fixed)   rs=15 t=    99.28s pos=  2080.33 neg=     1.10 tot=  2081.43 fit=    2047.597
+[2026-11-08 00:50:24] [slashdot] k=20 ABCVNS (fixed) rs=16 budget=4000 ...
+[2026-11-08 00:50:38]     [abcvns:mr] g= 25  fit(gbest)=    2028.772  tau=0  t=   14.1s
+[2026-11-08 00:50:55]     [abcvns:mr] g= 50  fit(gbest)=    2028.772  tau=0  t=   31.3s
+[2026-11-08 00:51:11]     [abcvns:mr] g= 75  fit(gbest)=    2163.427  tau=3  t=   47.0s
+[2026-11-08 00:51:30]     [abcvns:mr] g=100  fit(gbest)=    2163.427  tau=3  t=   65.4s
+[2026-11-08 00:51:49]     [abcvns:mr] g=125  fit(gbest)=    2163.427  tau=3  t=   84.5s
+[2026-11-08 00:52:05]     [abcvns:mr] g=150  fit(gbest)=    2191.801  tau=0  t=  100.6s
+[2026-11-08 00:52:05]   done slashdot k=20 ABCVNS (fixed)   rs=16 t=   100.65s pos=  2227.08 neg=     1.10 tot=  2228.18 fit=    2191.801
+[2026-11-08 00:52:05] [slashdot] k=20 ABCVNS (fixed) rs=17 budget=4000 ...
+[2026-11-08 00:52:18]     [abcvns:mr] g= 25  fit(gbest)=    2068.306  tau=1  t=   13.1s
+[2026-11-08 00:52:36]     [abcvns:mr] g= 50  fit(gbest)=    2068.306  tau=1  t=   30.8s
+[2026-11-08 00:52:53]     [abcvns:mr] g= 75  fit(gbest)=    2068.306  tau=1  t=   47.8s
+[2026-11-08 00:53:09]     [abcvns:mr] g=100  fit(gbest)=    2068.306  tau=1  t=   64.6s
+[2026-11-08 00:53:28]     [abcvns:mr] g=125  fit(gbest)=    2068.306  tau=1  t=   82.8s
+[2026-11-08 00:53:45]     [abcvns:mr] g=150  fit(gbest)=    2068.306  tau=1  t=  100.4s
+[2026-11-08 00:53:45]   done slashdot k=20 ABCVNS (fixed)   rs=17 t=   100.42s pos=  2102.06 neg=     1.10 tot=  2103.16 fit=    2068.306
+[2026-11-08 00:53:45] [slashdot] k=20 ABCVNS (fixed) rs=18 budget=4000 ...
+[2026-11-08 00:54:00]     [abcvns:mr] g= 25  fit(gbest)=    2002.508  tau=0  t=   14.5s
+[2026-11-08 00:54:16]     [abcvns:mr] g= 50  fit(gbest)=    2066.752  tau=1  t=   30.4s
+[2026-11-08 00:54:31]     [abcvns:mr] g= 75  fit(gbest)=    2066.752  tau=1  t=   46.1s
+[2026-11-08 00:54:49]     [abcvns:mr] g=100  fit(gbest)=    2068.306  tau=1  t=   63.6s
+[2026-11-08 00:55:06]     [abcvns:mr] g=125  fit(gbest)=    2068.306  tau=1  t=   81.1s
+[2026-11-08 00:55:22]     [abcvns:mr] g=150  fit(gbest)=    2176.764  tau=3  t=   97.1s
+[2026-11-08 00:55:25] [scheduler] phase S4-slashdot-abcvns-fixed exited 1; stopping (re-launch scheduler.py to resume)
+[2026-11-08 13:10:23] [scheduler] phase -> --graphs slashdot --algs ABCVNS (fixed)
+[2026-11-08 13:11:01] == signed benchmark == graphs=['slashdot'] ks=[10, 20, 30, 40, 50] restarts={'Random': 1, 'Degree': 1, 'ABC (proposed)': 30, 'ABCVNS (paper)': 30, 'ABCVNS (fixed)': 30} R_fit=30 R_ho=300 quick=False
+[2026-11-08 13:11:02] [slashdot] n=82140 m=500481 pool=200 R_fit=30 R_ho=300
+[2026-11-08 13:11:02] [slashdot] k=20 ABCVNS (fixed) rs=18 budget=4000 ...
+[2026-11-08 13:12:41]     [abcvns:mr] g= 25  fit(gbest)=    2038.162  tau=0  t=   98.7s
+[2026-11-08 13:14:40]     [abcvns:mr] g= 50  fit(gbest)=    2038.162  tau=0  t=  218.0s
+[2026-11-08 13:16:35]     [abcvns:mr] g= 75  fit(gbest)=    2038.162  tau=0  t=  333.0s
+[2026-11-08 13:18:38]     [abcvns:mr] g=100  fit(gbest)=    2049.898  tau=0  t=  455.9s
+[2026-11-08 13:20:49]     [abcvns:mr] g=125  fit(gbest)=    2058.439  tau=0  t=  586.4s
+[2026-11-08 13:23:06]     [abcvns:mr] g=150  fit(gbest)=    2068.306  tau=4  t=  723.7s
+[2026-11-08 13:23:07]   done slashdot k=20 ABCVNS (fixed)   rs=18 t=   723.71s pos=  2102.06 neg=     1.10 tot=  2103.16 fit=    2068.306
+[2026-11-08 13:23:07] [slashdot] k=20 ABCVNS (fixed) rs=19 budget=4000 ...
+[2026-11-08 13:24:39]     [abcvns:mr] g= 25  fit(gbest)=    2000.204  tau=4  t=   91.7s
+[2026-11-08 13:26:33]     [abcvns:mr] g= 50  fit(gbest)=    2007.002  tau=4  t=  206.1s
+[2026-11-08 13:28:38]     [abcvns:mr] g= 75  fit(gbest)=    2007.002  tau=4  t=  330.7s
+[2026-11-08 13:30:30]     [abcvns:mr] g=100  fit(gbest)=    2018.522  tau=2  t=  443.5s
+[2026-11-08 13:32:30]     [abcvns:mr] g=125  fit(gbest)=    2018.522  tau=2  t=  563.1s
+[2026-11-08 13:34:20]     [abcvns:mr] g=150  fit(gbest)=    2068.306  tau=2  t=  672.6s
+[2026-11-08 13:34:20]   done slashdot k=20 ABCVNS (fixed)   rs=19 t=   672.56s pos=  2102.06 neg=     1.10 tot=  2103.16 fit=    2068.306
+[2026-11-08 13:34:20] [slashdot] k=20 ABCVNS (fixed) rs=20 budget=4000 ...
+[2026-11-08 13:35:55]     [abcvns:mr] g= 25  fit(gbest)=    2009.006  tau=1  t=   95.0s
+[2026-11-08 13:38:00]     [abcvns:mr] g= 50  fit(gbest)=    2061.508  tau=4  t=  220.4s
+[2026-11-08 13:40:13]     [abcvns:mr] g= 75  fit(gbest)=    2066.752  tau=4  t=  353.7s
+[2026-11-08 13:42:24]     [abcvns:mr] g=100  fit(gbest)=    2071.073  tau=3  t=  484.3s
+[2026-11-08 13:44:29]     [abcvns:mr] g=125  fit(gbest)=    2071.073  tau=3  t=  609.4s
+[2026-11-08 13:46:31]     [abcvns:mr] g=150  fit(gbest)=    2071.073  tau=3  t=  731.6s
+[2026-11-08 13:47:25]   done slashdot k=20 ABCVNS (fixed)   rs=20 t=   784.69s pos=  2104.97 neg=     1.10 tot=  2106.07 fit=    2071.073
+[2026-11-08 13:47:25] [slashdot] k=20 ABCVNS (fixed) rs=21 budget=4000 ...
+[2026-11-08 13:47:35] [scheduler] phase -> --graphs slashdot --algs ABCVNS (fixed)
+[2026-11-08 13:47:39] == signed benchmark == graphs=['slashdot'] ks=[10, 20, 30, 40, 50] restarts={'Random': 1, 'Degree': 1, 'ABC (proposed)': 30, 'ABCVNS (paper)': 30, 'ABCVNS (fixed)': 30} R_fit=30 R_ho=300 quick=False
+[2026-11-08 13:47:41] [slashdot] n=82140 m=500481 pool=200 R_fit=30 R_ho=300
+[2026-11-08 13:47:41] [slashdot] k=20 ABCVNS (fixed) rs=21 budget=4000 ...
+[2026-11-08 13:47:55]     [abcvns:mr] g= 25  fit(gbest)=    2043.686  tau=1  t=   14.0s
+[2026-11-08 13:48:11]     [abcvns:mr] g= 50  fit(gbest)=    2050.974  tau=4  t=   30.5s
+[2026-11-08 13:48:26]     [abcvns:mr] g= 75  fit(gbest)=    2050.974  tau=4  t=   44.9s
+[2026-11-08 13:48:41]     [abcvns:mr] g=100  fit(gbest)=    2050.974  tau=4  t=   60.0s
+[2026-11-08 13:48:56]     [abcvns:mr] g=125  fit(gbest)=    2067.712  tau=3  t=   75.2s
+[2026-11-08 13:49:13]     [abcvns:mr] g=150  fit(gbest)=    2068.557  tau=2  t=   92.2s
+[2026-11-08 13:49:13]   done slashdot k=20 ABCVNS (fixed)   rs=21 t=    92.15s pos=  2102.82 neg=     1.10 tot=  2103.92 fit=    2068.557
+[2026-11-08 13:49:13] [slashdot] k=20 ABCVNS (fixed) rs=22 budget=4000 ...
+[2026-11-08 13:49:24]     [abcvns:mr] g= 25  fit(gbest)=    2067.712  tau=2  t=   10.9s
+[2026-11-08 13:49:42]     [abcvns:mr] g= 50  fit(gbest)=    2070.090  tau=4  t=   28.9s
+[2026-11-08 13:49:57]     [abcvns:mr] g= 75  fit(gbest)=    2070.090  tau=4  t=   44.0s
+[2026-11-08 13:50:10]     [abcvns:mr] g=100  fit(gbest)=    2144.890  tau=2  t=   57.2s
+[2026-11-08 13:50:26]     [abcvns:mr] g=125  fit(gbest)=    2161.152  tau=1  t=   72.9s
+[2026-11-08 13:50:39]     [abcvns:mr] g=150  fit(gbest)=    2175.958  tau=1  t=   86.3s
+[2026-11-08 13:50:39]   done slashdot k=20 ABCVNS (fixed)   rs=22 t=    86.32s pos=  2207.38 neg=     2.10 tot=  2209.48 fit=    2175.958
+[2026-11-08 13:50:39] [slashdot] k=20 ABCVNS (fixed) rs=23 budget=4000 ...
+[2026-11-08 13:50:54]     [abcvns:mr] g= 25  fit(gbest)=    2011.044  tau=2  t=   14.6s
+[2026-11-08 13:51:10]     [abcvns:mr] g= 50  fit(gbest)=    2011.044  tau=2  t=   30.1s
+[2026-11-08 13:51:29]     [abcvns:mr] g= 75  fit(gbest)=    2011.044  tau=2  t=   49.6s
+[2026-11-08 13:51:45]     [abcvns:mr] g=100  fit(gbest)=    2072.017  tau=4  t=   65.2s
+[2026-11-08 13:52:02]     [abcvns:mr] g=125  fit(gbest)=    2072.017  tau=4  t=   82.6s
+[2026-11-08 13:52:19]     [abcvns:mr] g=150  fit(gbest)=    2171.004  tau=1  t=   99.6s
+[2026-11-08 13:52:19]   done slashdot k=20 ABCVNS (fixed)   rs=23 t=    99.63s pos=  2204.60 neg=     1.10 tot=  2205.70 fit=    2171.004
+[2026-11-08 13:52:19] [slashdot] k=20 ABCVNS (fixed) rs=24 budget=4000 ...
+[2026-11-08 13:52:31]     [abcvns:mr] g= 25  fit(gbest)=    2066.752  tau=0  t=   11.9s
+[2026-11-08 13:52:45]     [abcvns:mr] g= 50  fit(gbest)=    2066.752  tau=0  t=   25.5s
+[2026-11-08 13:53:00]     [abcvns:mr] g= 75  fit(gbest)=    2066.752  tau=0  t=   41.0s
+[2026-11-08 13:53:15]     [abcvns:mr] g=100  fit(gbest)=    2066.752  tau=0  t=   56.0s
+[2026-11-08 13:53:30]     [abcvns:mr] g=125  fit(gbest)=    2066.752  tau=0  t=   71.1s
+[2026-11-08 13:53:45]     [abcvns:mr] g=150  fit(gbest)=    2066.752  tau=0  t=   85.9s
+[2026-11-08 13:53:45]   done slashdot k=20 ABCVNS (fixed)   rs=24 t=    85.88s pos=  2100.19 neg=     1.10 tot=  2101.29 fit=    2066.752
+[2026-11-08 13:53:45] [slashdot] k=20 ABCVNS (fixed) rs=25 budget=4000 ...
+[2026-11-08 13:54:01]     [abcvns:mr] g= 25  fit(gbest)=    2017.716  tau=4  t=   16.0s
+[2026-11-08 13:54:17]     [abcvns:mr] g= 50  fit(gbest)=    2054.814  tau=2  t=   31.7s
+[2026-11-08 13:54:32]     [abcvns:mr] g= 75  fit(gbest)=    2054.814  tau=2  t=   47.0s
+[2026-11-08 13:54:47]     [abcvns:mr] g=100  fit(gbest)=    2054.847  tau=2  t=   61.7s
+[2026-11-08 13:55:06]     [abcvns:mr] g=125  fit(gbest)=    2176.626  tau=0  t=   80.5s
+[2026-11-08 13:55:28]     [abcvns:mr] g=150  fit(gbest)=    2176.626  tau=0  t=  102.5s
+[2026-11-08 13:55:28]   done slashdot k=20 ABCVNS (fixed)   rs=25 t=   102.54s pos=  2211.02 neg=     1.10 tot=  2212.12 fit=    2176.626
+[2026-11-08 13:55:28] [slashdot] k=20 ABCVNS (fixed) rs=26 budget=4000 ...
+[2026-11-08 13:55:39]     [abcvns:mr] g= 25  fit(gbest)=    2073.740  tau=3  t=   11.5s
+[2026-11-08 13:55:54]     [abcvns:mr] g= 50  fit(gbest)=    2073.740  tau=3  t=   25.8s
+[2026-11-08 13:56:09]     [abcvns:mr] g= 75  fit(gbest)=    2193.853  tau=1  t=   41.6s
+[2026-11-08 13:56:25]     [abcvns:mr] g=100  fit(gbest)=    2193.853  tau=1  t=   56.8s
+[2026-11-08 13:56:40]     [abcvns:mr] g=125  fit(gbest)=    2193.853  tau=1  t=   72.7s
+[2026-11-08 13:56:55]     [abcvns:mr] g=150  fit(gbest)=    2193.853  tau=1  t=   87.2s
+[2026-11-08 13:56:55]   done slashdot k=20 ABCVNS (fixed)   rs=26 t=    87.21s pos=  2229.67 neg=     1.10 tot=  2230.77 fit=    2193.853
+[2026-11-08 13:56:55] [slashdot] k=20 ABCVNS (fixed) rs=27 budget=4000 ...
+[2026-11-08 13:57:11]     [abcvns:mr] g= 25  fit(gbest)=    2009.704  tau=3  t=   16.0s
+[2026-11-08 13:57:24]     [abcvns:mr] g= 50  fit(gbest)=    2032.258  tau=3  t=   28.7s
+[2026-11-08 13:57:38]     [abcvns:mr] g= 75  fit(gbest)=    2066.752  tau=1  t=   42.7s
+[2026-11-08 13:57:53]     [abcvns:mr] g=100  fit(gbest)=    2066.752  tau=1  t=   57.5s
+[2026-11-08 13:58:10]     [abcvns:mr] g=125  fit(gbest)=    2066.752  tau=1  t=   74.7s
+[2026-11-08 13:58:27]     [abcvns:mr] g=150  fit(gbest)=    2066.752  tau=1  t=   92.4s
+[2026-11-08 13:58:27]   done slashdot k=20 ABCVNS (fixed)   rs=27 t=    92.39s pos=  2100.19 neg=     1.10 tot=  2101.29 fit=    2066.752
+[2026-11-08 13:58:27] [slashdot] k=20 ABCVNS (fixed) rs=28 budget=4000 ...
+[2026-11-08 13:58:39]     [abcvns:mr] g= 25  fit(gbest)=    2043.686  tau=3  t=   11.7s
+[2026-11-08 13:58:54]     [abcvns:mr] g= 50  fit(gbest)=    2050.974  tau=3  t=   26.8s
+[2026-11-08 13:59:10]     [abcvns:mr] g= 75  fit(gbest)=    2176.764  tau=2  t=   42.3s
+[2026-11-08 13:59:27]     [abcvns:mr] g=100  fit(gbest)=    2176.764  tau=2  t=   59.1s
+[2026-11-08 13:59:47]     [abcvns:mr] g=125  fit(gbest)=    2176.764  tau=2  t=   79.8s
+[2026-11-08 14:00:05]     [abcvns:mr] g=150  fit(gbest)=    2176.764  tau=2  t=   97.2s
+[2026-11-08 14:00:05]   done slashdot k=20 ABCVNS (fixed)   rs=28 t=    97.17s pos=  2209.86 neg=     1.10 tot=  2210.96 fit=    2176.764
+[2026-11-08 14:00:05] [slashdot] k=20 ABCVNS (fixed) rs=29 budget=4000 ...
+[2026-11-08 14:00:16]     [abcvns:mr] g= 25  fit(gbest)=    2007.919  tau=2  t=   11.5s
+[2026-11-08 14:00:31]     [abcvns:mr] g= 50  fit(gbest)=    2047.597  tau=0  t=   26.1s
+[2026-11-08 14:00:44]     [abcvns:mr] g= 75  fit(gbest)=    2047.597  tau=0  t=   39.1s
+[2026-11-08 14:00:59]     [abcvns:mr] g=100  fit(gbest)=    2047.597  tau=0  t=   54.1s
+[2026-11-08 14:01:13]     [abcvns:mr] g=125  fit(gbest)=    2047.597  tau=0  t=   68.0s
+[2026-11-08 14:01:26]     [abcvns:mr] g=150  fit(gbest)=    2047.597  tau=0  t=   81.7s
+[2026-11-08 14:01:27]   done slashdot k=20 ABCVNS (fixed)   rs=29 t=    81.67s pos=  2080.33 neg=     1.10 tot=  2081.43 fit=    2047.597
+[2026-11-08 14:01:27] [slashdot] k=30 ABCVNS (fixed) rs=0 budget=6000 ...
+[2026-11-08 14:01:39]     [abcvns:mr] g= 25  fit(gbest)=    2274.118  tau=3  t=   12.2s
+[2026-11-08 14:01:55]     [abcvns:mr] g= 50  fit(gbest)=    2274.118  tau=3  t=   28.3s
+[2026-11-08 14:02:14]     [abcvns:mr] g= 75  fit(gbest)=    2274.118  tau=3  t=   47.2s
+[2026-11-08 14:02:29]     [abcvns:mr] g=100  fit(gbest)=    2292.530  tau=3  t=   62.8s
+[2026-11-08 14:02:47]     [abcvns:mr] g=125  fit(gbest)=    2292.530  tau=3  t=   80.4s
+[2026-11-08 14:03:06]     [abcvns:mr] g=150  fit(gbest)=    2415.825  tau=0  t=   99.7s
+[2026-11-08 14:03:06]   done slashdot k=30 ABCVNS (fixed)   rs= 0 t=    99.68s pos=  2456.05 neg=     1.10 tot=  2457.15 fit=    2415.825
+[2026-11-08 14:03:06] [slashdot] k=30 ABCVNS (fixed) rs=1 budget=6000 ...
+[2026-11-08 14:03:18]     [abcvns:mr] g= 25  fit(gbest)=    2241.024  tau=1  t=   11.3s
+[2026-11-08 14:03:32]     [abcvns:mr] g= 50  fit(gbest)=    2409.104  tau=0  t=   25.7s
+[2026-11-08 14:03:50]     [abcvns:mr] g= 75  fit(gbest)=    2411.459  tau=0  t=   43.2s
+[2026-11-08 14:04:08]     [abcvns:mr] g=100  fit(gbest)=    2411.459  tau=0  t=   62.1s
+[2026-11-08 14:04:24]     [abcvns:mr] g=125  fit(gbest)=    2417.397  tau=4  t=   77.9s
+[2026-11-08 14:04:41]     [abcvns:mr] g=150  fit(gbest)=    2417.397  tau=4  t=   94.5s
+[2026-11-08 14:04:41]   done slashdot k=30 ABCVNS (fixed)   rs= 1 t=    94.45s pos=  2456.25 neg=     1.10 tot=  2457.35 fit=    2417.397
+[2026-11-08 14:04:41] [slashdot] k=30 ABCVNS (fixed) rs=2 budget=6000 ...
+[2026-11-08 14:04:52]     [abcvns:mr] g= 25  fit(gbest)=    2341.625  tau=3  t=   10.8s
+[2026-11-08 14:05:10]     [abcvns:mr] g= 50  fit(gbest)=    2373.551  tau=1  t=   28.7s
+[2026-11-08 14:05:27]     [abcvns:mr] g= 75  fit(gbest)=    2373.551  tau=1  t=   46.2s
+[2026-11-08 14:05:45]     [abcvns:mr] g=100  fit(gbest)=    2373.551  tau=1  t=   63.8s
+[2026-11-08 14:06:03]     [abcvns:mr] g=125  fit(gbest)=    2373.551  tau=1  t=   81.8s
+[2026-11-08 14:06:19]     [abcvns:mr] g=150  fit(gbest)=    2373.551  tau=1  t=   98.1s
+[2026-11-08 14:06:19]   done slashdot k=30 ABCVNS (fixed)   rs= 2 t=    98.06s pos=  2410.68 neg=     1.10 tot=  2411.78 fit=    2373.551
+[2026-11-08 14:06:19] [slashdot] k=30 ABCVNS (fixed) rs=3 budget=6000 ...
+[2026-11-08 14:06:32]     [abcvns:mr] g= 25  fit(gbest)=    2192.465  tau=0  t=   12.9s
+[2026-11-08 14:06:46]     [abcvns:mr] g= 50  fit(gbest)=    2285.441  tau=1  t=   26.6s
+[2026-11-08 14:07:02]     [abcvns:mr] g= 75  fit(gbest)=    2285.441  tau=1  t=   42.8s
+[2026-11-08 14:07:17]     [abcvns:mr] g=100  fit(gbest)=    2299.730  tau=1  t=   57.7s
+[2026-11-08 14:07:33]     [abcvns:mr] g=125  fit(gbest)=    2299.730  tau=1  t=   74.3s
+[2026-11-08 14:07:47]     [abcvns:mr] g=150  fit(gbest)=    2299.730  tau=1  t=   88.5s
+[2026-11-08 14:07:48]   done slashdot k=30 ABCVNS (fixed)   rs= 3 t=    88.45s pos=  2341.00 neg=     1.10 tot=  2342.10 fit=    2299.730
+[2026-11-08 14:07:48] [slashdot] k=30 ABCVNS (fixed) rs=4 budget=6000 ...
+[2026-11-08 14:07:59]     [abcvns:mr] g= 25  fit(gbest)=    2216.574  tau=0  t=   11.8s
+[2026-11-08 14:08:15]     [abcvns:mr] g= 50  fit(gbest)=    2216.574  tau=0  t=   27.8s
+[2026-11-08 14:08:32]     [abcvns:mr] g= 75  fit(gbest)=    2235.559  tau=0  t=   44.0s
+[2026-11-08 14:08:49]     [abcvns:mr] g=100  fit(gbest)=    2235.559  tau=0  t=   61.0s
+[2026-11-08 14:09:07]     [abcvns:mr] g=125  fit(gbest)=    2334.398  tau=3  t=   79.7s
+[2026-11-08 14:09:24]     [abcvns:mr] g=150  fit(gbest)=    2337.175  tau=0  t=   96.3s
+[2026-11-08 14:09:24]   done slashdot k=30 ABCVNS (fixed)   rs= 4 t=    96.35s pos=  2371.49 neg=     1.73 tot=  2373.22 fit=    2337.175
+[2026-11-08 14:09:24] [slashdot] k=30 ABCVNS (fixed) rs=5 budget=6000 ...
+[2026-11-08 14:09:35]     [abcvns:mr] g= 25  fit(gbest)=    2411.666  tau=3  t=   11.3s
+[2026-11-08 14:09:54]     [abcvns:mr] g= 50  fit(gbest)=    2445.208  tau=2  t=   30.1s
+[2026-11-08 14:10:18]     [abcvns:mr] g= 75  fit(gbest)=    2445.208  tau=2  t=   53.7s
+[2026-11-08 14:10:33]     [abcvns:mr] g=100  fit(gbest)=    2466.675  tau=3  t=   69.4s
+[2026-11-08 14:10:53]     [abcvns:mr] g=125  fit(gbest)=    2466.675  tau=3  t=   88.5s
+[2026-11-08 14:11:13]     [abcvns:mr] g=150  fit(gbest)=    2472.600  tau=3  t=  109.4s
+[2026-11-08 14:11:13]   done slashdot k=30 ABCVNS (fixed)   rs= 5 t=   109.39s pos=  2515.94 neg=     1.10 tot=  2517.04 fit=    2472.600
+[2026-11-08 14:11:13] [slashdot] k=30 ABCVNS (fixed) rs=6 budget=6000 ...
+[2026-11-08 14:11:25]     [abcvns:mr] g= 25  fit(gbest)=    1993.811  tau=2  t=   11.4s
+[2026-11-08 14:11:39]     [abcvns:mr] g= 50  fit(gbest)=    1993.811  tau=2  t=   25.5s
+[2026-11-08 14:11:52]     [abcvns:mr] g= 75  fit(gbest)=    2151.116  tau=0  t=   39.0s
+[2026-11-08 14:12:05]     [abcvns:mr] g=100  fit(gbest)=    2410.605  tau=0  t=   51.9s
+[2026-11-08 14:12:22]     [abcvns:mr] g=125  fit(gbest)=    2418.437  tau=2  t=   68.5s
+[2026-11-08 14:12:38]     [abcvns:mr] g=150  fit(gbest)=    2418.437  tau=2  t=   84.9s
+[2026-11-08 14:12:38]   done slashdot k=30 ABCVNS (fixed)   rs= 6 t=    84.90s pos=  2454.93 neg=     2.10 tot=  2457.03 fit=    2418.437
+[2026-11-08 14:12:38] [slashdot] k=30 ABCVNS (fixed) rs=7 budget=6000 ...
+[2026-11-08 14:12:49]     [abcvns:mr] g= 25  fit(gbest)=    2203.536  tau=0  t=   10.9s
+[2026-11-08 14:13:07]     [abcvns:mr] g= 50  fit(gbest)=    2203.536  tau=0  t=   28.2s
+[2026-11-08 14:13:24]     [abcvns:mr] g= 75  fit(gbest)=    2203.536  tau=0  t=   45.4s
+[2026-11-08 14:13:43]     [abcvns:mr] g=100  fit(gbest)=    2203.536  tau=0  t=   64.1s
+[2026-11-08 14:13:59]     [abcvns:mr] g=125  fit(gbest)=    2394.974  tau=3  t=   80.6s
+[2026-11-08 14:14:18]     [abcvns:mr] g=150  fit(gbest)=    2406.513  tau=2  t=  100.0s
+[2026-11-08 14:14:18]   done slashdot k=30 ABCVNS (fixed)   rs= 7 t=    99.96s pos=  2444.27 neg=     1.10 tot=  2445.37 fit=    2406.513
+[2026-11-08 14:14:18] [slashdot] k=30 ABCVNS (fixed) rs=8 budget=6000 ...
+[2026-11-08 14:14:30]     [abcvns:mr] g= 25  fit(gbest)=    2154.172  tau=3  t=   11.9s
+[2026-11-08 14:14:45]     [abcvns:mr] g= 50  fit(gbest)=    2264.563  tau=1  t=   26.4s
+[2026-11-08 14:15:03]     [abcvns:mr] g= 75  fit(gbest)=    2277.090  tau=3  t=   44.7s
+[2026-11-08 14:15:21]     [abcvns:mr] g=100  fit(gbest)=    2277.090  tau=3  t=   62.9s
+[2026-11-08 14:15:37]     [abcvns:mr] g=125  fit(gbest)=    2282.860  tau=3  t=   78.3s
+[2026-11-08 14:15:54]     [abcvns:mr] g=150  fit(gbest)=    2302.896  tau=2  t=   95.9s
+[2026-11-08 14:15:54]   done slashdot k=30 ABCVNS (fixed)   rs= 8 t=    95.89s pos=  2343.36 neg=     2.10 tot=  2345.46 fit=    2302.896
+[2026-11-08 14:15:54] [slashdot] k=30 ABCVNS (fixed) rs=9 budget=6000 ...
+[2026-11-08 14:16:07]     [abcvns:mr] g= 25  fit(gbest)=    2206.507  tau=0  t=   12.3s
+[2026-11-08 14:16:27]     [abcvns:mr] g= 50  fit(gbest)=    2206.507  tau=0  t=   32.5s
+[2026-11-08 14:16:44]     [abcvns:mr] g= 75  fit(gbest)=    2390.219  tau=3  t=   49.6s
+[2026-11-08 14:17:01]     [abcvns:mr] g=100  fit(gbest)=    2414.654  tau=3  t=   66.6s
+[2026-11-08 14:17:18]     [abcvns:mr] g=125  fit(gbest)=    2414.654  tau=3  t=   83.4s
+[2026-11-08 14:17:34]     [abcvns:mr] g=150  fit(gbest)=    2415.609  tau=3  t=   99.5s
+[2026-11-08 14:17:34]   done slashdot k=30 ABCVNS (fixed)   rs= 9 t=    99.52s pos=  2453.47 neg=     3.10 tot=  2456.57 fit=    2415.609
+[2026-11-08 14:17:34] [slashdot] k=30 ABCVNS (fixed) rs=10 budget=6000 ...
+[2026-11-08 14:17:46]     [abcvns:mr] g= 25  fit(gbest)=    2250.440  tau=1  t=   12.4s
+[2026-11-08 14:18:06]     [abcvns:mr] g= 50  fit(gbest)=    2258.501  tau=4  t=   32.3s
+[2026-11-08 14:18:24]     [abcvns:mr] g= 75  fit(gbest)=    2258.501  tau=4  t=   49.4s
+[2026-11-08 14:18:41]     [abcvns:mr] g=100  fit(gbest)=    2291.171  tau=4  t=   67.2s
+[2026-11-08 14:19:00]     [abcvns:mr] g=125  fit(gbest)=    2291.171  tau=4  t=   85.9s
+[2026-11-08 14:19:19]     [abcvns:mr] g=150  fit(gbest)=    2434.813  tau=2  t=  104.5s
+[2026-11-08 14:19:19]   done slashdot k=30 ABCVNS (fixed)   rs=10 t=   104.51s pos=  2476.39 neg=     1.10 tot=  2477.49 fit=    2434.813
+[2026-11-08 14:19:19] [slashdot] k=30 ABCVNS (fixed) rs=11 budget=6000 ...
+[2026-11-08 14:19:31]     [abcvns:mr] g= 25  fit(gbest)=    2406.514  tau=4  t=   12.0s
+[2026-11-08 14:19:51]     [abcvns:mr] g= 50  fit(gbest)=    2425.343  tau=1  t=   32.2s
+[2026-11-08 14:20:10]     [abcvns:mr] g= 75  fit(gbest)=    2425.343  tau=1  t=   51.6s
+[2026-11-08 14:20:28]     [abcvns:mr] g=100  fit(gbest)=    2425.343  tau=1  t=   69.0s
+[2026-11-08 14:20:45]     [abcvns:mr] g=125  fit(gbest)=    2425.343  tau=1  t=   86.6s
+[2026-11-08 14:21:07]     [abcvns:mr] g=150  fit(gbest)=    2425.343  tau=1  t=  108.3s
+[2026-11-08 14:21:07]   done slashdot k=30 ABCVNS (fixed)   rs=11 t=   108.28s pos=  2462.27 neg=     2.10 tot=  2464.37 fit=    2425.343
+[2026-11-08 14:21:07] [slashdot] k=30 ABCVNS (fixed) rs=12 budget=6000 ...
+[2026-11-08 14:21:18]     [abcvns:mr] g= 25  fit(gbest)=    2268.296  tau=0  t=   11.0s
+[2026-11-08 14:21:32]     [abcvns:mr] g= 50  fit(gbest)=    2349.627  tau=1  t=   25.2s
+[2026-11-08 14:21:49]     [abcvns:mr] g= 75  fit(gbest)=    2349.627  tau=1  t=   41.6s
+[2026-11-08 14:22:07]     [abcvns:mr] g=100  fit(gbest)=    2349.627  tau=1  t=   59.6s
+[2026-11-08 14:22:23]     [abcvns:mr] g=125  fit(gbest)=    2349.627  tau=1  t=   76.0s
+[2026-11-08 14:22:41]     [abcvns:mr] g=150  fit(gbest)=    2362.455  tau=2  t=   94.0s
+[2026-11-08 14:22:41]   done slashdot k=30 ABCVNS (fixed)   rs=12 t=    93.97s pos=  2397.03 neg=     2.73 tot=  2399.76 fit=    2362.454
+[2026-11-08 14:22:41] [slashdot] k=30 ABCVNS (fixed) rs=13 budget=6000 ...
+[2026-11-08 14:22:51]     [abcvns:mr] g= 25  fit(gbest)=    2282.660  tau=4  t=   10.0s
+[2026-11-08 14:23:08]     [abcvns:mr] g= 50  fit(gbest)=    2296.142  tau=2  t=   27.1s
+[2026-11-08 14:23:24]     [abcvns:mr] g= 75  fit(gbest)=    2296.142  tau=2  t=   43.4s
+[2026-11-08 14:23:40]     [abcvns:mr] g=100  fit(gbest)=    2296.142  tau=2  t=   58.9s
+[2026-11-08 14:23:55]     [abcvns:mr] g=125  fit(gbest)=    2310.125  tau=1  t=   74.1s
+[2026-11-08 14:24:12]     [abcvns:mr] g=150  fit(gbest)=    2310.125  tau=1  t=   91.2s
+[2026-11-08 14:24:12]   done slashdot k=30 ABCVNS (fixed)   rs=13 t=    91.19s pos=  2351.87 neg=     1.10 tot=  2352.97 fit=    2310.125
+[2026-11-08 14:24:12] [slashdot] k=30 ABCVNS (fixed) rs=14 budget=6000 ...
+[2026-11-08 14:24:25]     [abcvns:mr] g= 25  fit(gbest)=    2171.371  tau=2  t=   12.5s
+[2026-11-08 14:24:43]     [abcvns:mr] g= 50  fit(gbest)=    2375.724  tau=4  t=   30.3s
+[2026-11-08 14:24:58]     [abcvns:mr] g= 75  fit(gbest)=    2414.842  tau=3  t=   45.9s
+[2026-11-08 14:25:21]     [abcvns:mr] g=100  fit(gbest)=    2414.842  tau=3  t=   68.5s
+[2026-11-08 14:25:41]     [abcvns:mr] g=125  fit(gbest)=    2414.842  tau=3  t=   88.8s
+[2026-11-08 14:25:58]     [abcvns:mr] g=150  fit(gbest)=    2414.842  tau=3  t=  105.3s
+[2026-11-08 14:25:58]   done slashdot k=30 ABCVNS (fixed)   rs=14 t=   105.26s pos=  2452.17 neg=     1.10 tot=  2453.27 fit=    2414.842
+[2026-11-08 14:25:58] [slashdot] k=30 ABCVNS (fixed) rs=15 budget=6000 ...
+[2026-11-08 14:26:12]     [abcvns:mr] g= 25  fit(gbest)=    2394.847  tau=4  t=   14.6s
+[2026-11-08 14:26:31]     [abcvns:mr] g= 50  fit(gbest)=    2425.703  tau=2  t=   32.8s
+[2026-11-08 14:26:49]     [abcvns:mr] g= 75  fit(gbest)=    2428.058  tau=2  t=   51.0s
+[2026-11-08 14:27:09]     [abcvns:mr] g=100  fit(gbest)=    2428.058  tau=2  t=   70.8s
+[2026-11-08 14:27:26]     [abcvns:mr] g=125  fit(gbest)=    2428.058  tau=2  t=   87.9s
+[2026-11-08 14:27:44]     [abcvns:mr] g=150  fit(gbest)=    2428.058  tau=2  t=  106.1s
+[2026-11-08 14:27:44]   done slashdot k=30 ABCVNS (fixed)   rs=15 t=   106.11s pos=  2467.08 neg=     1.10 tot=  2468.18 fit=    2428.059
+[2026-11-08 14:27:44] [slashdot] k=30 ABCVNS (fixed) rs=16 budget=6000 ...
+[2026-11-08 14:27:56]     [abcvns:mr] g= 25  fit(gbest)=    2263.849  tau=0  t=   11.6s
+[2026-11-08 14:28:09]     [abcvns:mr] g= 50  fit(gbest)=    2268.418  tau=1  t=   25.5s
+[2026-11-08 14:28:24]     [abcvns:mr] g= 75  fit(gbest)=    2307.557  tau=1  t=   39.7s
+[2026-11-08 14:28:38]     [abcvns:mr] g=100  fit(gbest)=    2440.400  tau=2  t=   53.8s
+[2026-11-08 14:28:56]     [abcvns:mr] g=125  fit(gbest)=    2454.433  tau=0  t=   71.7s
+[2026-11-08 14:29:16]     [abcvns:mr] g=150  fit(gbest)=    2454.433  tau=0  t=   91.8s
+[2026-11-08 14:29:16]   done slashdot k=30 ABCVNS (fixed)   rs=16 t=    91.83s pos=  2497.58 neg=     1.10 tot=  2498.68 fit=    2454.433
+[2026-11-08 14:29:16] [slashdot] k=30 ABCVNS (fixed) rs=17 budget=6000 ...
+[2026-11-08 14:29:26]     [abcvns:mr] g= 25  fit(gbest)=    2284.428  tau=3  t=   10.3s
+[2026-11-08 14:29:41]     [abcvns:mr] g= 50  fit(gbest)=    2298.461  tau=1  t=   25.6s
+[2026-11-08 14:29:58]     [abcvns:mr] g= 75  fit(gbest)=    2318.844  tau=1  t=   42.5s
+[2026-11-08 14:30:13]     [abcvns:mr] g=100  fit(gbest)=    2318.844  tau=1  t=   57.6s
+[2026-11-08 14:30:29]     [abcvns:mr] g=125  fit(gbest)=    2318.844  tau=1  t=   73.1s
+[2026-11-08 14:30:44]     [abcvns:mr] g=150  fit(gbest)=    2318.844  tau=1  t=   88.6s
+[2026-11-08 14:30:45]   done slashdot k=30 ABCVNS (fixed)   rs=17 t=    88.60s pos=  2362.21 neg=     1.10 tot=  2363.31 fit=    2318.844
+[2026-11-08 14:30:45] [slashdot] k=30 ABCVNS (fixed) rs=18 budget=6000 ...
+[2026-11-08 14:30:55]     [abcvns:mr] g= 25  fit(gbest)=    2261.419  tau=1  t=   10.4s
+[2026-11-08 14:31:09]     [abcvns:mr] g= 50  fit(gbest)=    2277.922  tau=1  t=   24.6s
+[2026-11-08 14:31:25]     [abcvns:mr] g= 75  fit(gbest)=    2277.922  tau=1  t=   40.3s
+[2026-11-08 14:31:39]     [abcvns:mr] g=100  fit(gbest)=    2288.369  tau=3  t=   54.2s
+[2026-11-08 14:31:55]     [abcvns:mr] g=125  fit(gbest)=    2288.369  tau=3  t=   70.5s
+[2026-11-08 14:32:15]     [abcvns:mr] g=150  fit(gbest)=    2288.369  tau=3  t=   90.1s
+[2026-11-08 14:32:15]   done slashdot k=30 ABCVNS (fixed)   rs=18 t=    90.13s pos=  2327.26 neg=     2.10 tot=  2329.36 fit=    2288.369
+[2026-11-08 14:32:15] [slashdot] k=30 ABCVNS (fixed) rs=19 budget=6000 ...
+[2026-11-08 14:32:26]     [abcvns:mr] g= 25  fit(gbest)=    2421.719  tau=3  t=   11.5s
+[2026-11-08 14:32:46]     [abcvns:mr] g= 50  fit(gbest)=    2438.901  tau=0  t=   30.8s
+[2026-11-08 14:33:04]     [abcvns:mr] g= 75  fit(gbest)=    2438.901  tau=0  t=   49.0s
+[2026-11-08 14:33:21]     [abcvns:mr] g=100  fit(gbest)=    2448.881  tau=0  t=   66.7s
+[2026-11-08 14:33:40]     [abcvns:mr] g=125  fit(gbest)=    2448.881  tau=0  t=   85.5s
+[2026-11-08 14:33:58]     [abcvns:mr] g=150  fit(gbest)=    2448.881  tau=0  t=  103.2s
+[2026-11-08 14:33:58]   done slashdot k=30 ABCVNS (fixed)   rs=19 t=   103.23s pos=  2489.61 neg=     2.10 tot=  2491.71 fit=    2448.881
+[2026-11-08 14:33:58] [slashdot] k=30 ABCVNS (fixed) rs=20 budget=6000 ...
+[2026-11-08 14:34:11]     [abcvns:mr] g= 25  fit(gbest)=    2224.845  tau=3  t=   13.2s
+[2026-11-08 14:34:28]     [abcvns:mr] g= 50  fit(gbest)=    2224.845  tau=3  t=   29.4s
+[2026-11-08 14:34:46]     [abcvns:mr] g= 75  fit(gbest)=    2270.051  tau=2  t=   47.4s
+[2026-11-08 14:35:05]     [abcvns:mr] g=100  fit(gbest)=    2274.013  tau=1  t=   66.5s
+[2026-11-08 14:35:23]     [abcvns:mr] g=125  fit(gbest)=    2284.990  tau=0  t=   84.7s
+[2026-11-08 14:35:40]     [abcvns:mr] g=150  fit(gbest)=    2434.813  tau=3  t=  102.1s
+[2026-11-08 14:35:40]   done slashdot k=30 ABCVNS (fixed)   rs=20 t=   102.14s pos=  2476.39 neg=     1.10 tot=  2477.49 fit=    2434.813
+[2026-11-08 14:35:40] [slashdot] k=30 ABCVNS (fixed) rs=21 budget=6000 ...
+[2026-11-08 14:35:52]     [abcvns:mr] g= 25  fit(gbest)=    2375.259  tau=4  t=   11.5s
+[2026-11-08 14:36:13]     [abcvns:mr] g= 50  fit(gbest)=    2375.259  tau=4  t=   33.0s
+[2026-11-08 14:36:30]     [abcvns:mr] g= 75  fit(gbest)=    2427.136  tau=1  t=   49.8s
+[2026-11-08 14:36:53]     [abcvns:mr] g=100  fit(gbest)=    2435.981  tau=1  t=   72.7s
+[2026-11-08 14:37:14]     [abcvns:mr] g=125  fit(gbest)=    2437.830  tau=1  t=   93.4s
+[2026-11-08 14:37:39]     [abcvns:mr] g=150  fit(gbest)=    2469.577  tau=1  t=  118.6s
+[2026-11-08 14:37:39]   done slashdot k=30 ABCVNS (fixed)   rs=21 t=   118.64s pos=  2511.71 neg=     1.10 tot=  2512.81 fit=    2469.577
+[2026-11-08 14:37:39] [slashdot] k=30 ABCVNS (fixed) rs=22 budget=6000 ...
+[2026-11-08 14:37:49]     [abcvns:mr] g= 25  fit(gbest)=    2414.450  tau=4  t=    9.7s
+[2026-11-08 14:38:08]     [abcvns:mr] g= 50  fit(gbest)=    2414.450  tau=4  t=   28.6s
+[2026-11-08 14:38:25]     [abcvns:mr] g= 75  fit(gbest)=    2414.450  tau=4  t=   45.5s
+[2026-11-08 14:38:42]     [abcvns:mr] g=100  fit(gbest)=    2414.450  tau=4  t=   63.0s
+[2026-11-08 14:39:06]     [abcvns:mr] g=125  fit(gbest)=    2414.450  tau=4  t=   86.7s
+[2026-11-08 14:39:22]     [abcvns:mr] g=150  fit(gbest)=    2414.450  tau=4  t=  103.5s
+[2026-11-08 14:39:23]   done slashdot k=30 ABCVNS (fixed)   rs=22 t=   103.47s pos=  2452.29 neg=     1.10 tot=  2453.39 fit=    2414.450
+[2026-11-08 14:39:23] [slashdot] k=30 ABCVNS (fixed) rs=23 budget=6000 ...
+[2026-11-08 14:39:36]     [abcvns:mr] g= 25  fit(gbest)=    2268.322  tau=0  t=   13.7s
+[2026-11-08 14:40:00]     [abcvns:mr] g= 50  fit(gbest)=    2409.912  tau=3  t=   37.6s
+[2026-11-08 14:40:19]     [abcvns:mr] g= 75  fit(gbest)=    2409.912  tau=3  t=   56.0s
+[2026-11-08 14:40:37]     [abcvns:mr] g=100  fit(gbest)=    2423.356  tau=3  t=   74.1s
+[2026-11-08 14:40:55]     [abcvns:mr] g=125  fit(gbest)=    2431.392  tau=3  t=   92.1s
+[2026-11-08 14:41:12]     [abcvns:mr] g=150  fit(gbest)=    2444.919  tau=3  t=  109.6s
+[2026-11-08 14:41:12]   done slashdot k=30 ABCVNS (fixed)   rs=23 t=   109.56s pos=  2485.81 neg=     2.10 tot=  2487.91 fit=    2444.919
+[2026-11-08 14:41:12] [slashdot] k=30 ABCVNS (fixed) rs=24 budget=6000 ...
+[2026-11-08 14:41:30]     [abcvns:mr] g= 25  fit(gbest)=    2209.850  tau=3  t=   17.7s
+[2026-11-08 14:41:46]     [abcvns:mr] g= 50  fit(gbest)=    2211.916  tau=2  t=   33.9s
+[2026-11-08 14:42:06]     [abcvns:mr] g= 75  fit(gbest)=    2278.987  tau=3  t=   53.4s
+[2026-11-08 14:42:24]     [abcvns:mr] g=100  fit(gbest)=    2445.208  tau=3  t=   72.3s
+[2026-11-08 14:42:43]     [abcvns:mr] g=125  fit(gbest)=    2445.208  tau=3  t=   90.7s
+[2026-11-08 14:43:05]     [abcvns:mr] g=150  fit(gbest)=    2445.208  tau=3  t=  112.4s
+[2026-11-08 14:43:05]   done slashdot k=30 ABCVNS (fixed)   rs=24 t=   112.39s pos=  2487.26 neg=     1.10 tot=  2488.36 fit=    2445.208
+[2026-11-08 14:43:05] [slashdot] k=30 ABCVNS (fixed) rs=25 budget=6000 ...
+[2026-11-08 14:43:16]     [abcvns:mr] g= 25  fit(gbest)=    2210.316  tau=4  t=   11.3s
+[2026-11-08 14:43:32]     [abcvns:mr] g= 50  fit(gbest)=    2210.316  tau=4  t=   27.2s
+[2026-11-08 14:43:47]     [abcvns:mr] g= 75  fit(gbest)=    2210.316  tau=4  t=   42.3s
+[2026-11-08 14:44:02]     [abcvns:mr] g=100  fit(gbest)=    2307.150  tau=4  t=   57.0s
+[2026-11-08 14:44:18]     [abcvns:mr] g=125  fit(gbest)=    2312.840  tau=4  t=   73.8s
+[2026-11-08 14:44:33]     [abcvns:mr] g=150  fit(gbest)=    2324.847  tau=0  t=   88.5s
+[2026-11-08 14:44:33]   done slashdot k=30 ABCVNS (fixed)   rs=25 t=    88.46s pos=  2369.53 neg=     1.10 tot=  2370.63 fit=    2324.847
+[2026-11-08 14:44:33] [slashdot] k=30 ABCVNS (fixed) rs=26 budget=6000 ...
+[2026-11-08 14:44:46]     [abcvns:mr] g= 25  fit(gbest)=    2210.890  tau=1  t=   13.1s
+[2026-11-08 14:45:10]     [abcvns:mr] g= 50  fit(gbest)=    2210.890  tau=1  t=   37.0s
+[2026-11-08 14:45:28]     [abcvns:mr] g= 75  fit(gbest)=    2407.869  tau=0  t=   54.6s
+[2026-11-08 14:45:45]     [abcvns:mr] g=100  fit(gbest)=    2407.869  tau=0  t=   71.6s
+[2026-11-08 14:46:02]     [abcvns:mr] g=125  fit(gbest)=    2430.469  tau=1  t=   88.4s
+[2026-11-08 14:46:20]     [abcvns:mr] g=150  fit(gbest)=    2456.473  tau=4  t=  107.2s
+[2026-11-08 14:46:20]   done slashdot k=30 ABCVNS (fixed)   rs=26 t=   107.17s pos=  2501.12 neg=     1.10 tot=  2502.22 fit=    2456.474
+[2026-11-08 14:46:20] [slashdot] k=30 ABCVNS (fixed) rs=27 budget=6000 ...
+[2026-11-08 14:46:32]     [abcvns:mr] g= 25  fit(gbest)=    2171.080  tau=2  t=   11.6s
+[2026-11-08 14:46:49]     [abcvns:mr] g= 50  fit(gbest)=    2171.080  tau=2  t=   28.3s
+[2026-11-08 14:47:07]     [abcvns:mr] g= 75  fit(gbest)=    2171.080  tau=2  t=   46.7s
+[2026-11-08 14:47:20]     [abcvns:mr] g=100  fit(gbest)=    2357.349  tau=1  t=   59.7s
+[2026-11-08 14:47:37]     [abcvns:mr] g=125  fit(gbest)=    2411.897  tau=0  t=   76.9s
+[2026-11-08 14:47:55]     [abcvns:mr] g=150  fit(gbest)=    2415.118  tau=4  t=   94.5s
+[2026-11-08 14:47:55]   done slashdot k=30 ABCVNS (fixed)   rs=27 t=    94.53s pos=  2452.89 neg=     2.10 tot=  2454.99 fit=    2415.118
+[2026-11-08 14:47:55] [slashdot] k=30 ABCVNS (fixed) rs=28 budget=6000 ...
+[2026-11-08 14:48:10]     [abcvns:mr] g= 25  fit(gbest)=    2232.916  tau=1  t=   14.6s
+[2026-11-08 14:48:28]     [abcvns:mr] g= 50  fit(gbest)=    2430.560  tau=3  t=   32.8s
+[2026-11-08 14:48:47]     [abcvns:mr] g= 75  fit(gbest)=    2442.761  tau=2  t=   51.6s
+[2026-11-08 14:49:05]     [abcvns:mr] g=100  fit(gbest)=    2442.761  tau=2  t=   70.0s
+[2026-11-08 14:49:23]     [abcvns:mr] g=125  fit(gbest)=    2449.615  tau=2  t=   87.9s
+[2026-11-08 14:49:42]     [abcvns:mr] g=150  fit(gbest)=    2449.615  tau=2  t=  106.6s
+[2026-11-08 14:49:42]   done slashdot k=30 ABCVNS (fixed)   rs=28 t=   106.64s pos=  2492.93 neg=     1.10 tot=  2494.03 fit=    2449.615
+[2026-11-08 14:49:42] [slashdot] k=30 ABCVNS (fixed) rs=29 budget=6000 ...
+[2026-11-08 14:49:53]     [abcvns:mr] g= 25  fit(gbest)=    2378.062  tau=3  t=   11.4s
+[2026-11-08 14:50:13]     [abcvns:mr] g= 50  fit(gbest)=    2384.129  tau=2  t=   31.2s
+[2026-11-08 14:50:32]     [abcvns:mr] g= 75  fit(gbest)=    2385.646  tau=2  t=   50.0s
+[2026-11-08 14:50:50]     [abcvns:mr] g=100  fit(gbest)=    2420.519  tau=2  t=   67.8s
+[2026-11-08 14:51:09]     [abcvns:mr] g=125  fit(gbest)=    2420.519  tau=2  t=   87.4s
+[2026-11-08 14:51:32]     [abcvns:mr] g=150  fit(gbest)=    2420.519  tau=2  t=  110.4s
+[2026-11-08 14:51:32]   done slashdot k=30 ABCVNS (fixed)   rs=29 t=   110.43s pos=  2459.11 neg=     1.10 tot=  2460.21 fit=    2420.519
+[2026-11-08 14:51:32] [slashdot] k=40 ABCVNS (fixed) rs=0 budget=8000 ...
+[2026-11-08 14:51:44]     [abcvns:mr] g= 25  fit(gbest)=    2578.712  tau=0  t=   11.6s
+[2026-11-08 14:52:04]     [abcvns:mr] g= 50  fit(gbest)=    2595.380  tau=3  t=   31.4s
+[2026-11-08 14:52:27]     [abcvns:mr] g= 75  fit(gbest)=    2599.983  tau=3  t=   54.6s
+[2026-11-08 14:52:47]     [abcvns:mr] g=100  fit(gbest)=    2599.983  tau=3  t=   75.0s
+[2026-11-08 14:53:09]     [abcvns:mr] g=125  fit(gbest)=    2599.983  tau=3  t=   97.0s
+[2026-11-08 14:53:30]     [abcvns:mr] g=150  fit(gbest)=    2599.983  tau=3  t=  117.8s
+[2026-11-08 14:53:30]   done slashdot k=40 ABCVNS (fixed)   rs= 0 t=   117.82s pos=  2645.73 neg=     2.10 tot=  2647.83 fit=    2599.983
+[2026-11-08 14:53:30] [slashdot] k=40 ABCVNS (fixed) rs=1 budget=8000 ...
+[2026-11-08 14:53:42]     [abcvns:mr] g= 25  fit(gbest)=    2399.628  tau=2  t=   11.8s
+[2026-11-08 14:54:00]     [abcvns:mr] g= 50  fit(gbest)=    2399.628  tau=2  t=   29.8s
+[2026-11-08 14:54:18]     [abcvns:mr] g= 75  fit(gbest)=    2618.017  tau=0  t=   48.2s
+[2026-11-08 14:54:38]     [abcvns:mr] g=100  fit(gbest)=    2626.065  tau=0  t=   68.1s
+[2026-11-08 14:55:04]     [abcvns:mr] g=125  fit(gbest)=    2626.065  tau=0  t=   94.2s
+[2026-11-08 14:55:25]     [abcvns:mr] g=150  fit(gbest)=    2626.065  tau=0  t=  115.0s
+[2026-11-08 14:55:25]   done slashdot k=40 ABCVNS (fixed)   rs= 1 t=   114.99s pos=  2671.80 neg=     3.10 tot=  2674.90 fit=    2626.065
+[2026-11-08 14:55:25] [slashdot] k=40 ABCVNS (fixed) rs=2 budget=8000 ...
+[2026-11-08 14:55:37]     [abcvns:mr] g= 25  fit(gbest)=    2418.466  tau=4  t=   11.4s
+[2026-11-08 14:55:54]     [abcvns:mr] g= 50  fit(gbest)=    2599.428  tau=4  t=   28.5s
+[2026-11-08 14:56:16]     [abcvns:mr] g= 75  fit(gbest)=    2599.428  tau=4  t=   50.2s
+[2026-11-08 14:56:36]     [abcvns:mr] g=100  fit(gbest)=    2599.428  tau=4  t=   70.2s
+[2026-11-08 14:56:55]     [abcvns:mr] g=125  fit(gbest)=    2599.428  tau=4  t=   89.7s
+[2026-11-08 14:57:21]     [abcvns:mr] g=150  fit(gbest)=    2599.428  tau=4  t=  115.9s
+[2026-11-08 14:57:21]   done slashdot k=40 ABCVNS (fixed)   rs= 2 t=   115.88s pos=  2642.96 neg=     4.10 tot=  2647.06 fit=    2599.428
+[2026-11-08 14:57:21] [slashdot] k=40 ABCVNS (fixed) rs=3 budget=8000 ...
+[2026-11-08 14:57:33]     [abcvns:mr] g= 25  fit(gbest)=    2396.261  tau=0  t=   12.0s
+[2026-11-08 14:57:54]     [abcvns:mr] g= 50  fit(gbest)=    2412.193  tau=0  t=   33.1s
+[2026-11-08 14:58:14]     [abcvns:mr] g= 75  fit(gbest)=    2451.905  tau=3  t=   52.7s
+[2026-11-08 14:58:37]     [abcvns:mr] g=100  fit(gbest)=    2600.404  tau=0  t=   75.5s
+[2026-11-08 14:59:02]     [abcvns:mr] g=125  fit(gbest)=    2606.701  tau=0  t=  100.4s
+[2026-11-08 14:59:22]     [abcvns:mr] g=150  fit(gbest)=    2606.701  tau=0  t=  121.1s
+[2026-11-08 14:59:22]   done slashdot k=40 ABCVNS (fixed)   rs= 3 t=   121.07s pos=  2648.36 neg=     4.10 tot=  2652.46 fit=    2606.701
+[2026-11-08 14:59:22] [slashdot] k=40 ABCVNS (fixed) rs=4 budget=8000 ...
+[2026-11-08 14:59:34]     [abcvns:mr] g= 25  fit(gbest)=    2372.919  tau=0  t=   11.9s
+[2026-11-08 14:59:53]     [abcvns:mr] g= 50  fit(gbest)=    2375.328  tau=4  t=   30.9s
+[2026-11-08 15:00:14]     [abcvns:mr] g= 75  fit(gbest)=    2375.328  tau=4  t=   51.4s
+[2026-11-08 15:00:33]     [abcvns:mr] g=100  fit(gbest)=    2375.328  tau=4  t=   70.8s
+[2026-11-08 15:00:52]     [abcvns:mr] g=125  fit(gbest)=    2385.548  tau=1  t=   89.3s
+[2026-11-08 15:01:10]     [abcvns:mr] g=150  fit(gbest)=    2385.548  tau=1  t=  108.0s
+[2026-11-08 15:01:11]   done slashdot k=40 ABCVNS (fixed)   rs= 4 t=   107.96s pos=  2421.16 neg=     2.73 tot=  2423.89 fit=    2385.548
+[2026-11-08 15:01:11] [slashdot] k=40 ABCVNS (fixed) rs=5 budget=8000 ...
+[2026-11-08 15:01:25]     [abcvns:mr] g= 25  fit(gbest)=    2238.652  tau=4  t=   14.2s
+[2026-11-08 15:01:39]     [abcvns:mr] g= 50  fit(gbest)=    2456.630  tau=2  t=   28.0s
+[2026-11-08 15:01:56]     [abcvns:mr] g= 75  fit(gbest)=    2456.630  tau=2  t=   45.9s
+[2026-11-08 15:02:15]     [abcvns:mr] g=100  fit(gbest)=    2616.107  tau=4  t=   64.6s
+[2026-11-08 15:02:36]     [abcvns:mr] g=125  fit(gbest)=    2625.772  tau=2  t=   85.7s
+[2026-11-08 15:02:56]     [abcvns:mr] g=150  fit(gbest)=    2628.599  tau=0  t=  105.7s
+[2026-11-08 15:02:56]   done slashdot k=40 ABCVNS (fixed)   rs= 5 t=   105.73s pos=  2674.45 neg=     1.10 tot=  2675.55 fit=    2628.599
+[2026-11-08 15:02:56] [slashdot] k=40 ABCVNS (fixed) rs=6 budget=8000 ...
+[2026-11-08 15:03:08]     [abcvns:mr] g= 25  fit(gbest)=    2407.241  tau=0  t=   11.9s
+[2026-11-08 15:03:25]     [abcvns:mr] g= 50  fit(gbest)=    2445.940  tau=2  t=   28.1s
+[2026-11-08 15:03:43]     [abcvns:mr] g= 75  fit(gbest)=    2445.940  tau=2  t=   46.7s
+[2026-11-08 15:04:02]     [abcvns:mr] g=100  fit(gbest)=    2585.767  tau=0  t=   65.7s
+[2026-11-08 15:04:22]     [abcvns:mr] g=125  fit(gbest)=    2600.301  tau=3  t=   86.0s
+[2026-11-08 15:04:41]     [abcvns:mr] g=150  fit(gbest)=    2600.301  tau=3  t=  104.7s
+[2026-11-08 15:04:41]   done slashdot k=40 ABCVNS (fixed)   rs= 6 t=   104.65s pos=  2644.46 neg=     1.10 tot=  2645.56 fit=    2600.301
+[2026-11-08 15:04:41] [slashdot] k=40 ABCVNS (fixed) rs=7 budget=8000 ...
+[2026-11-08 15:04:52]     [abcvns:mr] g= 25  fit(gbest)=    2359.213  tau=2  t=   11.3s
+[2026-11-08 15:05:16]     [abcvns:mr] g= 50  fit(gbest)=    2407.689  tau=0  t=   34.6s
+[2026-11-08 15:05:35]     [abcvns:mr] g= 75  fit(gbest)=    2578.113  tau=0  t=   53.5s
+[2026-11-08 15:05:58]     [abcvns:mr] g=100  fit(gbest)=    2584.222  tau=4  t=   76.9s
+[2026-11-08 15:06:18]     [abcvns:mr] g=125  fit(gbest)=    2584.222  tau=4  t=   97.1s
+[2026-11-08 15:06:38]     [abcvns:mr] g=150  fit(gbest)=    2584.222  tau=4  t=  117.1s
+[2026-11-08 15:06:38]   done slashdot k=40 ABCVNS (fixed)   rs= 7 t=   117.13s pos=  2626.77 neg=     2.10 tot=  2628.87 fit=    2584.222
+[2026-11-08 15:06:38] [slashdot] k=40 ABCVNS (fixed) rs=8 budget=8000 ...
+[2026-11-08 15:06:49]     [abcvns:mr] g= 25  fit(gbest)=    2350.372  tau=4  t=   11.0s
+[2026-11-08 15:07:08]     [abcvns:mr] g= 50  fit(gbest)=    2352.827  tau=1  t=   30.1s
+[2026-11-08 15:07:26]     [abcvns:mr] g= 75  fit(gbest)=    2352.827  tau=1  t=   47.5s
+[2026-11-08 15:07:43]     [abcvns:mr] g=100  fit(gbest)=    2352.827  tau=1  t=   64.5s
+[2026-11-08 15:07:57]     [abcvns:mr] g=125  fit(gbest)=    2571.776  tau=0  t=   78.2s
+[2026-11-08 15:08:14]     [abcvns:mr] g=150  fit(gbest)=    2609.382  tau=2  t=   95.9s
+[2026-11-08 15:08:14]   done slashdot k=40 ABCVNS (fixed)   rs= 8 t=    95.94s pos=  2655.21 neg=     2.10 tot=  2657.31 fit=    2609.382
+[2026-11-08 15:08:14] [slashdot] k=40 ABCVNS (fixed) rs=9 budget=8000 ...
+[2026-11-08 15:08:27]     [abcvns:mr] g= 25  fit(gbest)=    2407.100  tau=0  t=   12.4s
+[2026-11-08 15:08:50]     [abcvns:mr] g= 50  fit(gbest)=    2576.835  tau=4  t=   35.7s
+[2026-11-08 15:09:13]     [abcvns:mr] g= 75  fit(gbest)=    2584.180  tau=4  t=   58.2s
+[2026-11-08 15:09:34]     [abcvns:mr] g=100  fit(gbest)=    2584.180  tau=4  t=   79.4s
+[2026-11-08 15:09:57]     [abcvns:mr] g=125  fit(gbest)=    2584.180  tau=4  t=  102.5s
+[2026-11-08 15:10:19]     [abcvns:mr] g=150  fit(gbest)=    2584.180  tau=4  t=  124.2s
+[2026-11-08 15:10:19]   done slashdot k=40 ABCVNS (fixed)   rs= 9 t=   124.18s pos=  2625.89 neg=     2.10 tot=  2627.99 fit=    2584.180
+[2026-11-08 15:10:19] [slashdot] k=40 ABCVNS (fixed) rs=10 budget=8000 ...
+[2026-11-08 15:10:29]     [abcvns:mr] g= 25  fit(gbest)=    2376.131  tau=4  t=   10.2s
+[2026-11-08 15:10:48]     [abcvns:mr] g= 50  fit(gbest)=    2380.798  tau=3  t=   28.9s
+[2026-11-08 15:11:06]     [abcvns:mr] g= 75  fit(gbest)=    2613.200  tau=0  t=   47.2s
+[2026-11-08 15:11:27]     [abcvns:mr] g=100  fit(gbest)=    2613.200  tau=0  t=   68.6s
+[2026-11-08 15:11:51]     [abcvns:mr] g=125  fit(gbest)=    2613.200  tau=0  t=   91.9s
+[2026-11-08 15:12:18]     [abcvns:mr] g=150  fit(gbest)=    2613.200  tau=0  t=  119.2s
+[2026-11-08 15:12:18]   done slashdot k=40 ABCVNS (fixed)   rs=10 t=   119.20s pos=  2659.44 neg=     2.10 tot=  2661.54 fit=    2613.200
+[2026-11-08 15:12:18] [slashdot] k=40 ABCVNS (fixed) rs=11 budget=8000 ...
+[2026-11-08 15:12:29]     [abcvns:mr] g= 25  fit(gbest)=    2581.136  tau=2  t=   10.7s
+[2026-11-08 15:12:46]     [abcvns:mr] g= 50  fit(gbest)=    2591.370  tau=1  t=   28.3s
+[2026-11-08 15:13:08]     [abcvns:mr] g= 75  fit(gbest)=    2613.688  tau=4  t=   49.9s
+[2026-11-08 15:13:29]     [abcvns:mr] g=100  fit(gbest)=    2613.688  tau=4  t=   71.1s
+[2026-11-08 15:13:52]     [abcvns:mr] g=125  fit(gbest)=    2613.688  tau=4  t=   93.7s
+[2026-11-08 15:14:20]     [abcvns:mr] g=150  fit(gbest)=    2613.688  tau=4  t=  121.6s
+[2026-11-08 15:14:20]   done slashdot k=40 ABCVNS (fixed)   rs=11 t=   121.60s pos=  2658.91 neg=     2.10 tot=  2661.01 fit=    2613.688
+[2026-11-08 15:14:20] [slashdot] k=40 ABCVNS (fixed) rs=12 budget=8000 ...
+[2026-11-08 15:14:31]     [abcvns:mr] g= 25  fit(gbest)=    2429.944  tau=4  t=   11.6s
+[2026-11-08 15:14:56]     [abcvns:mr] g= 50  fit(gbest)=    2429.944  tau=4  t=   36.1s
+[2026-11-08 15:15:17]     [abcvns:mr] g= 75  fit(gbest)=    2429.944  tau=4  t=   57.5s
+[2026-11-08 15:15:33]     [abcvns:mr] g=100  fit(gbest)=    2538.855  tau=4  t=   73.6s
+[2026-11-08 15:15:53]     [abcvns:mr] g=125  fit(gbest)=    2538.855  tau=4  t=   93.3s
+[2026-11-08 15:16:12]     [abcvns:mr] g=150  fit(gbest)=    2563.565  tau=2  t=  112.4s
+[2026-11-08 15:16:12]   done slashdot k=40 ABCVNS (fixed)   rs=12 t=   112.43s pos=  2602.23 neg=     3.10 tot=  2605.33 fit=    2563.566
+[2026-11-08 15:16:12] [slashdot] k=40 ABCVNS (fixed) rs=13 budget=8000 ...
+[2026-11-08 15:16:27]     [abcvns:mr] g= 25  fit(gbest)=    2427.831  tau=2  t=   14.4s
+[2026-11-08 15:16:44]     [abcvns:mr] g= 50  fit(gbest)=    2606.145  tau=3  t=   31.9s
+[2026-11-08 15:17:05]     [abcvns:mr] g= 75  fit(gbest)=    2619.993  tau=1  t=   52.4s
+[2026-11-08 15:17:26]     [abcvns:mr] g=100  fit(gbest)=    2626.354  tau=0  t=   73.7s
+[2026-11-08 15:17:45]     [abcvns:mr] g=125  fit(gbest)=    2665.546  tau=3  t=   93.0s
+[2026-11-08 15:18:08]     [abcvns:mr] g=150  fit(gbest)=    2665.546  tau=3  t=  116.3s
+[2026-11-08 15:18:09]   done slashdot k=40 ABCVNS (fixed)   rs=13 t=   116.27s pos=  2712.46 neg=     2.10 tot=  2714.56 fit=    2665.546
+[2026-11-08 15:18:09] [slashdot] k=40 ABCVNS (fixed) rs=14 budget=8000 ...
+[2026-11-08 15:18:21]     [abcvns:mr] g= 25  fit(gbest)=    2450.602  tau=4  t=   12.6s
+[2026-11-08 15:18:39]     [abcvns:mr] g= 50  fit(gbest)=    2450.602  tau=4  t=   30.6s
+[2026-11-08 15:19:00]     [abcvns:mr] g= 75  fit(gbest)=    2598.500  tau=2  t=   51.2s
+[2026-11-08 15:19:18]     [abcvns:mr] g=100  fit(gbest)=    2618.284  tau=1  t=   69.7s
+[2026-11-08 15:19:36]     [abcvns:mr] g=125  fit(gbest)=    2618.284  tau=1  t=   87.2s
+[2026-11-08 15:19:51]     [abcvns:mr] g=150  fit(gbest)=    2618.284  tau=1  t=  102.1s
+[2026-11-08 15:19:51]   done slashdot k=40 ABCVNS (fixed)   rs=14 t=   102.11s pos=  2660.53 neg=     3.10 tot=  2663.63 fit=    2618.284
+[2026-11-08 15:19:51] [slashdot] k=40 ABCVNS (fixed) rs=15 budget=8000 ...
+[2026-11-08 15:20:00]     [abcvns:mr] g= 25  fit(gbest)=    2437.643  tau=0  t=    9.3s
+[2026-11-08 15:20:25]     [abcvns:mr] g= 50  fit(gbest)=    2589.858  tau=4  t=   33.9s
+[2026-11-08 15:20:46]     [abcvns:mr] g= 75  fit(gbest)=    2589.858  tau=4  t=   55.7s
+[2026-11-08 15:21:08]     [abcvns:mr] g=100  fit(gbest)=    2589.858  tau=4  t=   76.8s
+[2026-11-08 15:21:27]     [abcvns:mr] g=125  fit(gbest)=    2589.858  tau=4  t=   96.7s
+[2026-11-08 15:21:49]     [abcvns:mr] g=150  fit(gbest)=    2589.858  tau=4  t=  118.2s
+[2026-11-08 15:21:49]   done slashdot k=40 ABCVNS (fixed)   rs=15 t=   118.24s pos=  2631.98 neg=     3.10 tot=  2635.08 fit=    2589.858
+[2026-11-08 15:21:49] [slashdot] k=40 ABCVNS (fixed) rs=16 budget=8000 ...
+[2026-11-08 15:22:00]     [abcvns:mr] g= 25  fit(gbest)=    2504.268  tau=0  t=   11.1s
+[2026-11-08 15:22:17]     [abcvns:mr] g= 50  fit(gbest)=    2513.264  tau=4  t=   27.4s
+[2026-11-08 15:22:32]     [abcvns:mr] g= 75  fit(gbest)=    2513.264  tau=4  t=   43.3s
+[2026-11-08 15:22:49]     [abcvns:mr] g=100  fit(gbest)=    2513.264  tau=4  t=   59.5s
+[2026-11-08 15:23:04]     [abcvns:mr] g=125  fit(gbest)=    2513.264  tau=4  t=   75.1s
+[2026-11-08 15:23:20]     [abcvns:mr] g=150  fit(gbest)=    2573.964  tau=1  t=   91.1s
+[2026-11-08 15:23:20]   done slashdot k=40 ABCVNS (fixed)   rs=16 t=    91.08s pos=  2613.63 neg=     4.10 tot=  2617.73 fit=    2573.964
+[2026-11-08 15:23:20] [slashdot] k=40 ABCVNS (fixed) rs=17 budget=8000 ...
+[2026-11-08 15:23:31]     [abcvns:mr] g= 25  fit(gbest)=    2355.384  tau=2  t=   10.8s
+[2026-11-08 15:23:45]     [abcvns:mr] g= 50  fit(gbest)=    2597.294  tau=2  t=   25.2s
+[2026-11-08 15:24:04]     [abcvns:mr] g= 75  fit(gbest)=    2597.294  tau=2  t=   43.4s
+[2026-11-08 15:24:22]     [abcvns:mr] g=100  fit(gbest)=    2603.405  tau=1  t=   61.3s
+[2026-11-08 15:24:38]     [abcvns:mr] g=125  fit(gbest)=    2608.245  tau=2  t=   77.5s
+[2026-11-08 15:25:02]     [abcvns:mr] g=150  fit(gbest)=    2608.245  tau=2  t=  101.5s
+[2026-11-08 15:25:02]   done slashdot k=40 ABCVNS (fixed)   rs=17 t=   101.53s pos=  2653.63 neg=     3.10 tot=  2656.73 fit=    2608.245
+[2026-11-08 15:25:02] [slashdot] k=40 ABCVNS (fixed) rs=18 budget=8000 ...
+[2026-11-08 15:25:15]     [abcvns:mr] g= 25  fit(gbest)=    2563.549  tau=4  t=   13.1s
+[2026-11-08 15:25:42]     [abcvns:mr] g= 50  fit(gbest)=    2589.946  tau=2  t=   40.0s
+[2026-11-08 15:26:01]     [abcvns:mr] g= 75  fit(gbest)=    2589.946  tau=2  t=   58.7s
+[2026-11-08 15:26:24]     [abcvns:mr] g=100  fit(gbest)=    2589.946  tau=2  t=   82.1s
+[2026-11-08 15:26:45]     [abcvns:mr] g=125  fit(gbest)=    2589.946  tau=2  t=  103.5s
+[2026-11-08 15:27:04]     [abcvns:mr] g=150  fit(gbest)=    2589.946  tau=2  t=  122.5s
+[2026-11-08 15:27:05]   done slashdot k=40 ABCVNS (fixed)   rs=18 t=   122.54s pos=  2633.80 neg=     3.10 tot=  2636.90 fit=    2589.946
+[2026-11-08 15:27:05] [slashdot] k=40 ABCVNS (fixed) rs=19 budget=8000 ...
+[2026-11-08 15:27:15]     [abcvns:mr] g= 25  fit(gbest)=    2358.866  tau=4  t=   10.5s
+[2026-11-08 15:27:36]     [abcvns:mr] g= 50  fit(gbest)=    2371.539  tau=2  t=   31.2s
+[2026-11-08 15:27:55]     [abcvns:mr] g= 75  fit(gbest)=    2371.539  tau=2  t=   50.0s
+[2026-11-08 15:28:16]     [abcvns:mr] g=100  fit(gbest)=    2417.728  tau=0  t=   71.7s
+[2026-11-08 15:28:38]     [abcvns:mr] g=125  fit(gbest)=    2572.764  tau=4  t=   93.4s
+[2026-11-08 15:28:56]     [abcvns:mr] g=150  fit(gbest)=    2572.764  tau=4  t=  111.8s
+[2026-11-08 15:28:56]   done slashdot k=40 ABCVNS (fixed)   rs=19 t=   111.77s pos=  2613.34 neg=     2.10 tot=  2615.44 fit=    2572.764
+[2026-11-08 15:28:56] [slashdot] k=40 ABCVNS (fixed) rs=20 budget=8000 ...
+[2026-11-08 15:29:07]     [abcvns:mr] g= 25  fit(gbest)=    2581.242  tau=0  t=   11.0s
+[2026-11-08 15:29:26]     [abcvns:mr] g= 50  fit(gbest)=    2584.914  tau=4  t=   29.8s
+[2026-11-08 15:29:43]     [abcvns:mr] g= 75  fit(gbest)=    2596.400  tau=4  t=   46.1s
+[2026-11-08 15:30:02]     [abcvns:mr] g=100  fit(gbest)=    2596.400  tau=4  t=   65.5s
+[2026-11-08 15:30:19]     [abcvns:mr] g=125  fit(gbest)=    2596.400  tau=4  t=   82.5s
+[2026-11-08 15:30:35]     [abcvns:mr] g=150  fit(gbest)=    2605.307  tau=4  t=   98.6s
+[2026-11-08 15:30:35]   done slashdot k=40 ABCVNS (fixed)   rs=20 t=    98.61s pos=  2649.64 neg=     3.10 tot=  2652.74 fit=    2605.307
+[2026-11-08 15:30:35] [slashdot] k=40 ABCVNS (fixed) rs=21 budget=8000 ...
+[2026-11-08 15:30:46]     [abcvns:mr] g= 25  fit(gbest)=    2375.579  tau=4  t=   10.8s
+[2026-11-08 15:31:08]     [abcvns:mr] g= 50  fit(gbest)=    2391.761  tau=2  t=   32.6s
+[2026-11-08 15:31:26]     [abcvns:mr] g= 75  fit(gbest)=    2391.761  tau=2  t=   50.9s
+[2026-11-08 15:31:47]     [abcvns:mr] g=100  fit(gbest)=    2416.513  tau=1  t=   72.3s
+[2026-11-08 15:32:11]     [abcvns:mr] g=125  fit(gbest)=    2432.216  tau=1  t=   95.4s
+[2026-11-08 15:32:28]     [abcvns:mr] g=150  fit(gbest)=    2442.978  tau=0  t=  113.1s
+[2026-11-08 15:32:28]   done slashdot k=40 ABCVNS (fixed)   rs=21 t=   113.13s pos=  2486.82 neg=     2.10 tot=  2488.92 fit=    2442.978
+[2026-11-08 15:32:28] [slashdot] k=40 ABCVNS (fixed) rs=22 budget=8000 ...
+[2026-11-08 15:32:39]     [abcvns:mr] g= 25  fit(gbest)=    2559.250  tau=3  t=   10.2s
+[2026-11-08 15:32:57]     [abcvns:mr] g= 50  fit(gbest)=    2596.547  tau=4  t=   28.2s
+[2026-11-08 15:33:16]     [abcvns:mr] g= 75  fit(gbest)=    2596.747  tau=4  t=   47.7s
+[2026-11-08 15:33:39]     [abcvns:mr] g=100  fit(gbest)=    2596.747  tau=4  t=   70.6s
+[2026-11-08 15:33:56]     [abcvns:mr] g=125  fit(gbest)=    2606.259  tau=2  t=   88.2s
+[2026-11-08 15:34:21]     [abcvns:mr] g=150  fit(gbest)=    2606.259  tau=2  t=  112.9s
+[2026-11-08 15:34:21]   done slashdot k=40 ABCVNS (fixed)   rs=22 t=   112.93s pos=  2651.64 neg=     2.10 tot=  2653.74 fit=    2606.259
+[2026-11-08 15:34:21] [slashdot] k=40 ABCVNS (fixed) rs=23 budget=8000 ...
+[2026-11-08 15:34:31]     [abcvns:mr] g= 25  fit(gbest)=    2394.597  tau=3  t=    9.4s
+[2026-11-08 15:34:48]     [abcvns:mr] g= 50  fit(gbest)=    2573.471  tau=0  t=   26.2s
+[2026-11-08 15:35:05]     [abcvns:mr] g= 75  fit(gbest)=    2573.471  tau=0  t=   43.9s
+[2026-11-08 15:35:23]     [abcvns:mr] g=100  fit(gbest)=    2573.471  tau=0  t=   61.9s
+[2026-11-08 15:35:46]     [abcvns:mr] g=125  fit(gbest)=    2573.471  tau=0  t=   85.0s
+[2026-11-08 15:36:05]     [abcvns:mr] g=150  fit(gbest)=    2573.754  tau=1  t=  104.1s
+[2026-11-08 15:36:06]   done slashdot k=40 ABCVNS (fixed)   rs=23 t=   104.12s pos=  2613.59 neg=     4.10 tot=  2617.69 fit=    2573.754
+[2026-11-08 15:36:06] [slashdot] k=40 ABCVNS (fixed) rs=24 budget=8000 ...
+[2026-11-08 15:36:17]     [abcvns:mr] g= 25  fit(gbest)=    2387.429  tau=3  t=   11.2s
+[2026-11-08 15:36:36]     [abcvns:mr] g= 50  fit(gbest)=    2387.429  tau=3  t=   30.9s
+[2026-11-08 15:36:58]     [abcvns:mr] g= 75  fit(gbest)=    2387.429  tau=3  t=   52.7s
+[2026-11-08 15:37:16]     [abcvns:mr] g=100  fit(gbest)=    2572.723  tau=1  t=   70.7s
+[2026-11-08 15:37:37]     [abcvns:mr] g=125  fit(gbest)=    2572.723  tau=1  t=   91.0s
+[2026-11-08 15:37:54]     [abcvns:mr] g=150  fit(gbest)=    2589.951  tau=1  t=  108.5s
+[2026-11-08 15:37:54]   done slashdot k=40 ABCVNS (fixed)   rs=24 t=   108.45s pos=  2633.46 neg=     2.10 tot=  2635.56 fit=    2589.951
+[2026-11-08 15:37:54] [slashdot] k=40 ABCVNS (fixed) rs=25 budget=8000 ...
+[2026-11-08 15:38:06]     [abcvns:mr] g= 25  fit(gbest)=    2361.362  tau=1  t=   11.6s
+[2026-11-08 15:38:29]     [abcvns:mr] g= 50  fit(gbest)=    2362.900  tau=4  t=   35.3s
+[2026-11-08 15:38:46]     [abcvns:mr] g= 75  fit(gbest)=    2393.579  tau=0  t=   51.7s
+[2026-11-08 15:39:02]     [abcvns:mr] g=100  fit(gbest)=    2393.579  tau=0  t=   68.4s
+[2026-11-08 15:39:23]     [abcvns:mr] g=125  fit(gbest)=    2393.579  tau=0  t=   88.7s
+[2026-11-08 15:39:39]     [abcvns:mr] g=150  fit(gbest)=    2393.579  tau=0  t=  104.7s
+[2026-11-08 15:39:39]   done slashdot k=40 ABCVNS (fixed)   rs=25 t=   104.71s pos=  2431.27 neg=     4.10 tot=  2435.37 fit=    2393.579
+[2026-11-08 15:39:39] [slashdot] k=40 ABCVNS (fixed) rs=26 budget=8000 ...
+[2026-11-08 15:39:51]     [abcvns:mr] g= 25  fit(gbest)=    2582.912  tau=2  t=   12.4s
+[2026-11-08 15:40:11]     [abcvns:mr] g= 50  fit(gbest)=    2592.749  tau=0  t=   32.4s
+[2026-11-08 15:40:31]     [abcvns:mr] g= 75  fit(gbest)=    2599.774  tau=0  t=   51.8s
+[2026-11-08 15:40:49]     [abcvns:mr] g=100  fit(gbest)=    2599.774  tau=0  t=   69.7s
+[2026-11-08 15:41:06]     [abcvns:mr] g=125  fit(gbest)=    2599.774  tau=0  t=   87.5s
+[2026-11-08 15:41:24]     [abcvns:mr] g=150  fit(gbest)=    2605.882  tau=0  t=  104.8s
+[2026-11-08 15:41:24]   done slashdot k=40 ABCVNS (fixed)   rs=26 t=   104.85s pos=  2651.50 neg=     2.10 tot=  2653.60 fit=    2605.883
+[2026-11-08 15:41:24] [slashdot] k=40 ABCVNS (fixed) rs=27 budget=8000 ...
+[2026-11-08 15:41:35]     [abcvns:mr] g= 25  fit(gbest)=    2587.821  tau=1  t=   11.3s
+[2026-11-08 15:41:51]     [abcvns:mr] g= 50  fit(gbest)=    2597.691  tau=1  t=   26.8s
+[2026-11-08 15:42:08]     [abcvns:mr] g= 75  fit(gbest)=    2597.691  tau=1  t=   44.5s
+[2026-11-08 15:42:27]     [abcvns:mr] g=100  fit(gbest)=    2597.691  tau=1  t=   63.1s
+[2026-11-08 15:42:44]     [abcvns:mr] g=125  fit(gbest)=    2597.691  tau=1  t=   80.6s
+[2026-11-08 15:43:02]     [abcvns:mr] g=150  fit(gbest)=    2597.691  tau=1  t=   98.1s
+[2026-11-08 15:43:02]   done slashdot k=40 ABCVNS (fixed)   rs=27 t=    98.05s pos=  2641.75 neg=     3.10 tot=  2644.85 fit=    2597.691
+[2026-11-08 15:43:02] [slashdot] k=40 ABCVNS (fixed) rs=28 budget=8000 ...
+[2026-11-08 15:43:16]     [abcvns:mr] g= 25  fit(gbest)=    2371.317  tau=1  t=   13.7s
+[2026-11-08 15:43:30]     [abcvns:mr] g= 50  fit(gbest)=    2565.375  tau=0  t=   28.1s
+[2026-11-08 15:43:48]     [abcvns:mr] g= 75  fit(gbest)=    2572.575  tau=4  t=   46.3s
+[2026-11-08 15:44:08]     [abcvns:mr] g=100  fit(gbest)=    2575.450  tau=3  t=   65.9s
+[2026-11-08 15:44:34]     [abcvns:mr] g=125  fit(gbest)=    2612.561  tau=1  t=   91.9s
+[2026-11-08 15:44:55]     [abcvns:mr] g=150  fit(gbest)=    2612.561  tau=1  t=  112.6s
+[2026-11-08 15:44:55]   done slashdot k=40 ABCVNS (fixed)   rs=28 t=   112.56s pos=  2656.09 neg=     3.10 tot=  2659.19 fit=    2612.561
+[2026-11-08 15:44:55] [slashdot] k=40 ABCVNS (fixed) rs=29 budget=8000 ...
+[2026-11-08 15:45:07]     [abcvns:mr] g= 25  fit(gbest)=    2491.666  tau=3  t=   11.9s
+[2026-11-08 15:45:23]     [abcvns:mr] g= 50  fit(gbest)=    2527.156  tau=4  t=   28.9s
+[2026-11-08 15:45:40]     [abcvns:mr] g= 75  fit(gbest)=    2533.775  tau=4  t=   45.5s
+[2026-11-08 15:45:59]     [abcvns:mr] g=100  fit(gbest)=    2533.775  tau=4  t=   64.0s
+[2026-11-08 15:46:16]     [abcvns:mr] g=125  fit(gbest)=    2572.439  tau=3  t=   81.4s
+[2026-11-08 15:46:35]     [abcvns:mr] g=150  fit(gbest)=    2572.862  tau=2  t=  100.1s
+[2026-11-08 15:46:35]   done slashdot k=40 ABCVNS (fixed)   rs=29 t=   100.09s pos=  2611.76 neg=     4.10 tot=  2615.86 fit=    2572.861
+[2026-11-08 15:46:35] [slashdot] k=50 ABCVNS (fixed) rs=0 budget=10000 ...
+[2026-11-08 15:46:47]     [abcvns:mr] g= 25  fit(gbest)=    2477.411  tau=0  t=   12.6s
+[2026-11-08 15:47:05]     [abcvns:mr] g= 50  fit(gbest)=    2588.071  tau=4  t=   30.1s
+[2026-11-08 15:47:26]     [abcvns:mr] g= 75  fit(gbest)=    2693.114  tau=0  t=   50.8s
+[2026-11-08 15:47:47]     [abcvns:mr] g=100  fit(gbest)=    2718.888  tau=0  t=   71.8s
+[2026-11-08 15:48:06]     [abcvns:mr] g=125  fit(gbest)=    2718.888  tau=0  t=   91.1s
+[2026-11-08 15:48:25]     [abcvns:mr] g=150  fit(gbest)=    2718.888  tau=0  t=  110.4s
+[2026-11-08 15:48:25]   done slashdot k=50 ABCVNS (fixed)   rs= 0 t=   110.42s pos=  2761.38 neg=     6.10 tot=  2767.48 fit=    2718.888
+[2026-11-08 15:48:25] [slashdot] k=50 ABCVNS (fixed) rs=1 budget=10000 ...
+[2026-11-08 15:48:35]     [abcvns:mr] g= 25  fit(gbest)=    2496.216  tau=0  t=    9.8s
+[2026-11-08 15:48:55]     [abcvns:mr] g= 50  fit(gbest)=    2508.412  tau=0  t=   29.3s
+[2026-11-08 15:49:14]     [abcvns:mr] g= 75  fit(gbest)=    2542.570  tau=0  t=   48.3s
+[2026-11-08 15:49:34]     [abcvns:mr] g=100  fit(gbest)=    2542.570  tau=0  t=   68.2s
+[2026-11-08 15:49:53]     [abcvns:mr] g=125  fit(gbest)=    2606.854  tau=0  t=   88.0s
+[2026-11-08 15:50:15]     [abcvns:mr] g=150  fit(gbest)=    2607.271  tau=4  t=  109.6s
+[2026-11-08 15:50:15]   done slashdot k=50 ABCVNS (fixed)   rs= 1 t=   109.60s pos=  2651.47 neg=     6.10 tot=  2657.57 fit=    2607.271
+[2026-11-08 15:50:15] [slashdot] k=50 ABCVNS (fixed) rs=2 budget=10000 ...
+[2026-11-08 15:50:24]     [abcvns:mr] g= 25  fit(gbest)=    2548.955  tau=0  t=    9.2s
+[2026-11-08 15:50:42]     [abcvns:mr] g= 50  fit(gbest)=    2715.619  tau=3  t=   27.2s
+[2026-11-08 15:51:03]     [abcvns:mr] g= 75  fit(gbest)=    2772.109  tau=0  t=   47.8s
+[2026-11-08 15:51:26]     [abcvns:mr] g=100  fit(gbest)=    2772.109  tau=0  t=   70.9s
+[2026-11-08 15:51:54]     [abcvns:mr] g=125  fit(gbest)=    2774.959  tau=4  t=   98.7s
+[2026-11-08 15:52:17]     [abcvns:mr] g=150  fit(gbest)=    2774.959  tau=4  t=  121.6s
+[2026-11-08 15:52:17]   done slashdot k=50 ABCVNS (fixed)   rs= 2 t=   121.56s pos=  2819.14 neg=     5.10 tot=  2824.24 fit=    2774.959
+[2026-11-08 15:52:17] [slashdot] k=50 ABCVNS (fixed) rs=3 budget=10000 ...
+[2026-11-08 15:52:28]     [abcvns:mr] g= 25  fit(gbest)=    2535.619  tau=0  t=   11.2s
+[2026-11-08 15:52:48]     [abcvns:mr] g= 50  fit(gbest)=    2705.245  tau=4  t=   31.6s
+[2026-11-08 15:53:12]     [abcvns:mr] g= 75  fit(gbest)=    2709.761  tau=4  t=   55.3s
+[2026-11-08 15:53:36]     [abcvns:mr] g=100  fit(gbest)=    2709.761  tau=4  t=   79.6s
+[2026-11-08 15:53:58]     [abcvns:mr] g=125  fit(gbest)=    2720.992  tau=4  t=  100.8s
+[2026-11-08 15:54:21]     [abcvns:mr] g=150  fit(gbest)=    2720.992  tau=4  t=  124.6s
+[2026-11-08 15:54:21]   done slashdot k=50 ABCVNS (fixed)   rs= 3 t=   124.57s pos=  2764.80 neg=     5.10 tot=  2769.90 fit=    2720.992
+[2026-11-08 15:54:21] [slashdot] k=50 ABCVNS (fixed) rs=4 budget=10000 ...
+[2026-11-08 15:54:33]     [abcvns:mr] g= 25  fit(gbest)=    2446.483  tau=0  t=   11.3s
+[2026-11-08 15:54:51]     [abcvns:mr] g= 50  fit(gbest)=    2642.678  tau=1  t=   29.5s
+[2026-11-08 15:55:11]     [abcvns:mr] g= 75  fit(gbest)=    2723.487  tau=3  t=   49.8s
+[2026-11-08 15:55:30]     [abcvns:mr] g=100  fit(gbest)=    2723.487  tau=3  t=   68.4s
+[2026-11-08 15:55:49]     [abcvns:mr] g=125  fit(gbest)=    2723.487  tau=3  t=   87.3s
+[2026-11-08 15:56:10]     [abcvns:mr] g=150  fit(gbest)=    2723.723  tau=1  t=  108.8s
+[2026-11-08 15:56:10]   done slashdot k=50 ABCVNS (fixed)   rs= 4 t=   108.78s pos=  2763.70 neg=     4.10 tot=  2767.80 fit=    2723.723
+[2026-11-08 15:56:10] [slashdot] k=50 ABCVNS (fixed) rs=5 budget=10000 ...
+[2026-11-08 15:56:23]     [abcvns:mr] g= 25  fit(gbest)=    2569.005  tau=0  t=   12.6s
+[2026-11-08 15:56:42]     [abcvns:mr] g= 50  fit(gbest)=    2569.005  tau=0  t=   32.0s
+[2026-11-08 15:57:02]     [abcvns:mr] g= 75  fit(gbest)=    2589.528  tau=0  t=   51.5s
+[2026-11-08 15:57:22]     [abcvns:mr] g=100  fit(gbest)=    2693.629  tau=0  t=   71.5s
+[2026-11-08 15:57:46]     [abcvns:mr] g=125  fit(gbest)=    2700.071  tau=2  t=   95.7s
+[2026-11-08 15:58:08]     [abcvns:mr] g=150  fit(gbest)=    2708.077  tau=4  t=  117.9s
+[2026-11-08 15:58:08]   done slashdot k=50 ABCVNS (fixed)   rs= 5 t=   117.91s pos=  2750.66 neg=     4.10 tot=  2754.76 fit=    2708.077
+[2026-11-08 15:58:08] [slashdot] k=50 ABCVNS (fixed) rs=6 budget=10000 ...
+[2026-11-08 15:58:19]     [abcvns:mr] g= 25  fit(gbest)=    2277.779  tau=0  t=   10.5s
+[2026-11-08 15:58:35]     [abcvns:mr] g= 50  fit(gbest)=    2356.886  tau=3  t=   26.4s
+[2026-11-08 15:58:51]     [abcvns:mr] g= 75  fit(gbest)=    2581.375  tau=4  t=   42.6s
+[2026-11-08 15:59:08]     [abcvns:mr] g=100  fit(gbest)=    2739.490  tau=4  t=   59.7s
+[2026-11-08 15:59:34]     [abcvns:mr] g=125  fit(gbest)=    2746.704  tau=0  t=   85.4s
+[2026-11-08 15:59:57]     [abcvns:mr] g=150  fit(gbest)=    2746.704  tau=0  t=  108.8s
+[2026-11-08 15:59:57]   done slashdot k=50 ABCVNS (fixed)   rs= 6 t=   108.83s pos=  2795.24 neg=     3.10 tot=  2798.34 fit=    2746.704
+[2026-11-08 15:59:57] [slashdot] k=50 ABCVNS (fixed) rs=7 budget=10000 ...
+[2026-11-08 16:00:07]     [abcvns:mr] g= 25  fit(gbest)=    2590.568  tau=0  t=    9.7s
+[2026-11-08 16:00:26]     [abcvns:mr] g= 50  fit(gbest)=    2612.519  tau=4  t=   29.2s
+[2026-11-08 16:00:47]     [abcvns:mr] g= 75  fit(gbest)=    2612.519  tau=4  t=   50.3s
+[2026-11-08 16:01:12]     [abcvns:mr] g=100  fit(gbest)=    2612.519  tau=4  t=   75.0s
+[2026-11-08 16:01:33]     [abcvns:mr] g=125  fit(gbest)=    2612.519  tau=4  t=   95.8s
+[2026-11-08 16:01:59]     [abcvns:mr] g=150  fit(gbest)=    2612.519  tau=4  t=  121.7s
+[2026-11-08 16:01:59]   done slashdot k=50 ABCVNS (fixed)   rs= 7 t=   121.72s pos=  2658.36 neg=     5.10 tot=  2663.46 fit=    2612.519
+[2026-11-08 16:01:59] [slashdot] k=50 ABCVNS (fixed) rs=8 budget=10000 ...
+[2026-11-08 16:02:10]     [abcvns:mr] g= 25  fit(gbest)=    2494.505  tau=0  t=   10.7s
+[2026-11-08 16:02:25]     [abcvns:mr] g= 50  fit(gbest)=    2643.262  tau=2  t=   26.2s
+[2026-11-08 16:02:44]     [abcvns:mr] g= 75  fit(gbest)=    2656.539  tau=4  t=   44.8s
+[2026-11-08 16:03:07]     [abcvns:mr] g=100  fit(gbest)=    2674.811  tau=1  t=   67.8s
+[2026-11-08 16:03:27]     [abcvns:mr] g=125  fit(gbest)=    2674.811  tau=1  t=   88.1s
+[2026-11-08 16:03:47]     [abcvns:mr] g=150  fit(gbest)=    2674.811  tau=1  t=  108.2s
+[2026-11-08 16:03:47]   done slashdot k=50 ABCVNS (fixed)   rs= 8 t=   108.23s pos=  2716.15 neg=     3.73 tot=  2719.88 fit=    2674.811
+[2026-11-08 16:03:47] [slashdot] k=50 ABCVNS (fixed) rs=9 budget=10000 ...
+[2026-11-08 16:03:56]     [abcvns:mr] g= 25  fit(gbest)=    2493.698  tau=1  t=    9.0s
+[2026-11-08 16:04:17]     [abcvns:mr] g= 50  fit(gbest)=    2718.422  tau=0  t=   30.0s
+[2026-11-08 16:04:38]     [abcvns:mr] g= 75  fit(gbest)=    2718.422  tau=0  t=   50.3s
+[2026-11-08 16:04:58]     [abcvns:mr] g=100  fit(gbest)=    2718.422  tau=0  t=   70.6s
+[2026-11-08 16:05:23]     [abcvns:mr] g=125  fit(gbest)=    2718.422  tau=0  t=   95.8s
+[2026-11-08 16:05:42]     [abcvns:mr] g=150  fit(gbest)=    2718.422  tau=0  t=  114.5s
+[2026-11-08 16:05:42]   done slashdot k=50 ABCVNS (fixed)   rs= 9 t=   114.52s pos=  2763.04 neg=     4.10 tot=  2767.14 fit=    2718.422
+[2026-11-08 16:05:42] [slashdot] k=50 ABCVNS (fixed) rs=10 budget=10000 ...
+[2026-11-08 16:05:52]     [abcvns:mr] g= 25  fit(gbest)=    2739.692  tau=0  t=    9.7s
+[2026-11-08 16:06:12]     [abcvns:mr] g= 50  fit(gbest)=    2748.388  tau=0  t=   30.0s
+[2026-11-08 16:06:32]     [abcvns:mr] g= 75  fit(gbest)=    2748.388  tau=0  t=   50.0s
+[2026-11-08 16:06:52]     [abcvns:mr] g=100  fit(gbest)=    2748.388  tau=0  t=   70.1s
+[2026-11-08 16:07:11]     [abcvns:mr] g=125  fit(gbest)=    2748.388  tau=0  t=   89.4s
+[2026-11-08 16:07:31]     [abcvns:mr] g=150  fit(gbest)=    2753.682  tau=1  t=  109.0s
+[2026-11-08 16:07:31]   done slashdot k=50 ABCVNS (fixed)   rs=10 t=   109.00s pos=  2799.33 neg=     3.10 tot=  2802.43 fit=    2753.682
+[2026-11-08 16:07:31] [slashdot] k=50 ABCVNS (fixed) rs=11 budget=10000 ...
+[2026-11-08 16:07:43]     [abcvns:mr] g= 25  fit(gbest)=    2696.129  tau=2  t=   12.1s
+[2026-11-08 16:08:04]     [abcvns:mr] g= 50  fit(gbest)=    2733.723  tau=0  t=   33.2s
+[2026-11-08 16:08:27]     [abcvns:mr] g= 75  fit(gbest)=    2747.063  tau=0  t=   55.8s
+[2026-11-08 16:08:46]     [abcvns:mr] g=100  fit(gbest)=    2747.063  tau=0  t=   74.8s
+[2026-11-08 16:09:12]     [abcvns:mr] g=125  fit(gbest)=    2747.063  tau=0  t=  101.4s
+[2026-11-08 16:09:33]     [abcvns:mr] g=150  fit(gbest)=    2747.063  tau=0  t=  122.4s
+[2026-11-08 16:09:34]   done slashdot k=50 ABCVNS (fixed)   rs=11 t=   122.45s pos=  2793.77 neg=     4.10 tot=  2797.87 fit=    2747.063
+[2026-11-08 16:09:34] [slashdot] k=50 ABCVNS (fixed) rs=12 budget=10000 ...
+[2026-11-08 16:09:42]     [abcvns:mr] g= 25  fit(gbest)=    2486.965  tau=0  t=    8.8s
+[2026-11-08 16:10:04]     [abcvns:mr] g= 50  fit(gbest)=    2512.291  tau=2  t=   30.6s
+[2026-11-08 16:10:24]     [abcvns:mr] g= 75  fit(gbest)=    2512.291  tau=2  t=   50.7s
+[2026-11-08 16:10:44]     [abcvns:mr] g=100  fit(gbest)=    2512.291  tau=2  t=   70.1s
+[2026-11-08 16:11:07]     [abcvns:mr] g=125  fit(gbest)=    2512.291  tau=2  t=   93.8s
+[2026-11-08 16:11:29]     [abcvns:mr] g=150  fit(gbest)=    2740.575  tau=2  t=  115.2s
+[2026-11-08 16:11:29]   done slashdot k=50 ABCVNS (fixed)   rs=12 t=   115.19s pos=  2781.71 neg=     6.10 tot=  2787.81 fit=    2740.575
+[2026-11-08 16:11:29] [slashdot] k=50 ABCVNS (fixed) rs=13 budget=10000 ...
+[2026-11-08 16:11:39]     [abcvns:mr] g= 25  fit(gbest)=    2708.724  tau=4  t=   10.3s
+[2026-11-08 16:11:58]     [abcvns:mr] g= 50  fit(gbest)=    2736.773  tau=1  t=   28.7s
+[2026-11-08 16:12:20]     [abcvns:mr] g= 75  fit(gbest)=    2744.713  tau=4  t=   51.3s
+[2026-11-08 16:12:42]     [abcvns:mr] g=100  fit(gbest)=    2744.713  tau=4  t=   73.1s
+[2026-11-08 16:13:04]     [abcvns:mr] g=125  fit(gbest)=    2752.184  tau=3  t=   94.7s
+[2026-11-08 16:13:27]     [abcvns:mr] g=150  fit(gbest)=    2752.184  tau=3  t=  117.8s
+[2026-11-08 16:13:27]   done slashdot k=50 ABCVNS (fixed)   rs=13 t=   117.79s pos=  2797.31 neg=     6.10 tot=  2803.41 fit=    2752.184
+[2026-11-08 16:13:27] [slashdot] k=50 ABCVNS (fixed) rs=14 budget=10000 ...
+[2026-11-08 16:13:36]     [abcvns:mr] g= 25  fit(gbest)=    2489.991  tau=2  t=    9.5s
+[2026-11-08 16:13:53]     [abcvns:mr] g= 50  fit(gbest)=    2692.511  tau=1  t=   26.8s
+[2026-11-08 16:14:17]     [abcvns:mr] g= 75  fit(gbest)=    2692.511  tau=1  t=   50.1s
+[2026-11-08 16:14:35]     [abcvns:mr] g=100  fit(gbest)=    2727.712  tau=3  t=   67.9s
+[2026-11-08 16:14:59]     [abcvns:mr] g=125  fit(gbest)=    2727.712  tau=3  t=   91.8s
+[2026-11-08 16:15:24]     [abcvns:mr] g=150  fit(gbest)=    2727.712  tau=3  t=  117.2s
+[2026-11-08 16:15:24]   done slashdot k=50 ABCVNS (fixed)   rs=14 t=   117.25s pos=  2773.70 neg=     3.10 tot=  2776.80 fit=    2727.712
+[2026-11-08 16:15:24] [slashdot] k=50 ABCVNS (fixed) rs=15 budget=10000 ...
+[2026-11-08 16:15:33]     [abcvns:mr] g= 25  fit(gbest)=    2554.529  tau=0  t=    8.5s
+[2026-11-08 16:15:49]     [abcvns:mr] g= 50  fit(gbest)=    2733.906  tau=0  t=   24.4s
+[2026-11-08 16:16:07]     [abcvns:mr] g= 75  fit(gbest)=    2739.659  tau=1  t=   43.2s
+[2026-11-08 16:16:25]     [abcvns:mr] g=100  fit(gbest)=    2739.659  tau=1  t=   61.3s
+[2026-11-08 16:16:45]     [abcvns:mr] g=125  fit(gbest)=    2739.659  tau=1  t=   80.5s
+[2026-11-08 16:17:06]     [abcvns:mr] g=150  fit(gbest)=    2739.659  tau=1  t=  101.5s
+[2026-11-08 16:17:06]   done slashdot k=50 ABCVNS (fixed)   rs=15 t=   101.46s pos=  2785.15 neg=     4.10 tot=  2789.25 fit=    2739.659
+[2026-11-08 16:17:06] [slashdot] k=50 ABCVNS (fixed) rs=16 budget=10000 ...
+[2026-11-08 16:17:18]     [abcvns:mr] g= 25  fit(gbest)=    2567.041  tau=2  t=   12.2s
+[2026-11-08 16:17:42]     [abcvns:mr] g= 50  fit(gbest)=    2774.160  tau=0  t=   36.9s
+[2026-11-08 16:18:06]     [abcvns:mr] g= 75  fit(gbest)=    2774.160  tau=0  t=   60.5s
+[2026-11-08 16:18:28]     [abcvns:mr] g=100  fit(gbest)=    2774.160  tau=0  t=   82.2s
+[2026-11-08 16:18:51]     [abcvns:mr] g=125  fit(gbest)=    2778.925  tau=2  t=  105.1s
+[2026-11-08 16:19:15]     [abcvns:mr] g=150  fit(gbest)=    2789.576  tau=4  t=  129.0s
+[2026-11-08 16:19:15]   done slashdot k=50 ABCVNS (fixed)   rs=16 t=   128.95s pos=  2834.03 neg=     4.24 tot=  2838.27 fit=    2789.576
+[2026-11-08 16:19:15] [slashdot] k=50 ABCVNS (fixed) rs=17 budget=10000 ...
+[2026-11-08 16:19:23]     [abcvns:mr] g= 25  fit(gbest)=    2559.086  tau=0  t=    8.5s
+[2026-11-08 16:19:42]     [abcvns:mr] g= 50  fit(gbest)=    2749.263  tau=4  t=   27.3s
+[2026-11-08 16:20:03]     [abcvns:mr] g= 75  fit(gbest)=    2749.263  tau=4  t=   47.9s
+[2026-11-08 16:20:26]     [abcvns:mr] g=100  fit(gbest)=    2766.722  tau=1  t=   71.3s
+[2026-11-08 16:20:48]     [abcvns:mr] g=125  fit(gbest)=    2766.722  tau=1  t=   93.2s
+[2026-11-08 16:21:18]     [abcvns:mr] g=150  fit(gbest)=    2769.573  tau=2  t=  123.0s
+[2026-11-08 16:21:18]   done slashdot k=50 ABCVNS (fixed)   rs=17 t=   122.99s pos=  2816.02 neg=     4.24 tot=  2820.26 fit=    2769.573
+[2026-11-08 16:21:18] [slashdot] k=50 ABCVNS (fixed) rs=18 budget=10000 ...
+[2026-11-08 16:21:29]     [abcvns:mr] g= 25  fit(gbest)=    2769.451  tau=1  t=   11.5s
+[2026-11-08 16:21:49]     [abcvns:mr] g= 50  fit(gbest)=    2784.285  tau=0  t=   30.9s
+[2026-11-08 16:22:07]     [abcvns:mr] g= 75  fit(gbest)=    2789.714  tau=1  t=   49.5s
+[2026-11-08 16:22:28]     [abcvns:mr] g=100  fit(gbest)=    2789.714  tau=1  t=   70.4s
+[2026-11-08 16:22:49]     [abcvns:mr] g=125  fit(gbest)=    2789.714  tau=1  t=   91.3s
+[2026-11-08 16:23:12]     [abcvns:mr] g=150  fit(gbest)=    2789.714  tau=1  t=  114.5s
+[2026-11-08 16:23:12]   done slashdot k=50 ABCVNS (fixed)   rs=18 t=   114.50s pos=  2832.29 neg=     5.10 tot=  2837.39 fit=    2789.714
+[2026-11-08 16:23:12] [slashdot] k=50 ABCVNS (fixed) rs=19 budget=10000 ...
+[2026-11-08 16:23:22]     [abcvns:mr] g= 25  fit(gbest)=    2549.849  tau=4  t=    9.7s
+[2026-11-08 16:23:42]     [abcvns:mr] g= 50  fit(gbest)=    2549.849  tau=4  t=   29.7s
+[2026-11-08 16:24:01]     [abcvns:mr] g= 75  fit(gbest)=    2549.849  tau=4  t=   49.1s
+[2026-11-08 16:24:21]     [abcvns:mr] g=100  fit(gbest)=    2712.219  tau=3  t=   69.0s
+[2026-11-08 16:24:42]     [abcvns:mr] g=125  fit(gbest)=    2712.219  tau=3  t=   89.9s
+[2026-11-08 16:25:06]     [abcvns:mr] g=150  fit(gbest)=    2712.827  tau=0  t=  113.7s
+[2026-11-08 16:25:06]   done slashdot k=50 ABCVNS (fixed)   rs=19 t=   113.68s pos=  2755.80 neg=     5.10 tot=  2760.90 fit=    2712.827
+[2026-11-08 16:25:06] [slashdot] k=50 ABCVNS (fixed) rs=20 budget=10000 ...
+[2026-11-08 16:25:20]     [abcvns:mr] g= 25  fit(gbest)=    2567.429  tau=2  t=   13.4s
+[2026-11-08 16:25:36]     [abcvns:mr] g= 50  fit(gbest)=    2712.220  tau=4  t=   29.9s
+[2026-11-08 16:25:55]     [abcvns:mr] g= 75  fit(gbest)=    2723.425  tau=3  t=   48.8s
+[2026-11-08 16:26:18]     [abcvns:mr] g=100  fit(gbest)=    2740.023  tau=1  t=   71.8s
+[2026-11-08 16:26:41]     [abcvns:mr] g=125  fit(gbest)=    2741.963  tau=0  t=   94.6s
+[2026-11-08 16:27:01]     [abcvns:mr] g=150  fit(gbest)=    2741.963  tau=0  t=  115.2s
+[2026-11-08 16:27:01]   done slashdot k=50 ABCVNS (fixed)   rs=20 t=   115.20s pos=  2784.02 neg=     5.24 tot=  2789.26 fit=    2741.963
+[2026-11-08 16:27:01] [slashdot] k=50 ABCVNS (fixed) rs=21 budget=10000 ...
+[2026-11-08 16:27:11]     [abcvns:mr] g= 25  fit(gbest)=    2460.166  tau=0  t=    9.1s
+[2026-11-08 16:27:28]     [abcvns:mr] g= 50  fit(gbest)=    2669.083  tau=2  t=   26.4s
+[2026-11-08 16:27:45]     [abcvns:mr] g= 75  fit(gbest)=    2689.084  tau=0  t=   43.8s
+[2026-11-08 16:28:07]     [abcvns:mr] g=100  fit(gbest)=    2692.023  tau=1  t=   65.8s
+[2026-11-08 16:28:31]     [abcvns:mr] g=125  fit(gbest)=    2793.146  tau=0  t=   89.2s
+[2026-11-08 16:28:51]     [abcvns:mr] g=150  fit(gbest)=    2794.898  tau=0  t=  109.1s
+[2026-11-08 16:28:51]   done slashdot k=50 ABCVNS (fixed)   rs=21 t=   109.12s pos=  2840.15 neg=     4.10 tot=  2844.25 fit=    2794.898
+[2026-11-08 16:28:51] [slashdot] k=50 ABCVNS (fixed) rs=22 budget=10000 ...
+[2026-11-08 16:29:02]     [abcvns:mr] g= 25  fit(gbest)=    2604.602  tau=0  t=   11.4s
+[2026-11-08 16:29:22]     [abcvns:mr] g= 50  fit(gbest)=    2708.237  tau=2  t=   31.2s
+[2026-11-08 16:29:41]     [abcvns:mr] g= 75  fit(gbest)=    2708.237  tau=2  t=   50.6s
+[2026-11-08 16:30:06]     [abcvns:mr] g=100  fit(gbest)=    2708.237  tau=2  t=   75.1s
+[2026-11-08 16:30:30]     [abcvns:mr] g=125  fit(gbest)=    2713.399  tau=4  t=   98.9s
+[2026-11-08 16:30:54]     [abcvns:mr] g=150  fit(gbest)=    2713.399  tau=4  t=  123.3s
+[2026-11-08 16:30:54]   done slashdot k=50 ABCVNS (fixed)   rs=22 t=   123.31s pos=  2755.34 neg=     5.10 tot=  2760.44 fit=    2713.399
+[2026-11-08 16:30:54] [slashdot] k=50 ABCVNS (fixed) rs=23 budget=10000 ...
+[2026-11-08 16:31:05]     [abcvns:mr] g= 25  fit(gbest)=    2717.169  tau=0  t=   11.2s
+[2026-11-08 16:31:24]     [abcvns:mr] g= 50  fit(gbest)=    2755.568  tau=3  t=   29.4s
+[2026-11-08 16:31:47]     [abcvns:mr] g= 75  fit(gbest)=    2756.960  tau=3  t=   52.6s
+[2026-11-08 16:32:08]     [abcvns:mr] g=100  fit(gbest)=    2756.960  tau=3  t=   73.5s
+[2026-11-08 16:32:30]     [abcvns:mr] g=125  fit(gbest)=    2757.747  tau=1  t=   96.2s
+[2026-11-08 16:32:52]     [abcvns:mr] g=150  fit(gbest)=    2757.747  tau=1  t=  117.9s
+[2026-11-08 16:32:52]   done slashdot k=50 ABCVNS (fixed)   rs=23 t=   117.94s pos=  2802.93 neg=     4.10 tot=  2807.03 fit=    2757.747
+[2026-11-08 16:32:52] [slashdot] k=50 ABCVNS (fixed) rs=24 budget=10000 ...
+[2026-11-08 16:33:05]     [abcvns:mr] g= 25  fit(gbest)=    2662.419  tau=0  t=   12.5s
+[2026-11-08 16:33:30]     [abcvns:mr] g= 50  fit(gbest)=    2674.843  tau=3  t=   38.0s
+[2026-11-08 16:33:57]     [abcvns:mr] g= 75  fit(gbest)=    2682.843  tau=1  t=   64.5s
+[2026-11-08 16:34:18]     [abcvns:mr] g=100  fit(gbest)=    2682.843  tau=1  t=   86.2s
+[2026-11-08 16:34:39]     [abcvns:mr] g=125  fit(gbest)=    2682.843  tau=1  t=  107.1s
+[2026-11-08 16:34:59]     [abcvns:mr] g=150  fit(gbest)=    2808.090  tau=3  t=  126.7s
+[2026-11-08 16:34:59]   done slashdot k=50 ABCVNS (fixed)   rs=24 t=   126.73s pos=  2853.98 neg=     5.10 tot=  2859.08 fit=    2808.090
+[2026-11-08 16:34:59] [slashdot] k=50 ABCVNS (fixed) rs=25 budget=10000 ...
+[2026-11-08 16:35:10]     [abcvns:mr] g= 25  fit(gbest)=    2516.414  tau=1  t=   10.6s
+[2026-11-08 16:35:28]     [abcvns:mr] g= 50  fit(gbest)=    2528.168  tau=3  t=   29.1s
+[2026-11-08 16:35:47]     [abcvns:mr] g= 75  fit(gbest)=    2528.168  tau=3  t=   48.4s
+[2026-11-08 16:36:05]     [abcvns:mr] g=100  fit(gbest)=    2743.506  tau=1  t=   65.8s
+[2026-11-08 16:36:26]     [abcvns:mr] g=125  fit(gbest)=    2743.506  tau=1  t=   87.1s
+[2026-11-08 16:36:45]     [abcvns:mr] g=150  fit(gbest)=    2752.123  tau=4  t=  105.7s
+[2026-11-08 16:36:45]   done slashdot k=50 ABCVNS (fixed)   rs=25 t=   105.73s pos=  2797.09 neg=     5.10 tot=  2802.19 fit=    2752.123
+[2026-11-08 16:36:45] [slashdot] k=50 ABCVNS (fixed) rs=26 budget=10000 ...
+[2026-11-08 16:36:54]     [abcvns:mr] g= 25  fit(gbest)=    2665.072  tau=0  t=    9.4s
+[2026-11-08 16:37:17]     [abcvns:mr] g= 50  fit(gbest)=    2739.437  tau=3  t=   32.6s
+[2026-11-08 16:37:42]     [abcvns:mr] g= 75  fit(gbest)=    2748.270  tau=1  t=   56.8s
+[2026-11-08 16:38:03]     [abcvns:mr] g=100  fit(gbest)=    2752.886  tau=1  t=   77.7s
+[2026-11-08 16:38:25]     [abcvns:mr] g=125  fit(gbest)=    2755.507  tau=2  t=  100.2s
+[2026-11-08 16:38:53]     [abcvns:mr] g=150  fit(gbest)=    2755.507  tau=2  t=  128.0s
+[2026-11-08 16:38:53]   done slashdot k=50 ABCVNS (fixed)   rs=26 t=   127.99s pos=  2802.17 neg=     4.10 tot=  2806.27 fit=    2755.508
+[2026-11-08 16:38:53] [slashdot] k=50 ABCVNS (fixed) rs=27 budget=10000 ...
+[2026-11-08 16:39:03]     [abcvns:mr] g= 25  fit(gbest)=    2636.364  tau=0  t=   10.0s
+[2026-11-08 16:39:23]     [abcvns:mr] g= 50  fit(gbest)=    2636.364  tau=0  t=   29.8s
+[2026-11-08 16:39:42]     [abcvns:mr] g= 75  fit(gbest)=    2636.364  tau=0  t=   49.3s
+[2026-11-08 16:40:02]     [abcvns:mr] g=100  fit(gbest)=    2636.364  tau=0  t=   69.5s
+[2026-11-08 16:40:24]     [abcvns:mr] g=125  fit(gbest)=    2702.537  tau=4  t=   91.5s
+[2026-11-08 16:40:44]     [abcvns:mr] g=150  fit(gbest)=    2704.292  tau=4  t=  111.3s
+[2026-11-08 16:40:44]   done slashdot k=50 ABCVNS (fixed)   rs=27 t=   111.34s pos=  2743.84 neg=     6.10 tot=  2749.94 fit=    2704.292
+[2026-11-08 16:40:44] [slashdot] k=50 ABCVNS (fixed) rs=28 budget=10000 ...
+[2026-11-08 16:40:59]     [abcvns:mr] g= 25  fit(gbest)=    2712.410  tau=0  t=   14.4s
+[2026-11-08 16:41:22]     [abcvns:mr] g= 50  fit(gbest)=    2747.426  tau=3  t=   37.2s
+[2026-11-08 16:41:49]     [abcvns:mr] g= 75  fit(gbest)=    2747.426  tau=3  t=   64.2s
+[2026-11-08 16:42:11]     [abcvns:mr] g=100  fit(gbest)=    2747.545  tau=2  t=   86.4s
+[2026-11-08 16:42:37]     [abcvns:mr] g=125  fit(gbest)=    2747.545  tau=2  t=  112.4s
+[2026-11-08 16:42:59]     [abcvns:mr] g=150  fit(gbest)=    2758.055  tau=2  t=  134.9s
+[2026-11-08 16:42:59]   done slashdot k=50 ABCVNS (fixed)   rs=28 t=   134.93s pos=  2805.71 neg=     4.10 tot=  2809.81 fit=    2758.055
+[2026-11-08 16:42:59] [slashdot] k=50 ABCVNS (fixed) rs=29 budget=10000 ...
+[2026-11-08 16:43:08]     [abcvns:mr] g= 25  fit(gbest)=    2267.908  tau=1  t=    9.1s
+[2026-11-08 16:43:28]     [abcvns:mr] g= 50  fit(gbest)=    2508.144  tau=3  t=   29.0s
+[2026-11-08 16:43:48]     [abcvns:mr] g= 75  fit(gbest)=    2508.144  tau=3  t=   48.2s
+[2026-11-08 16:44:09]     [abcvns:mr] g=100  fit(gbest)=    2508.144  tau=3  t=   69.9s
+[2026-11-08 16:44:30]     [abcvns:mr] g=125  fit(gbest)=    2726.931  tau=2  t=   90.9s
+[2026-11-08 16:44:52]     [abcvns:mr] g=150  fit(gbest)=    2726.931  tau=2  t=  113.1s
+[2026-11-08 16:44:53]   done slashdot k=50 ABCVNS (fixed)   rs=29 t=   113.14s pos=  2764.99 neg=     5.10 tot=  2770.09 fit=    2726.931
+[2026-11-08 16:44:53] benchmark finished: 99 new cells (1380 total) -> results.csv
+[2026-11-08 16:44:55] [scheduler] all phases complete

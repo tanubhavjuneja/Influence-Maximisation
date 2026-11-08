@@ -73,6 +73,7 @@ class SignedDiffusion:
         theta = rng.uniform(lo, hi, size=(self.n, R)).astype(np.float32)
         need = np.floor(theta * self.deg[:, None].astype(np.float32)) + 1.0
         need[self.deg == 0] = INF
+        self.need_np = need                        # CPU copy (fallback path)
         self.theta_dev = be.asarray(theta, be.f32)
         self.need = be.asarray(need, be.f32)
         self._deg_dev = be.asarray(self.deg.astype(np.float32), be.f32)
@@ -86,6 +87,7 @@ class SignedDiffusion:
         self.n_evals = 0
         self.cache: dict[frozenset, float] = {}
         self.cache_pot: dict[frozenset, tuple] = {}
+        self._gpu_ok = be.GPU
 
         # adjacency (CPU numpy) for neighbour lookups (candidate sets etc.)
         order = np.argsort(self.dst, kind="stable")
@@ -108,7 +110,27 @@ class SignedDiffusion:
 
     # ------------------------------------------------------------------ #
     def _run(self, S) -> tuple:
-        """Simulate all R draws in parallel; return (active, net) on device."""
+        """Simulate all R draws in parallel; return (active, net) as NUMPY.
+
+        Runs on the GPU backend when available; a transient CUDA fault
+        (e.g. a driver reset) transparently falls back to the CPU path so
+        a single GPU hiccup cannot kill the cell."""
+        if be.GPU and self._gpu_ok:
+            try:
+                return self._run_dev(S)
+            except Exception as exc:
+                msg = str(exc)
+                if ("CUDA" in msg or "illegal instruction" in msg
+                        or "Accelerator" in msg):
+                    self._gpu_ok = False
+                    print(f"  [diffusion] CUDA fault -> CPU fallback "
+                          f"({msg.splitlines()[0][:80]})", flush=True)
+                    return self._run_cpu(S)
+                raise
+        return self._run_cpu(S)
+
+    def _run_dev(self, S) -> tuple:
+        """GPU path: chunked scatter-add over the frontier edges."""
         n, R, chunk = self.n, self.R, self.chunk
         active = be.zeros((n, R), dtype=be.bool_)
         net = be.zeros((n, R), dtype=be.f32)
@@ -141,6 +163,40 @@ class SignedDiffusion:
             newly = (net >= self.need) & (~active)
             active |= newly
             frontier = newly
+        return be.asnumpy(active), be.asnumpy(net)
+
+    def _run_cpu(self, S) -> tuple:
+        """CPU path (numpy): identical semantics to _run_dev."""
+        n, R, chunk = self.n, self.R, self.chunk
+        active = np.zeros((n, R), dtype=bool)
+        if len(S):
+            active[np.asarray(S, dtype=np.int64), :] = True
+        net = np.zeros((n, R), dtype=np.float32)
+        frontier = active.copy()
+        need = self.need_np
+        rr = np.arange(R, dtype=np.int64)
+        src, dst, sw = self.src, self.dst, self.sw
+        rounds = 0
+        while frontier.any():
+            rounds += 1
+            if rounds > 4 * n // max(1, len(S)) + 100:
+                break
+            e = frontier[src].any(axis=1)
+            if not e.any():
+                break
+            s_sel, d_sel, w_sel = src[e], dst[e], sw[e]
+            fr = frontier[s_sel].astype(np.float32)
+            for c0 in range(0, int(s_sel.shape[0]), chunk):
+                s_ = s_sel[c0:c0 + chunk]
+                d_ = d_sel[c0:c0 + chunk]
+                w_ = w_sel[c0:c0 + chunk]
+                f_ = fr[c0:c0 + chunk]
+                idx = d_[:, None] * R + rr[None, :]
+                np.add.at(net.ravel(), idx.ravel(),
+                          (w_[:, None] * f_).ravel())
+            newly = (net >= need) & (~active)
+            active |= newly
+            frontier = newly
         return active, net
 
     # ------------------------------------------------------------------ #
@@ -150,7 +206,7 @@ class SignedDiffusion:
         if hit is not None:
             return hit
         active, _ = self._run(S)
-        val = float(active.sum(dtype=be.f64) / self.R)
+        val = float(active.sum(dtype=np.float64) / self.R)
         self.cache[key] = val
         self.n_evals += 1
         return val
@@ -162,9 +218,9 @@ class SignedDiffusion:
         if hit is not None:
             return hit
         active, net = self._run(S)
-        counts = be.asnumpy(be.sum_axis(active, 0, be.f64))
-        pot = be.minimum(1.0, net / self.need)
-        phi = float(pot.sum(dtype=be.f64) / self.R)
+        counts = active.sum(axis=0, dtype=np.float64)
+        pot = np.minimum(1.0, net / self.need_np)
+        phi = float(pot.sum(dtype=np.float64) / self.R)
         mu = float(counts.mean())
         se = float(counts.std(ddof=1) / np.sqrt(self.R)) if self.R > 1 else 0.0
         self.cache_pot[key] = (mu, phi, se)
@@ -179,8 +235,8 @@ class SignedDiffusion:
         if hit is not None:
             return hit
         active, _ = self._run(S)
-        pos = int(active[be.asarray(self.pol_pos, be.i64)].sum()) / self.R
-        neg = int(active[be.asarray(self.pol_neg, be.i64)].sum()) / self.R
+        pos = int(active[self.pol_pos].sum()) / self.R
+        neg = int(active[self.pol_neg].sum()) / self.R
         tot = pos + neg
         self.cache[key] = (pos, neg, tot)
         self.n_evals += 1
@@ -190,11 +246,8 @@ class SignedDiffusion:
         """Border nodes for cascade-aware refinement: inactive nodes whose
         mean slack (need - net) at convergence is <= 1."""
         active, net = self._run(S)
-        active_np = be.asnumpy(active)
-        net_np = be.asnumpy(net)
-        need_np = be.asnumpy(self.need)
-        inactive = active_np.mean(axis=1) < 0.999
-        slack = (need_np - net_np).mean(axis=1)
+        inactive = active.mean(axis=1) < 0.999
+        slack = (self.need_np - net).mean(axis=1)
         score = np.where(inactive, slack, np.inf)
         order = np.argsort(score)
         out = [int(v) for v in order[:cap] if np.isfinite(score[v])]
