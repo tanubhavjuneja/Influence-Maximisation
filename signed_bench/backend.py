@@ -45,6 +45,7 @@ if BACKEND == "torch":
     f32 = torch.float32
     f64 = torch.float64
     i64 = torch.int64
+    i8 = torch.int8
     bool_ = torch.bool
 
     def zeros(shape, dtype=torch.float32):
@@ -67,6 +68,12 @@ if BACKEND == "torch":
 
     def astype(x, dtype):
         return x.to(dtype)
+
+    def abs(x):
+        return torch.abs(x)
+
+    def where(cond, a, b):
+        return torch.where(cond, a, b)
 
     def add_at_flat(arr_flat, idx_flat, vals_flat):
         """scatter-add: arr_flat[idx_flat] += vals_flat (add.at semantics)."""
@@ -100,6 +107,7 @@ else:
     f32 = np.float32
     f64 = np.float64
     i64 = np.int64
+    i8 = np.int8
     bool_ = np.bool_
 
     def zeros(shape, dtype=np.float32):
@@ -117,6 +125,12 @@ else:
 
     def astype(x, dtype):
         return x.astype(dtype)
+
+    def abs(x):
+        return np.abs(x)
+
+    def where(cond, a, b):
+        return np.where(cond, a, b)
 
     def add_at_flat(arr_flat, idx_flat, vals_flat):
         np.add.at(arr_flat, idx_flat, vals_flat)

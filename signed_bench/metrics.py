@@ -217,6 +217,35 @@ def signed_pool(model, pr: np.ndarray, core: np.ndarray, size: int,
 
 
 # --------------------------------------------------------------------------- #
+def signed_pagerank(G: dict, alpha: float = 0.85, tol: float = 1e-10,
+                    max_iter: int = 500) -> np.ndarray:
+    """PageRank on the signed adjacency (negative edges vote against).
+
+    r <- alpha * P^T r + alpha * dangling_mass * v + (1-alpha) * v,
+    P = D_abs^{-1} A_signed, A_ij = sign_ij * |weight_ij|.
+    Scores may be negative; rank descending for the most 'trusted' nodes.
+    """
+    n = G["n"]
+    src = np.concatenate([G["u"], G["v"]]).astype(np.int64)
+    dst = np.concatenate([G["v"], G["u"]]).astype(np.int64)
+    sw = np.concatenate([(G["s"] * G["w"]).astype(np.float64),
+                         (G["s"] * G["w"]).astype(np.float64)])
+    d_abs = np.bincount(dst, weights=np.abs(sw), minlength=n)
+    inv = np.where(d_abs > 0, 1.0 / np.maximum(d_abs, 1e-12), 0.0)
+    v = np.full(n, 1.0 / n)
+    r = v.copy()
+    dangling = d_abs == 0
+    for _ in range(max_iter):
+        y = np.zeros(n)
+        np.add.at(y, dst, sw * r[src] * inv[src])
+        r_new = (alpha * y + alpha * r[dangling].sum() * v
+                 + (1.0 - alpha) * v)
+        if np.abs(r_new - r).sum() < tol:
+            return r_new
+        r = r_new
+    return r
+
+
 def get_metrics(G: dict, recompute: bool = False) -> dict:
     """All cached structural metrics for a graph."""
     import os
