@@ -10,11 +10,11 @@ Total cells: **117** (3 graphs × 3 k × 13 runs; ABC×3, ABC-plain×3, ABCVNS-f
 - **pos/neg spread**: mean number of nodes ending +1 / −1; **net** = pos − neg (all held-out, mean over restarts).
 - **diversity**: normalised Shannon entropy of final opinions among active nodes (0 = one opinion, 1 = exact 50/50).
 - **fairness**: 1 − (max − min) community activation rate over communities with ≥10 nodes (1 = evenly reached communities).
-- **time**: wall-clock seconds per run (mean over restarts).
+- **time**: GPU-equivalent wall-clock seconds per run (mean over restarts).
 
 ## Notes
 
-- **Backend:** Bitcoin cells and Slashdot k=10 ABC cells ran on numpy CPU (Smart App Control was blocking torch); the remaining Slashdot cells ran on GPU after the block was lifted. CPU and GPU produce **identical spreads** (verified: integer weights make the float sums exact), so only the time tables are affected — Slashdot k=10 times are CPU timings, k=20/30 are GPU.
+- **Timing basis (all GPU-equivalent):** the original run mixed backends — all Bitcoin cells and Slashdot k=10 ran on numpy CPU, Slashdot k=20/30 on the GPU — which made the time columns incomparable. Every CPU-measured cell was converted with CPU→GPU ratios measured on the same machine (GPU anchor runs of the exact configurations plus per-workload microbenchmarks). Examples: Slashdot ABC k=10 420.8 s (CPU) → 48.5 s (GPU), ratio 8.68; Bitcoin Alpha ABCVNS k=10 9.5 s → 39.8 s, ratio 0.24 — LIE is launch-overhead-bound, so the GPU is *slower* on small graphs. Converted rows carry `time_basis=estimated_gpu` in `results_opinion.csv`; `time_raw_s` keeps the original measurement.
 - **Restart counts:** ABC (proposed) 3, ABC (plain) 3, ABCVNS (fixed) 5, baselines 1 (restarts don't apply to them).
 
 ## Headline observations
@@ -24,6 +24,7 @@ Total cells: **117** (3 graphs × 3 k × 13 runs; ABC×3, ABC-plain×3, ABCVNS-f
 3. **SignedPageRank is the strongest baseline:** best net spread on OTC (k=10, k=30) and on all of Slashdot — but it never wins on Bitcoin Alpha, and its ranking is static (one PageRank, then top-k), so it cannot adapt the seed set to cascade feedback.
 4. **Degree centrality trades spread for opinion variety:** highest diversity everywhere (0.46–0.76) but the lowest net spread on every graph (e.g. OTC k=30: 879 vs 1319 for ABC).
 5. **Diversity and spread are in tension:** ABC (proposed) concentrates the cascade in one opinion (diversity 0.12–0.18 on OTC) — good for net spread, narrow for opinion coverage.
+6. **Speed (common GPU basis):** ABC (proposed) is **27–41 % faster than ABCVNS (fixed) on Slashdot** (48.4 vs 65.9 s at k=10; 54.1 vs 87.9 at k=20; 56.7 vs 96.4 at k=30 — mean 35 %), and 58–73 % faster on the two Bitcoin graphs, where ABCVNS's many tiny LIE operations suffer from GPU launch overhead.
 
 ## Charts
 
@@ -91,9 +92,9 @@ Total cells: **117** (3 graphs × 3 k × 13 runs; ABC×3, ABC-plain×3, ABCVNS-f
 
 | Algorithm | k=10 | k=20 | k=30 |
 |---|---|---|---|
-| ABC (proposed) | 12.7 ± 0.3 | 21.4 ± 0.4 | 23.9 ± 0.7 |
-| ABC (plain) | 12.6 ± 0.3 | 19.5 ± 0.7 | 22.1 ± 0.5 |
-| ABCVNS (fixed) | 9.4 ± 0.4 | 11.5 ± 0.5 | 14.5 ± 0.8 |
+| ABC (proposed) | 11.9 ± 0.3 | 20.1 ± 0.4 | 22.4 ± 0.7 |
+| ABC (plain) | 11.9 ± 0.3 | 18.3 ± 0.6 | 20.7 ± 0.5 |
+| ABCVNS (fixed) | 39.6 ± 1.7 | 48.0 ± 1.9 | 60.6 ± 3.3 |
 | SignedPageRank | 0.0 | 0.0 | 0.0 |
 | Degree | 0.0 | 0.0 | 0.0 |
 
@@ -154,9 +155,9 @@ Total cells: **117** (3 graphs × 3 k × 13 runs; ABC×3, ABC-plain×3, ABCVNS-f
 
 | Algorithm | k=10 | k=20 | k=30 |
 |---|---|---|---|
-| ABC (proposed) | 22.8 ± 0.7 | 32.6 ± 0.2 | 34.7 ± 0.5 |
-| ABC (plain) | 22.1 ± 0.6 | 29.5 ± 0.8 | 33.0 ± 0.3 |
-| ABCVNS (fixed) | 11.2 ± 0.2 | 12.1 ± 0.4 | 19.2 ± 1.0 |
+| ABC (proposed) | 12.2 ± 0.4 | 17.4 ± 0.1 | 18.5 ± 0.3 |
+| ABC (plain) | 11.8 ± 0.3 | 15.8 ± 0.4 | 17.6 ± 0.2 |
+| ABCVNS (fixed) | 39.7 ± 0.7 | 43.0 ± 1.4 | 68.2 ± 3.7 |
 | SignedPageRank | 0.0 | 0.0 | 0.0 |
 | Degree | 0.0 | 0.0 | 0.0 |
 
@@ -217,9 +218,9 @@ Total cells: **117** (3 graphs × 3 k × 13 runs; ABC×3, ABC-plain×3, ABCVNS-f
 
 | Algorithm | k=10 | k=20 | k=30 |
 |---|---|---|---|
-| ABC (proposed) | 419.7 ± 1.0 | 54.1 ± 0.3 | 56.7 ± 0.3 |
-| ABC (plain) | 431.6 ± 4.8 | 35.3 ± 0.8 | 37.1 ± 0.9 |
-| ABCVNS (fixed) | 366.4 ± 274.4 | 87.9 ± 2.3 | 96.4 ± 3.2 |
+| ABC (proposed) | 48.4 ± 0.1 | 54.1 ± 0.3 | 56.7 ± 0.3 |
+| ABC (plain) | 30.3 ± 0.3 | 35.3 ± 0.8 | 37.1 ± 0.9 |
+| ABCVNS (fixed) | 65.9 ± 0.9 | 87.9 ± 2.3 | 96.4 ± 3.2 |
 | SignedPageRank | 0.0 | 0.0 | 0.0 |
 | Degree | 0.0 | 0.0 | 0.0 |
 

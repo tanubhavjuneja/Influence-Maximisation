@@ -94,15 +94,21 @@ def main():
         "active nodes (0 = one opinion, 1 = exact 50/50).\n"
         "- **fairness**: 1 − (max − min) community activation rate over "
         "communities with ≥10 nodes (1 = evenly reached communities).\n"
-        "- **time**: wall-clock seconds per run (mean over restarts).\n")
+        "- **time**: GPU-equivalent wall-clock seconds per run (mean over "
+        "restarts).\n")
     out.append("## Notes\n")
     out.append(
-        "- **Backend:** Bitcoin cells and Slashdot k=10 ABC cells ran on "
-        "numpy CPU (Smart App Control was blocking torch); the remaining "
-        "Slashdot cells ran on GPU after the block was lifted. CPU and GPU "
-        "produce **identical spreads** (verified: integer weights make the "
-        "float sums exact), so only the time tables are affected — Slashdot "
-        "k=10 times are CPU timings, k=20/30 are GPU.\n"
+        "- **Timing basis (all GPU-equivalent):** the original run mixed "
+        "backends — all Bitcoin cells and Slashdot k=10 ran on numpy CPU, "
+        "Slashdot k=20/30 on the GPU — which made the time columns "
+        "incomparable. Every CPU-measured cell was converted with CPU→GPU "
+        "ratios measured on the same machine (GPU anchor runs of the exact "
+        "configurations plus per-workload microbenchmarks). Examples: "
+        "Slashdot ABC k=10 420.8 s (CPU) → 48.5 s (GPU), ratio 8.68; "
+        "Bitcoin Alpha ABCVNS k=10 9.5 s → 39.8 s, ratio 0.24 — LIE is "
+        "launch-overhead-bound, so the GPU is *slower* on small graphs. "
+        "Converted rows carry `time_basis=estimated_gpu` in "
+        "`results_opinion.csv`; `time_raw_s` keeps the original measurement.\n"
         "- **Restart counts:** ABC (proposed) 3, ABC (plain) 3, "
         "ABCVNS (fixed) 5, baselines 1 (restarts don't apply to them).\n")
     out.append("## Headline observations\n")
@@ -124,7 +130,12 @@ def main():
         "graph (e.g. OTC k=30: 879 vs 1319 for ABC).\n"
         "5. **Diversity and spread are in tension:** ABC (proposed) "
         "concentrates the cascade in one opinion (diversity 0.12–0.18 on "
-        "OTC) — good for net spread, narrow for opinion coverage.\n")
+        "OTC) — good for net spread, narrow for opinion coverage.\n"
+        "6. **Speed (common GPU basis):** ABC (proposed) is **27–41 % faster "
+        "than ABCVNS (fixed) on Slashdot** (48.4 vs 65.9 s at k=10; 54.1 vs "
+        "87.9 at k=20; 56.7 vs 96.4 at k=30 — mean 35 %), and 58–73 % faster "
+        "on the two Bitcoin graphs, where ABCVNS's many tiny LIE operations "
+        "suffer from GPU launch overhead.\n")
     out.append("## Charts\n")
     out.append("![net spread](opinion_spread.png)\n")
     out.append("![diversity](opinion_diversity.png)\n")
