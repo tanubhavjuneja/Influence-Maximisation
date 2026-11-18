@@ -29,18 +29,25 @@ CELLS = [
 ]
 
 print(f"backend={'gpu' if be.GPU else 'cpu'}", flush=True)
-for graph in ["slashdot", "bitcoin_alpha", "bitcoin_otc"]:
-    cells = [c for c in CELLS if c[0] == graph]
-    if not cells:
-        continue
-    G = load_graph(graph, verbose=False)
-    m = get_metrics(G)
-    m["spr"] = signed_pagerank(G)
-    model = SignedOpinionModel(G, R_FIT, seed=7, comm=m["comm"])
-    ho = SignedOpinionModel(G, R_HO, seed=999_999, comm=m["comm"])
-    pool = signed_pool(model, m["pr"], m["core"], POOL_SIZE, seed=11)
-    st = make_context(G, P_IC[graph], m, mode="mr")
-    for g, k, alg, rs in cells:
-        row = one_cell(g, G, k, alg, rs, model, ho, m, pool, st)
-        print(f"ANCHOR {g} k={k} {alg} rs={rs} "
-              f"time={row['time_s']:.1f}s pos={row['pos_spread']:.1f}", flush=True)
+
+
+def main():
+    for graph in ["slashdot", "bitcoin_alpha", "bitcoin_otc"]:
+        cells = [c for c in CELLS if c[0] == graph]
+        if not cells:
+            continue
+        G = load_graph(graph, verbose=False)
+        m = get_metrics(G)
+        m["spr"] = signed_pagerank(G)
+        model = SignedOpinionModel(G, R_FIT, seed=7, comm=m["comm"])
+        ho = SignedOpinionModel(G, R_HO, seed=999_999, comm=m["comm"])
+        pool = signed_pool(model, m["pr"], m["core"], POOL_SIZE, seed=11)
+        st = make_context(G, P_IC[graph], m, mode="mr")
+        for g, k, alg, rs in cells:
+            row = one_cell(g, G, k, alg, rs, model, ho, m, pool, st)
+            print(f"ANCHOR {g} k={k} {alg} rs={rs} "
+                  f"time={row['time_s']:.1f}s pos={row['pos_spread']:.1f}", flush=True)
+
+
+if __name__ == "__main__":
+    main()

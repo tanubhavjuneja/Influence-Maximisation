@@ -25,33 +25,39 @@ from opinion_model import SignedOpinionModel
 P_IC = {"bitcoin_alpha": 0.05, "bitcoin_otc": 0.05, "slashdot": 0.01}
 GRAPHS = sys.argv[1:] or ["bitcoin_alpha", "bitcoin_otc", "slashdot"]
 
-out = {}
-for name in GRAPHS:
-    G = load_graph(name, verbose=False)
-    m = get_metrics(G)
-    model = SignedOpinionModel(G, 30, seed=7, comm=m["comm"])
-    rng = np.random.default_rng(0)
-    sets = [rng.choice(G["n"], 10, replace=False).tolist() for _ in range(6)]
 
-    model.sigma_pos(sets[0])                      # warm-up
-    t0 = time.perf_counter()
-    for S in sets[1:]:
-        model.sigma_pos(S)
-    sigma_ms = (time.perf_counter() - t0) / 5 * 1e3
+def main():
+    out = {}
+    for name in GRAPHS:
+        G = load_graph(name, verbose=False)
+        m = get_metrics(G)
+        model = SignedOpinionModel(G, 30, seed=7, comm=m["comm"])
+        rng = np.random.default_rng(0)
+        sets = [rng.choice(G["n"], 10, replace=False).tolist() for _ in range(6)]
 
-    st = make_context(G, P_IC[name], m, mode="mr")
-    for S in sets:
-        st.fitness(S)                             # warm-up
-    reps = 5 if name == "slashdot" else 20
-    t0 = time.perf_counter()
-    for _ in range(reps):
+        model.sigma_pos(sets[0])                      # warm-up
+        t0 = time.perf_counter()
+        for S in sets[1:]:
+            model.sigma_pos(S)
+        sigma_ms = (time.perf_counter() - t0) / 5 * 1e3
+
+        st = make_context(G, P_IC[name], m, mode="mr")
         for S in sets:
-            st.fitness(S)
-    lie_ms = (time.perf_counter() - t0) / (reps * len(sets)) * 1e3
+            st.fitness(S)                             # warm-up
+        reps = 5 if name == "slashdot" else 20
+        t0 = time.perf_counter()
+        for _ in range(reps):
+            for S in sets:
+                st.fitness(S)
+        lie_ms = (time.perf_counter() - t0) / (reps * len(sets)) * 1e3
 
-    out[name] = {"sigma_ms": round(sigma_ms, 4),
-                 "lie_ms": round(lie_ms, 4),
-                 "backend": "gpu" if be.GPU else "cpu"}
-    print(f"{name}: {out[name]}", flush=True)
+        out[name] = {"sigma_ms": round(sigma_ms, 4),
+                     "lie_ms": round(lie_ms, 4),
+                     "backend": "gpu" if be.GPU else "cpu"}
+        print(f"{name}: {out[name]}", flush=True)
 
-print("JSON " + json.dumps(out))
+    print("JSON " + json.dumps(out))
+
+
+if __name__ == "__main__":
+    main()
